@@ -1,0 +1,70 @@
+version: "3.9"
+
+networks:
+  gpe-e2e-tests:
+    driver: bridge
+
+services:
+  # --- dependencies ---
+  mongo:
+    image: mongo:3.6.1
+    healthcheck:
+      test:
+        [ "CMD-SHELL", "mongo --eval 'db.runCommand({ connectionStatus: 1 })'" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    logging:
+      driver: none
+    ports:
+      - 27017:27017
+    networks:
+      - gpe-e2e-tests
+    profiles:
+      - data-tier
+
+  rabbitmq:
+    build: ./docker-images/rabbitmq_pricing/
+    image: rabbitmq_pricing_robot:latest
+    ports:
+      - 15672:15672
+      - 5672:5672
+      - 5671:5671
+    environment:
+      - RABBITMQ_HOST=rabbitmq
+      - RABBITMQ_USER=pricing_engine
+      - RABBITMQ_PASS=pricing_engine
+      - HEALTH_CHECK_CACHE=0
+      - RABBITMQ_HIPE_COMPILE=1
+      - RABBITMQ_SSL_VERIFY=false
+    healthcheck:
+      test: [ "CMD-SHELL", "nc -z 127.0.0.1 15672" ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    logging:
+      driver: json-file
+    networks:
+      - gpe-e2e-tests
+    restart: always
+    profiles:
+      - data-tier
+
+  # --- pricing-engine ---
+  pricing-engine-api:
+    build: ../pricing-engine/java/api/target/docker/
+    image: pricing-engine:latest
+    env_file:
+      - environment/pricing-engine/api.env
+    healthcheck:
+      test: [ "CMD-SHELL", "nc -z localhost 5000" ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    logging:
+      driver: json-file
+    ports:
+      - 5000:5000
+      - 6005:6005
+    networks:
+      - gpe-e2e-tests
