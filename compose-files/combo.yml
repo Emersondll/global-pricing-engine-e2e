@@ -1,0 +1,66 @@
+version: "3.9"
+
+services:
+
+  # --- combo-service ---
+  combo-relay:
+    build: ../combo-service/relay/target/docker/
+    image: combo-relay-service:latest
+    env_file:
+      - environment/combo/relay.env
+    healthcheck:
+      test: [ "CMD-SHELL", "nc -z localhost 5010" ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    depends_on:
+      "rabbitmq":
+        condition: service_healthy
+      "mongo":
+        condition: service_healthy
+    logging:
+      driver: json-file
+    ports:
+      - 5010:5010
+    networks:
+      - gpe-e2e-tests
+
+  combo-consumer:
+    build: ../combo-service/consumer/target/docker/
+    image: combo-consumer:latest
+    env_file:
+      - environment/combo/consumer.env
+    healthcheck:
+      test: [ "CMD-SHELL", "nc -z localhost 5011" ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    depends_on:
+      "rabbitmq":
+        condition: service_healthy
+      "mongo":
+        condition: service_healthy
+    logging:
+      driver: json-file
+    networks:
+      - gpe-e2e-tests
+
+  combo-api:
+    build: ../combo-service/api/target/docker/
+    image: combo-service:latest
+    env_file:
+      - environment/combo/api.env
+    healthcheck:
+      test: [ "CMD-SHELL", "nc -z localhost 5012" ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    depends_on:
+      "mongo":
+        condition: service_healthy
+    logging:
+      driver: json-file
+    ports:
+      - 5012:5012
+    networks:
+      - gpe-e2e-tests
