@@ -1,0 +1,66 @@
+version: "3.9"
+
+services:
+
+  # --- price-service ---
+  price-relay:
+    build: ../price-service/relay/target/docker/
+    image: price-relay-service:latest
+    env_file:
+      - environment/price/relay.env
+    healthcheck:
+      test: [ "CMD-SHELL", "nc -z localhost 5001" ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    depends_on:
+      "rabbitmq":
+        condition: service_healthy
+      "mongo":
+        condition: service_healthy
+    logging:
+      driver: json-file
+    ports:
+      - 5001:5001
+    networks:
+      - gpe-e2e-tests
+
+  price-consumer:
+    build: ../price-service/consumer/target/docker/
+    image: price-consumer:latest
+    env_file:
+      - environment/price/consumer.env
+    healthcheck:
+      test: [ "CMD-SHELL", "nc -z localhost 5002" ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    depends_on:
+      "rabbitmq":
+        condition: service_healthy
+      "mongo":
+        condition: service_healthy
+    logging:
+      driver: json-file
+    networks:
+      - gpe-e2e-tests
+
+  price-api:
+    build: ../price-service/api/target/docker/
+    image: price-service:latest
+    env_file:
+      - environment/price/api.env
+    healthcheck:
+      test: [ "CMD-SHELL", "nc -z localhost 5003" ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    depends_on:
+      "mongo":
+        condition: service_healthy
+    logging:
+      driver: json-file
+    ports:
+      - 5003:5003
+    networks:
+      - gpe-e2e-tests
