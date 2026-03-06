@@ -1,0 +1,66 @@
+version: "3.9"
+
+services:
+
+  # --- delivery-window-service ---
+  delivery-window-relay:
+    build: ../delivery-window-service/relay/target/docker/
+    image: delivery-window-relay-service:latest
+    env_file:
+      - environment/delivery-window/relay.env
+    healthcheck:
+      test: [ "CMD-SHELL", "nc -z localhost 5016" ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    depends_on:
+      "rabbitmq":
+        condition: service_healthy
+      "mongo":
+        condition: service_healthy
+    logging:
+      driver: json-file
+    ports:
+      - 5016:5016
+    networks:
+      - gpe-e2e-tests
+
+  delivery-window-consumer:
+    build: ../delivery-window-service/consumer/target/docker/
+    image: delivery-window-consumer:latest
+    env_file:
+      - environment/delivery-window/consumer.env
+    healthcheck:
+      test: [ "CMD-SHELL", "nc -z localhost 5017" ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    depends_on:
+      "rabbitmq":
+        condition: service_healthy
+      "mongo":
+        condition: service_healthy
+    logging:
+      driver: json-file
+    networks:
+      - gpe-e2e-tests
+
+  delivery-window-api:
+    build: ../delivery-window-service/api/target/docker/
+    image: delivery-window-service:latest
+    env_file:
+      - environment/delivery-window/api.env
+    healthcheck:
+      test: [ "CMD-SHELL", "nc -z localhost 5018" ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    depends_on:
+      "mongo":
+        condition: service_healthy
+    logging:
+      driver: json-file
+    ports:
+      - 5018:5018
+    networks:
+      - gpe-e2e-tests
