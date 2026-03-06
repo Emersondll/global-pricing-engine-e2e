@@ -1,0 +1,66 @@
+version: "3.9"
+
+services:
+
+  # --- empties-service ---
+  empties-service-relay:
+    build: ../empties-service/relay/target/docker/
+    image: empties-relay-service:latest
+    env_file:
+      - environment/empties/relay.env
+    healthcheck:
+      test: [ "CMD-SHELL", "nc -z localhost 5020" ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    depends_on:
+      "rabbitmq":
+        condition: service_healthy
+      "mongo":
+        condition: service_healthy
+    logging:
+      driver: json-file
+    ports:
+      - 5020:5020
+    networks:
+      - gpe-e2e-tests
+
+  empties-service-consumer:
+    build: ../empties-service/consumer/target/docker/
+    image: empties-consumer:latest
+    env_file:
+      - environment/empties/consumer.env
+    healthcheck:
+      test: [ "CMD-SHELL", "nc -z localhost 5021" ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    depends_on:
+      "rabbitmq":
+        condition: service_healthy
+      "mongo":
+        condition: service_healthy
+    logging:
+      driver: json-file
+    networks:
+      - gpe-e2e-tests
+
+  empties-service-api:
+    build: ../empties-service/api/target/docker/
+    image: empties-service:latest
+    env_file:
+      - environment/empties/api.env
+    healthcheck:
+      test: [ "CMD-SHELL", "nc -z localhost 5019" ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    depends_on:
+      "mongo":
+        condition: service_healthy
+    logging:
+      driver: json-file
+    ports:
+      - 5019:5019
+    networks:
+      - gpe-e2e-tests
