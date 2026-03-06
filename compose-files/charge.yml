@@ -1,0 +1,66 @@
+version: "3.9"
+
+services:
+
+  # --- charge-service ---
+  charge-relay:
+    build: ../charge-service/relay/target/docker/
+    image: charge-relay-service:latest
+    env_file:
+      - environment/charge/relay.env
+    healthcheck:
+      test: [ "CMD-SHELL", "nc -z localhost 5007" ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    depends_on:
+      "rabbitmq":
+        condition: service_healthy
+      "mongo":
+        condition: service_healthy
+    logging:
+      driver: json-file
+    ports:
+      - 5007:5007
+    networks:
+      - gpe-e2e-tests
+
+  charge-consumer:
+    build: ../charge-service/consumer/target/docker/
+    image: charge-consumer:latest
+    env_file:
+      - environment/charge/consumer.env
+    healthcheck:
+      test: [ "CMD-SHELL", "nc -z localhost 5008" ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    depends_on:
+      "rabbitmq":
+        condition: service_healthy
+      "mongo":
+        condition: service_healthy
+    logging:
+      driver: json-file
+    networks:
+      - gpe-e2e-tests
+
+  charge-api:
+    build: ../charge-service/api/target/docker/
+    image: charge-service:latest
+    env_file:
+      - environment/charge/api.env
+    healthcheck:
+      test: [ "CMD-SHELL", "nc -z localhost 5009" ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    depends_on:
+      "mongo":
+        condition: service_healthy
+    logging:
+      driver: json-file
+    ports:
+      - 5009:5009
+    networks:
+      - gpe-e2e-tests
