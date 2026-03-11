@@ -1,0 +1,159 @@
+{
+  "charges": [
+    {
+      "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+      "vendorAccountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##",
+      "vendorChargeId": "VENDOR-CHARGE-ADF-PROMAX-01",
+      "type": "PAYMENT_METHOD_FEE",
+      "conditions": {
+        "paymentMethod": "BANK_SLIP",
+        "paymentTerms": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "output": {
+        "scope": "ORDER",
+        "applyTo": "TOTAL",
+        "type": "PERCENT",
+        "value": 5.20,
+        "ratio": "PRO_RATA"
+      }
+    },
+    {
+      "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+      "vendorAccountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##",
+      "vendorChargeId": "VENDOR-CHARGE-CREDIT-CARD-POS-01",
+      "type": "PAYMENT_METHOD_FEE",
+      "conditions": {
+        "paymentMethod": "CREDIT_CARD_POS"
+      },
+      "output": {
+        "scope": "ORDER",
+        "applyTo": "TOTAL",
+        "type": "PERCENT",
+        "value": 3.92,
+        "ratio": "FIXED"
+      }
+    },
+    {
+      "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+      "vendorAccountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##",
+      "vendorChargeId": "VENDOR-CHARGE-ADF-PROMAX-02",
+      "type": "PAYMENT_METHOD_FEE",
+      "conditions": {
+        "paymentMethod": "BANK_SLIP",
+        "paymentTerms": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      "output": {
+        "scope": "ORDER",
+        "applyTo": "TOTAL",
+        "type": "PERCENT",
+        "value": 8.73,
+        "ratio": "PRO_RATA"
+      }
+    },
+    {
+      "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+      "vendorAccountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##",
+      "vendorChargeId": "VENDOR-CHARGE-ADF-ROBIN-01",
+      "type": "PAYMENT_METHOD_FEE",
+      "conditions": {
+        "paymentMethod": "BANK_SLIP",
+        "scaledFrom": "ORDER_TOTAL"
+      },
+      "output": {
+        "scope": "ORDER",
+        "applyTo": "TOTAL",
+        "type": "PERCENT",
+        "ratio": "PRO_RATA",
+        "ranges": [
+          {
+            "from": 0,
+            "value": 6.50
+          },
+          {
+            "from": 50.00,
+            "value": 5.50
+          },
+          {
+            "from": 250.00,
+            "value": 4.50
+          },
+          {
+            "from": 750.00,
+            "value": 3.50
+          },
+          {
+            "from": 1750.00,
+            "value": 2.50
+          }
+        ]
+      }
+    },
+    {
+      "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+      "vendorAccountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##",
+      "vendorChargeId": "VENDOR-CHARGE-OVERPRICE-BPAD-01",
+      "type": "OVERPRICE",
+      "conditions": {
+        "paymentMethod": "CREDIT"
+      },
+      "output": {
+        "scope": "LINE_ITEM",
+        "applyTo": "BASE_PRICE_AFTER_DISCOUNT",
+        "type": "PERCENT",
+        "value": 3,
+        "ratio": "FIXED",
+        "vendorItemIds": [
+          "VENDOR-ITEM-BEESPR-19022-1"
+        ]
+      }
+    },
+    {
+      "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+      "vendorAccountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##",
+      "vendorChargeId": "VENDOR-CHARGE-OVERPRICE-BP-02",
+      "type": "OVERPRICE",
+      "conditions": {
+        "paymentMethod": "CREDIT"
+      },
+      "output": {
+        "scope": "LINE_ITEM",
+        "applyTo": "BASE_PRICE",
+        "type": "PERCENT",
+        "value": 3,
+        "ratio": "FIXED",
+        "vendorItemIds": [
+          "VENDOR-ITEM-BEESPR-19022-2"
+        ]
+      }
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "size": 6,
+    "totalPages": 1,
+    "totalElements": 6
+  }
+}
