@@ -1,0 +1,56 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "charges": [
+    {
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorChargeId": "CHARGE-01-T19723",
+      "type": "PAYMENT_METHOD_FEE",
+      "conditions": {
+        "alternativeDeliveryDate": true,
+        "paymentMethod": "BANK_SLIP",
+        "paymentTerms": [
+          30
+        ]
+      },
+      "output": {
+        "scope": "LINE_ITEM",
+        "applyTo": "BASE_PRICE",
+        "type": "AMOUNT",
+        "value": 33.45,
+        "ratio": "LINEAR",
+        "vendorItemIds": [
+          "VENDOR-ITEM-1-BEESPR-T19723"
+        ]
+      }
+    },
+    {
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorChargeId": "CHARGE-02-T19723",
+      "type": "OVERPRICE",
+      "conditions": {
+        "alternativeDeliveryDate": true,
+        "paymentMethod": "BANK_SLIP",
+        "paymentTerms": [
+          30
+        ]
+      },
+      "output": {
+        "scope": "LINE_ITEM",
+        "applyTo": "BASE_PRICE",
+        "type": "PERCENT",
+        "value": 2.5,
+        "ratio": "LINEAR",
+        "vendorItemIds": [
+          "VENDOR-ITEM-1-BEESPR-T19723"
+        ]
+      }
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "hasMore": false
+  }
+}
