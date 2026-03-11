@@ -1,0 +1,49 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "charges": [
+    {
+      "scenarioDescription": "Charge Payment Method Fee / Credit Card Pos",
+      "vendorChargeId": "VENDOR-CHARGE-CREDIT-CARD-POS-01",
+      "type": "PAYMENT_METHOD_FEE",
+      "conditions": {
+        "paymentMethod": "CREDIT_CARD_POS",
+        "paymentTerms": [
+          5
+        ]
+      },
+      "output": {
+        "scope": "ORDER",
+        "ratio": "FIXED",
+        "applyTo": "TOTAL",
+        "type": "PERCENT",
+        "value": 3.92,
+        "vendorItemIds": [
+          "VENDOR-BEESPR-17680-V2-1"
+        ]
+      }
+    },
+    {
+      "scenarioDescription": "Charge OverPrice / Cash",
+      "vendorChargeId": "VENDOR-CHARGE-01",
+      "type": "OVERPRICE",
+      "conditions": {
+        "paymentMethod": "CASH",
+        "paymentTerms": [
+          5
+        ]
+      },
+      "output": {
+        "scope": "LINE_ITEM",
+        "ratio": "FIXED",
+        "applyTo": "BASE_PRICE",
+        "type": "PERCENT",
+        "value": 2.0,
+        "vendorItemIds": [
+          "VENDOR-BEESPR-17680-V2-2"
+        ]
+      }
+    }
+  ]
+}
