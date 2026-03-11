@@ -1,0 +1,18 @@
+{
+  "content": [
+    {
+      "id": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID ##",
+      "vendorAccountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##",
+      "accountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##",
+      "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+      "deliveryCenterId": "## WILL BE REPLACED BY DYNAMIC DELIVERY_CENTER_ID ##",
+      "priceListId": "## WILL BE REPLACED BY DYNAMIC PRICE_LIST_ID ##"
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "pageSize": 500,
+    "totalElements": 1,
+    "totalPages": 1
+  }
+}
