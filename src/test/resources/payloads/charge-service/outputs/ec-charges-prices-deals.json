@@ -1,0 +1,53 @@
+{
+  "charges": [
+    {
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorChargeId": "VENDOR-CHARGE-01",
+      "type": "OVERPRICE",
+      "output": {
+        "scope": "LINE_ITEM",
+        "applyTo": "BASE_PRICE",
+        "type": "AMOUNT",
+        "value": 0.50,
+        "ratio": "FIXED",
+        "vendorItemIds": [
+          "VENDOR-BEESPR-17680-V2-1"
+        ]
+      }
+    },
+    {
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorChargeId": "VENDOR-CHARGE-02",
+      "type": "OVERPRICE",
+      "output": {
+        "scope": "LINE_ITEM",
+        "applyTo": "BASE_PRICE",
+        "type": "AMOUNT",
+        "value": 0.25,
+        "ratio": "FIXED",
+        "vendorItemIds": [
+          "VENDOR-BEESPR-17680-V2-1"
+        ]
+      }
+    },
+    {
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorChargeId": "VENDOR-CHARGE-CREDIT-CARD-POS-01",
+      "type": "PAYMENT_METHOD_FEE",
+      "conditions": {
+        "paymentMethod": "CREDIT_CARD_POS"
+      },
+      "output": {
+        "scope": "ORDER",
+        "applyTo": "TOTAL",
+        "type": "PERCENT",
+        "value": 3.92,
+        "ratio": "FIXED"
+      }
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "hasMore": false
+  }
+}
