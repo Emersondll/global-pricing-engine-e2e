@@ -1,0 +1,59 @@
+{
+  "charges": [
+    {
+      "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+      "vendorChargeId": "CHARGE-BEESPR-17375-VDR",
+      "type": "OVERPRICE",
+      "conditions": {
+        "paymentMethod": "CASH"
+      },
+      "output": {
+        "scope": "LINE_ITEM",
+        "applyTo": "BASE_PRICE",
+        "type": "PERCENT",
+        "value": 3.00000000,
+        "ratio": "FIXED",
+        "vendorItemIds": [
+          "BEESPR-17375-1"
+        ]
+      }
+    },
+    {
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorChargeId": "VENDOR-CHARGE-02",
+      "type": "LOAN_DEDUCTION",
+      "conditions": {
+        "paymentMethod": "CASH"
+      },
+      "output": {
+        "scope": "LINE_ITEM",
+        "applyTo": "DISCOUNT_AMOUNT",
+        "type": "PERCENT",
+        "value": 100,
+        "ratio": "FIXED"
+      }
+    },
+    {
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorChargeId": "VENDOR-CHARGE-01",
+      "type": "OVERPRICE",
+      "conditions": {
+        "paymentMethod": "CASH"
+      },
+      "output": {
+        "scope": "LINE_ITEM",
+        "applyTo": "BASE_PRICE",
+        "type": "AMOUNT",
+        "value": 5.58,
+        "ratio": "FIXED",
+        "vendorItemIds": [
+          "VENDOR-1-BEESPR-18369"
+        ]
+      }
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "hasMore": false
+  }
+}
