@@ -1,0 +1,24 @@
+[
+    {
+        "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+        "deliveryCenterId": "## WILL BE REPLACED BY DYNAMIC DELIVERY_CENTER_ID HASH WITH KEY 1 ##",
+        "paymentMethod": "CREDIT",
+        "paymentTerm": 5
+    },
+    {
+        "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+        "paymentMethod": "CREDIT",
+        "paymentTerm": 5
+    },
+    {
+        "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 2 ##",
+        "deliveryCenterId": "## WILL BE REPLACED BY DYNAMIC DELIVERY_CENTER_ID HASH WITH KEY 2 ##",
+        "paymentMethod": "BANK_SLIP",
+        "paymentTerm": 5
+    },
+    {
+        "deliveryCenterId": "## WILL BE REPLACED BY DYNAMIC DELIVERY_CENTER_ID HASH WITH KEY 2 ##",
+        "paymentMethod": "CREDIT",
+        "paymentTerm": 5
+    }
+]
