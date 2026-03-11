@@ -1,0 +1,37 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##"
+  ],
+  "charges": [
+    {
+      "scenarioDescription": "OVERPRICE",
+      "vendorChargeId": "VENDOR-CHARGE-01",
+      "type": "OVERPRICE",
+      "conditions": {
+        "paymentMethod": "CREDIT"
+      },
+      "output": {
+        "scope": "LINE_ITEM",
+        "applyTo": "BASE_PRICE",
+        "type": "AMOUNT",
+        "value": 5.58,
+        "ratio": "FIXED",
+        "vendorItemIds": [
+          "VENDOR-SKU-1"
+        ]
+      }
+    },
+    {
+      "scenarioDescription": "LOAN_DEDUCTION",
+      "vendorChargeId": "VENDOR-CHARGE-02",
+      "type": "LOAN_DEDUCTION",
+      "output": {
+        "scope": "LINE_ITEM",
+        "applyTo": "DISCOUNT_AMOUNT",
+        "type": "PERCENT",
+        "value": 100,
+        "ratio": "FIXED"
+      }
+    }
+  ]
+}
