@@ -1,0 +1,35 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "charges": [
+    {
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorChargeId": "CHARGE-BEESPR-20705-01",
+      "type": "PAYMENT_METHOD_FEE",
+      "conditions": {
+        "paymentMethod": "CREDIT",
+        "paymentTerms": [
+          1
+        ]
+      },
+      "output": {
+        "scope": "LINE_ITEM",
+        "applyTo": "BASE_PRICE_AFTER_DISCOUNT",
+        "base": "BASE_PRICE_AFTER_PRODUCT_CHARGES",
+        "type": "PERCENT",
+        "ratio": "FIXED",
+        "value": 1,
+        "vendorItemIds": [
+          "VENDOR-SKU-BEESPR-20705-1",
+          "VENDOR-SKU-BEESPR-20705-2"
+        ]
+      }
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "hasMore": false
+  }
+}
