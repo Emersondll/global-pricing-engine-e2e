@@ -1,0 +1,65 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "combos": [
+    {
+      "vendorComboId": "VENDOR-COMBO-BEESPR-21841-1",
+      "title": "VENDOR-COMBO-BEESPR-21841-1",
+      "description": "VENDOR-COMBO-BEESPR-21841-1",
+      "type": "D",
+      "image": null,
+      "startDate": "2020-03-31T23:59:59.999Z",
+      "endDate": "2049-03-31T23:59:59.999Z",
+      "externalId": "VENDOR-COMBO-BEESPR-21841-1",
+      "items": [
+        {
+          "vendorItemId": "VENDOR-ITEM-BEESPR-21841-1",
+          "vendorComboItemId": "VENDOR-ITEM-BEESPR-21841-1",
+          "price": 11.00,
+          "quantity": 1,
+          "returnable": true
+        }
+      ],
+      "freeGoods": [
+        {
+          "items": [
+            {
+              "vendorItemId": "VENDOR-ITEM-BEESPR-21841-FREE-GOOD-1",
+              "vendorComboItemId": "VENDOR-ITEM-BEESPR-21841-FREE-GOOD-1",
+              "measureUnit": "ML",
+              "basePrice": 5.00,
+              "returnable": true
+            },
+            {
+              "vendorItemId": "VENDOR-ITEM-BEESPR-21841-FREE-GOOD-2",
+              "vendorComboItemId": "VENDOR-ITEM-BEESPR-21841-FREE-GOOD-2",
+              "measureUnit": "ML",
+              "basePrice": 3.56,
+              "returnable": true
+            }
+          ],
+          "quantity": 2
+        },
+        {
+          "items": [
+            {
+              "vendorItemId": "VENDOR-ITEM-BEESPR-21841-FREE-GOOD-3",
+              "vendorComboItemId": "VENDOR-ITEM-BEESPR-21841-FREE-GOOD-3",
+              "measureUnit": "ML",
+              "basePrice": 2.99,
+              "returnable": true
+            }
+          ],
+          "quantity": 4
+        }
+      ],
+      "featured": 0,
+      "originalPrice": 11.00,
+      "price": 11.00,
+      "discountPercentOff": null,
+      "score": 0,
+      "defaultLanguage": "en-CA"
+    }
+  ]
+}
