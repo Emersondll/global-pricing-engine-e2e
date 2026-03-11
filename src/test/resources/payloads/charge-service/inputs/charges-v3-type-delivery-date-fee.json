@@ -1,0 +1,25 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "charges": [
+    {
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorChargeId": "CHARGE-001",
+      "type": "DELIVERY_DATE_FEE",
+      "conditions": {
+        "orderTotal": {
+          "maximumValue": 550.00
+        }
+      },
+      "output": {
+        "scope": "ORDER",
+        "applyTo": "TOTAL",
+        "type": "AMOUNT",
+        "value": 21.5,
+        "ratio": "FIXED"
+      }
+    }
+  ]
+}
