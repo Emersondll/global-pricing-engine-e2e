@@ -1,0 +1,84 @@
+[
+  {
+    "accountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##",
+    "billingAddress": {
+      "address": "Rua Testes E2E",
+      "city": "São Paulo",
+      "state": "São Paulo",
+      "zipcode": "58123789"
+    },
+    "deliveryAddress": {
+      "address": "Rua Testes E2E",
+      "city": "São Paulo",
+      "state": "São Paulo",
+      "zipcode": "58123789"
+    },
+    "deliveryCenterId": null,
+    "hasEmptiesLoan": true,
+    "hasOverprice": true,
+    "hasPONumberRequirement": false,
+    "isKeyAccount": false,
+    "liquorLicense": [
+      {
+        "expirationDate": "2050-12-12",
+        "number": "string",
+        "status": "VALID",
+        "type": "PERMANENT"
+      }
+    ],
+    "maximumOrder": {
+      "paymentMethods": [
+        "CASH"
+      ],
+      "type": "PRODUCT_QUANTITY",
+      "value": 20
+    },
+    "metadata": {
+    },
+    "minimumOrder": {
+      "paymentMethods": [
+        "CASH"
+      ],
+      "type": "PRODUCT_QUANTITY",
+      "value": 19
+    },
+    "name": "E2E Tests",
+    "owner": {
+      "email": "email@email.com",
+      "phone": "11988112233"
+    },
+    "paymentMethods": [
+      "CASH",
+      "CREDIT",
+      "CREDIT_CARD_POS"
+    ],
+    "paymentTerms": [
+    ],
+    "representatives": [
+      {
+        "email": "email@email.com",
+        "name": "E2E Tests",
+        "phone": "11988112233",
+        "primary": true,
+        "productTypes": [
+          "Beer"
+        ],
+        "role": "SALES",
+        "supervisor": {
+          "email": "email@email.com",
+          "name": "E2E Tests",
+          "phone": "11988112233"
+        }
+      }
+    ],
+    "salesRepresentative": {
+      "email": "email@email.com",
+      "name": "E2E Tests",
+      "phone": "11988112233"
+    },
+    "status": "ACTIVE",
+    "taxId": "## WILL BE REPLACED BY DYNAMIC TAX_ID WITH KEY 1 ##",
+    "priceListId": null,
+    "timezone": "America/Sao_Paulo"
+  }
+]
