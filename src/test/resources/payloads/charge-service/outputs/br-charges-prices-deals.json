@@ -1,0 +1,68 @@
+{
+  "charges": [
+    {
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorChargeId": "VENDOR-CHARGE-CREDIT-CARD-POS-01",
+      "type": "PAYMENT_METHOD_FEE",
+      "conditions": {
+        "paymentMethod": "CREDIT_CARD_POS",
+        "paymentTerms": [
+          5
+        ]
+      },
+      "output": {
+        "scope": "ORDER",
+        "applyTo": "TOTAL",
+        "type": "PERCENT",
+        "value": 3.92,
+        "ratio": "FIXED",
+        "vendorItemIds": [
+          "VENDOR-BEESPR-17680-V2-1"
+        ]
+      }
+    },
+    {
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorChargeId": "VENDOR-CHARGE-01",
+      "type": "OVERPRICE",
+      "conditions": {
+        "paymentMethod": "CASH",
+        "paymentTerms": [
+          5
+        ]
+      },
+      "output": {
+        "scope": "LINE_ITEM",
+        "applyTo": "BASE_PRICE",
+        "type": "PERCENT",
+        "value": 2.0,
+        "ratio": "FIXED",
+        "vendorItemIds": [
+          "VENDOR-BEESPR-17680-V2-2"
+        ]
+      }
+    },
+    {
+      "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+      "vendorChargeId": "CHARGE-BEESPR-17375-VDR",
+      "type": "OVERPRICE",
+      "conditions": {
+        "paymentMethod": "CASH"
+      },
+      "output": {
+        "scope": "LINE_ITEM",
+        "applyTo": "BASE_PRICE",
+        "type": "PERCENT",
+        "value": 3.00000000,
+        "ratio": "FIXED",
+        "vendorItemIds": [
+          "BEESPR-17375-1"
+        ]
+      }
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "hasMore": false
+  }
+}
