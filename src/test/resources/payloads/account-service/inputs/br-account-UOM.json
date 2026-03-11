@@ -1,0 +1,56 @@
+[
+  {
+    "accountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##",
+    "channel": null,
+    "deliveryAddress": {
+      "address": "TEST DELIVERY ADDRESS",
+      "city": "TEST DELIVERY CITY",
+      "latitude": null,
+      "longitude": null,
+      "state": "SAO PAULO",
+      "zipcode": "TEST DELIVERY ZIPCODE"
+    },
+    "deliveryCenterId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##",
+    "deliveryRegion": null,
+    "deliveryRoute": null,
+    "deliveryScheduleId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##",
+    "erpSalesCenter": null,
+    "liquorLicense": [
+      {
+        "description": null,
+        "expirationDate": "2040-12-31",
+        "number": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##",
+        "status": "VALID",
+        "type": "PERMANENT"
+      }
+    ],
+    "maximumOrder": null,
+    "minimumOrder": null,
+    "name": "TEST ACCOUNT NAME BR",
+    "owner": {
+      "email": "test@mailinator.com",
+      "firstName": "TEST OWNER FIRST NAME BR",
+      "lastName": "TEST OWNER LAST NAME BR",
+      "phone": 11999999999
+    },
+    "paymentMethods": [
+      "CASH",
+      "CREDIT",
+      "CREDIT_CARD_POS"
+    ],
+    "paymentTerms": [],
+    "salesRepresentative": {
+      "email": "test@zone.com",
+      "name": "TEST SALES REP NAME",
+      "phone": 11000000000
+    },
+    "hasEmptiesLoan": false,
+    "hasOverprice": false,
+    "potential": "DM-POTENT",
+    "priceListId": "## WILL BE REPLACED BY DYNAMIC PRICE_LIST_ID ##",
+    "segment": "DM-SEG",
+    "subSegment": "DM-SUBSEG",
+    "status": "ACTIVE",
+    "taxId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##"
+  }
+]
