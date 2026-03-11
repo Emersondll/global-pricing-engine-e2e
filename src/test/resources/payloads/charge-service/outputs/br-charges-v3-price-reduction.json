@@ -1,0 +1,29 @@
+{
+  "charges": [
+    {
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorChargeId": "VENDOR-CHARGE-BEESPR-21366-ADF-01",
+      "type": "PAYMENT_METHOD_FEE",
+      "conditions": {
+        "paymentMethod": "BANK_SLIP",
+        "paymentTerms": [
+          1
+        ]
+      },
+      "output": {
+        "scope": "LINE_ITEM",
+        "applyTo": "BASE_PRICE",
+        "type": "PERCENT",
+        "value": 2,
+        "ratio": "FIXED",
+        "vendorItemIds": [
+          "VENDOR-ITEM-BEESPR-21366-01"
+        ]
+      }
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "hasMore": false
+  }
+}
