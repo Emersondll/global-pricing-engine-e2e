@@ -1,0 +1,5 @@
+{
+  "entity":"CHARGES",
+  "version":"V3",
+  "payload":"{\"type\":\"DELIVERY_CENTER\",\"ids\":[\"## WILL BE REPLACED BY DYNAMIC DELIVERY_CENTER_ID WITH KEY 1 ##\"],\"charges\":[{\"vendorChargeId\":\"CHARGE-BEESPR-17375-DDC\",\"type\":\"PAYMENT_METHOD_FEE\",\"conditions\":{\"paymentMethod\":\"CASH\"},\"output\":{\"scope\":\"ORDER\",\"applyTo\":\"TOTAL\",\"type\":\"AMOUNT\",\"value\":11.11,\"vendorItemIds\":[\"BEESPR-17375-3\"]}}]}"
+}
