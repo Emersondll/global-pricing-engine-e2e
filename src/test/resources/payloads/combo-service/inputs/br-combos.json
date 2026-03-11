@@ -1,0 +1,73 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##"
+  ],
+  "combos": [
+    {
+      "vendorComboId": "VENDOR-COMBO-BEESPR-13302-01",
+      "title": "VENDOR-COMBO-BEESPR-13302-01",
+      "type": "FG",
+      "description": "VENDOR-COMBO-BEESPR-13302-01",
+      "image": "https://d30-invdn-com.akamaized.net/content/picd216f6d7f874d362eb07a6a21e934cd6.png",
+      "startDate": "2020-03-31T23:59:59.999Z",
+      "endDate": "2099-12-25T23:59:59.999Z",
+      "externalId": "VENDOR-COMBO-01",
+      "items": [
+        {
+          "vendorItemId": "VENDOR-SKU-BEESPR-13302-1",
+          "vendorComboItemId": "VENDOR-COMBO-ITEM-ID-BEESPR-13302-1",
+          "price": 34.18,
+          "quantity": 2,
+          "returnable": true
+        },
+        {
+          "vendorItemId": "VENDOR-SKU-BEESPR-13302-2",
+          "vendorComboItemId": "VENDOR-COMBO-ITEM-ID-BEESPR-13302-2",
+          "price": 20.77,
+          "quantity": 2,
+          "returnable": true
+        }
+      ],
+      "freeGoods": [
+        {
+          "items": [
+            {
+              "vendorItemId": "VENDOR-SKU-BEESPR-13302-3",
+              "vendorComboItemId": "VENDOR-COMBO-ITEM-ID-BEESPR-13302-3",
+              "measureUnit": "ML",
+              "basePrice": 15.21,
+              "returnable": true
+            },
+            {
+              "vendorItemId": "VENDOR-SKU-BEESPR-13302-4",
+              "vendorComboItemId": "VENDOR-COMBO-ITEM-ID-BEESPR-13302-4",
+              "measureUnit": "ML",
+              "basePrice": 97.10,
+              "returnable": true
+            }
+          ],
+          "quantity": 2
+        }
+      ],
+      "featured": 0,
+      "limit": {
+        "daily": 10,
+        "monthly": 20
+      },
+      "consumedLimit": {
+        "daily": 110,
+        "monthly": 220
+      },
+      "price": 334.52,
+      "virtualDeliveryCenter": "123",
+      "translations": {
+        "fr-CA": {
+          "title": "Title FR",
+          "description": "Description FR",
+          "image": "Image FR"
+        }
+      },
+      "defaultLanguage": "en-CA"
+    }
+  ]
+}
