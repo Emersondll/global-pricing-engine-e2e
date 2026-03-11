@@ -1,0 +1,12 @@
+[
+  {
+    "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+    "paymentTerm": 5,
+    "paymentMethod": "CREDIT_CARD_POS"
+  },
+  {
+    "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+    "paymentTerm": 5,
+    "paymentMethod": "CASH"
+  }
+]
