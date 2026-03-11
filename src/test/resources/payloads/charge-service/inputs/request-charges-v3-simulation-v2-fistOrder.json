@@ -1,0 +1,11 @@
+[
+  {
+    "contractId": null,
+    "deliveryCenterId": "## WILL BE REPLACED BY DYNAMIC DELIVERY_CENTER_ID HASH WITH KEY 1 ##",
+    "type": null,
+    "paymentTerm": null,
+    "paymentMethod": null,
+    "alternativeDeliveryDate": true,
+    "firstOrder": true
+  }
+]
