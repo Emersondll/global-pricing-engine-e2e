@@ -1,0 +1,15 @@
+[
+  {
+    "type": "ACCOUNT",
+    "combos": [
+      {
+        "ids": [
+          "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##"
+        ],
+        "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+        "score": 20,
+        "vendorComboId": "ALGO-SELLING-VENDOR-COMBO"
+      }
+    ]
+  }
+]
