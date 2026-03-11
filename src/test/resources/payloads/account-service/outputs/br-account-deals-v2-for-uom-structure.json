@@ -1,0 +1,15 @@
+{
+  "content": [
+    {
+      "id": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorAccountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##",
+      "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##"
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "pageSize": 500,
+    "totalElements": 1,
+    "totalPages": 1
+  }
+}
