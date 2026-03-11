@@ -1,0 +1,49 @@
+{
+  "charges": [
+    {
+      "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+      "vendorAccountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##",
+      "vendorChargeId": "VENDOR-CHARGE-OVERPRICE-01",
+      "type": "OVERPRICE",
+      "conditions": {
+        "paymentMethod": "CREDIT"
+      },
+      "output": {
+        "scope": "LINE_ITEM",
+        "applyTo": "BASE_PRICE",
+        "type": "PERCENT",
+        "value": 0.2,
+        "ratio": "FIXED",
+        "vendorItemIds": [
+          "VENDOR-SKU-1",
+          "VENDOR-SKU-3"
+        ]
+      }
+    },
+    {
+      "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+      "vendorAccountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##",
+      "vendorChargeId": "VENDOR-CHARGE-DELIVERY-01",
+      "type": "DELIVERY_DATE_FEE",
+      "conditions": {
+        "alternativeDeliveryDate": true,
+        "orderTotal": {
+          "maximumValue": 5000000.0
+        }
+      },
+      "output": {
+        "scope": "ORDER",
+        "applyTo": "TOTAL",
+        "type": "AMOUNT",
+        "value": 10000.01,
+        "ratio": "FIXED"
+      }
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "size": 2,
+    "totalPages": 1,
+    "totalElements": 2
+  }
+}
