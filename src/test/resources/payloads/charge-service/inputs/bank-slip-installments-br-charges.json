@@ -1,0 +1,41 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##"
+  ],
+  "charges": [
+    {
+      "scenarioDescription": "Charge Payment Method Fee / Bank Slip Installments",
+      "vendorChargeId": "VENDOR-CHARGE-RATIO-LINEAR-01",
+      "type": "PAYMENT_METHOD_FEE",
+      "conditions": {
+        "paymentMethod": "BANK_SLIP_INSTALLMENTS",
+        "paymentTerms": [
+          1,
+          17
+        ]
+      },
+      "output": {
+        "scope": "ORDER",
+        "applyTo": "TOTAL",
+        "type": "PERCENT",
+        "value": 5.20,
+        "ratio": "LINEAR"
+      }
+    },
+    {
+      "scenarioDescription": "Charge Payment Method Fee / Bank Slip Installments",
+      "vendorChargeId": "VENDOR-CHARGE-RATIO-LINEAR-02",
+      "type": "PAYMENT_METHOD_FEE",
+      "conditions": {
+        "paymentMethod": "BANK_SLIP_INSTALLMENTS"
+      },
+      "output": {
+        "scope": "ORDER",
+        "applyTo": "TOTAL",
+        "type": "AMOUNT",
+        "value": 8.73,
+        "ratio": "LINEAR"
+      }
+    }
+  ]
+}
