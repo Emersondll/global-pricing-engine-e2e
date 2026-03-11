@@ -1,0 +1,157 @@
+{
+  "pagination": {
+    "page": 0,
+    "hasNext": false
+  },
+  "combos": [
+    {
+      "title": "VENDOR-COMBO-BEESPR-17550-1",
+      "description": "Combo for VENDOR item: BEESPR-17550-1",
+      "image": "",
+      "deleted": false,
+      "enabled": true,
+      "originalPrice": 10.00,
+      "price": 8.00,
+      "type": "D",
+      "featured": 0,
+      "items": [
+        {
+          "vendorItemId": "BEESPR-17550-1",
+          "vendorComboItemId": "COMBO-BEESPR-17550-1",
+          "returnable": false,
+          "quantity": 1,
+          "price": 8.00
+        }
+      ],
+      "freeGoods": [],
+      "startDate": "2021-12-13",
+      "endDate": "2099-12-31",
+      "score": 0,
+      "platformUniqueIds": {
+        "comboPlatformId": "## WILL BE REPLACED BY COMBO_ID WITH VENDOR_COMBO_ID 'VENDOR-COMBO-BEESPR-17550-1' AND VENDOR KEY 'V-01' ##",
+        "comboAccountPlatformId": "## WILL BE REPLACED BY DYNAMIC COMBO_ACCOUNT_PLATFORM_ID WITH KEY 1 ##",
+        "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+        "comboDeliveryCenterPlatformId": null,
+        "deliveryCenterPlatformId": null
+      },
+      "vendorUniqueIds": {
+        "vendorAccountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##",
+        "vendorDeliveryCenterId": null,
+        "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+        "vendorComboId": "VENDOR-COMBO-BEESPR-17550-1"
+      }
+    },
+    {
+      "title": "VENDOR-COMBO-BEESPR-17550-2",
+      "description": "Combo for ACCOUNT item: BEESPR-17550-2",
+      "image": "",
+      "deleted": false,
+      "enabled": true,
+      "originalPrice": 22.00,
+      "price": 18.00,
+      "type": "D",
+      "featured": 0,
+      "items": [
+        {
+          "vendorItemId": "BEESPR-17550-2",
+          "vendorComboItemId": "COMBO-BEESPR-17550-2",
+          "returnable": false,
+          "quantity": 2,
+          "price": 9.00
+        }
+      ],
+      "freeGoods": [],
+      "startDate": "2021-12-13",
+      "endDate": "2099-12-31",
+      "score": 0,
+      "platformUniqueIds": {
+        "comboPlatformId": "## WILL BE REPLACED BY COMBO_ID WITH VENDOR_COMBO_ID 'VENDOR-COMBO-BEESPR-17550-2' AND VENDOR KEY 'V-01' ##",
+        "comboAccountPlatformId": "## WILL BE REPLACED BY DYNAMIC COMBO_ACCOUNT_PLATFORM_ID WITH KEY 2 ##",
+        "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+        "comboDeliveryCenterPlatformId": null,
+        "deliveryCenterPlatformId": null
+      },
+      "vendorUniqueIds": {
+        "vendorAccountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##",
+        "vendorDeliveryCenterId": null,
+        "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+        "vendorComboId": "VENDOR-COMBO-BEESPR-17550-2"
+      }
+    },
+    {
+      "title": "VENDOR-COMBO-BEESPR-17550-3",
+      "description": "Combo for DDC item: BEESPR-17550-3",
+      "image": "",
+      "deleted": false,
+      "enabled": true,
+      "originalPrice": 36,
+      "price": 30,
+      "discountPercentOff": 0.0,
+      "type": "D",
+      "featured": 0,
+      "items": [
+        {
+          "vendorItemId": "BEESPR-17550-3",
+          "vendorComboItemId": "COMBO-BEESPR-17550-3",
+          "returnable": false,
+          "quantity": 3,
+          "price": 10.00
+        }
+      ],
+      "freeGoods": [],
+      "startDate": "2021-12-13",
+      "endDate": "2099-12-31",
+      "score": 0,
+      "platformUniqueIds": {
+        "comboPlatformId": "## WILL BE REPLACED BY COMBO_ID WITH VENDOR_COMBO_ID 'VENDOR-COMBO-BEESPR-17550-3' AND VENDOR KEY 'V-01' ##",
+        "comboAccountPlatformId": null,
+        "contractId": null,
+        "comboDeliveryCenterPlatformId": "## WILL BE REPLACED BY DYNAMIC COMBO_DELIVERY_CENTER_PLATFORM_ID WITH KEY 1 ##",
+        "deliveryCenterPlatformId": "## WILL BE REPLACED BY DYNAMIC DELIVERY_CENTER_ID HASH WITH KEY 1 ##"
+      },
+      "vendorUniqueIds": {
+        "vendorAccountId": null,
+        "vendorDeliveryCenterId": "## WILL BE REPLACED BY DYNAMIC DELIVERY_CENTER_ID WITH KEY 1 ##",
+        "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+        "vendorComboId": "VENDOR-COMBO-BEESPR-17550-3"
+      }
+    },
+    {
+      "title": "VENDOR-COMBO-BEESPR-17550-4",
+      "description": "Combo for PRICE LIST item: BEESPR-17550-4",
+      "image": "",
+      "deleted": false,
+      "enabled": true,
+      "originalPrice": 52.00,
+      "price": 44.00,
+      "type": "D",
+      "featured": 0,
+      "items": [
+        {
+          "vendorItemId": "BEESPR-17550-4",
+          "vendorComboItemId": "COMBO-BEESPR-17550-4",
+          "returnable": false,
+          "quantity": 4,
+          "price": 11.0
+        }
+      ],
+      "freeGoods": [],
+      "startDate": "2021-12-13",
+      "endDate": "2099-12-31",
+      "score": 0,
+      "platformUniqueIds": {
+        "comboPlatformId": "## WILL BE REPLACED BY COMBO_ID WITH VENDOR_COMBO_ID 'VENDOR-COMBO-BEESPR-17550-4' AND VENDOR KEY 'V-01' ##",
+        "comboAccountPlatformId": "## WILL BE REPLACED BY DYNAMIC COMBO_ACCOUNT_PLATFORM_ID WITH KEY 3 ##",
+        "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+        "comboDeliveryCenterPlatformId": null,
+        "deliveryCenterPlatformId": null
+      },
+      "vendorUniqueIds": {
+        "vendorAccountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##",
+        "vendorDeliveryCenterId": null,
+        "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+        "vendorComboId": "VENDOR-COMBO-BEESPR-17550-4"
+      }
+    }
+  ]
+}
