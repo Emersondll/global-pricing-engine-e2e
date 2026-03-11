@@ -1,0 +1,11 @@
+[
+  {
+    "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+    "paymentMethod": "RECEIVABLES_AS_CREDIT",
+    "type": "PAYMENT_METHOD_FEE"
+  },
+  {
+    "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+    "type": "DELIVERY_DATE_FEE"
+  }
+]
