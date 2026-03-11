@@ -1,0 +1,80 @@
+{
+  "charges": [
+    {
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorChargeId": "VENDOR-CHARGE-BEESPR-17550-OVERPRICE-PLR",
+      "type": "OVERPRICE",
+      "conditions": {
+        "paymentMethod": "CREDIT"
+      },
+      "output": {
+        "scope": "LINE_ITEM",
+        "applyTo": "BASE_PRICE",
+        "type": "PERCENT",
+        "value": 4.00000000,
+        "ratio": "FIXED",
+        "vendorItemIds": [
+          "BEESPR-17550-4"
+        ]
+      }
+    },
+    {
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorChargeId": "VENDOR-CHARGE-BEESPR-17550-OVERPRICE-ACC",
+      "type": "OVERPRICE",
+      "conditions": {
+        "paymentMethod": "CREDIT"
+      },
+      "output": {
+        "scope": "LINE_ITEM",
+        "applyTo": "BASE_PRICE",
+        "type": "PERCENT",
+        "value": 2.00000000,
+        "ratio": "FIXED",
+        "vendorItemIds": [
+          "BEESPR-17550-2"
+        ]
+      }
+    },
+    {
+      "deliveryCenterId": "## WILL BE REPLACED BY DYNAMIC DELIVERY_CENTER_ID HASH WITH KEY 1 ##",
+      "vendorChargeId": "VENDOR-CHARGE-BEESPR-17550-OVERPRICE-DDC",
+      "type": "OVERPRICE",
+      "conditions": {
+        "paymentMethod": "CREDIT"
+      },
+      "output": {
+        "scope": "LINE_ITEM",
+        "applyTo": "BASE_PRICE",
+        "type": "PERCENT",
+        "value": 3.00000000,
+        "ratio": "FIXED",
+        "vendorItemIds": [
+          "BEESPR-17550-3"
+        ]
+      }
+    },
+    {
+      "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+      "vendorChargeId": "VENDOR-CHARGE-BEESPR-17550-OVERPRICE-VDR",
+      "type": "OVERPRICE",
+      "conditions": {
+        "paymentMethod": "CREDIT"
+      },
+      "output": {
+        "scope": "LINE_ITEM",
+        "applyTo": "BASE_PRICE",
+        "type": "PERCENT",
+        "value": 55.00000000,
+        "ratio": "FIXED",
+        "vendorItemIds": [
+          "BEESPR-17550-1"
+        ]
+      }
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "hasMore": false
+  }
+}
