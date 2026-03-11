@@ -1,0 +1,102 @@
+{
+  "pagination": {
+    "page": 0,
+    "hasNext": false
+  },
+  "combos": [
+    {
+      "title": "VENDOR-COMBO-BEESPR-18752-1",
+      "description": "VENDOR-COMBO-BEESPR-18752-1",
+      "image": "",
+      "deleted": false,
+      "enabled": true,
+      "availableToday": 8,
+      "originalPrice": 11.0,
+      "price": 11.0,
+      "type": "D",
+      "featured": 0,
+      "consumedLimit": {
+        "daily": 2,
+        "monthly": 50
+      },
+      "limit": {
+        "daily": 10,
+        "monthly": 100
+      },
+      "items": [
+        {
+          "vendorItemId": "VENDOR-BEESPR-18752-1",
+          "vendorComboItemId": "VENDOR-COMBO-ITEM-BEESPR-18752-1",
+          "returnable": true,
+          "quantity": 1,
+          "price": 11.0
+        }
+      ],
+      "freeGoods": [
+      ],
+      "startDate": "2020-03-31",
+      "endDate": "2049-03-31",
+      "score": 0,
+      "platformUniqueIds": {
+        "comboPlatformId": "## WILL BE REPLACED BY COMBO_ID WITH VENDOR_COMBO_ID 'VENDOR-COMBO-BEESPR-18752-1' AND VENDOR KEY 'V-01' ##",
+        "comboAccountPlatformId": "## WILL BE REPLACED BY DYNAMIC COMBO_ACCOUNT_PLATFORM_ID WITH KEY 1 ##",
+        "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+        "comboDeliveryCenterPlatformId": null,
+        "deliveryCenterPlatformId": null
+      },
+      "vendorUniqueIds": {
+        "vendorAccountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##",
+        "vendorDeliveryCenterId": null,
+        "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+        "vendorComboId": "VENDOR-COMBO-BEESPR-18752-1"
+      }
+    },
+    {
+      "title": "VENDOR-COMBO-BEESPR-18752-2",
+      "description": "VENDOR-COMBO-BEESPR-18752-2",
+      "image": "",
+      "deleted": false,
+      "enabled": true,
+      "availableToday": 14,
+      "originalPrice": 12.0,
+      "price": 12.0,
+      "type": "D",
+      "featured": 0,
+      "consumedLimit": {
+        "daily": 6,
+        "monthly": 100
+      },
+      "limit": {
+        "daily": 20,
+        "monthly": 200
+      },
+      "items": [
+        {
+          "vendorItemId": "VENDOR-BEESPR-18752-2",
+          "vendorComboItemId": "VENDOR-COMBO-ITEM-BEESPR-18752-2",
+          "returnable": true,
+          "quantity": 1,
+          "price": 12.0
+        }
+      ],
+      "freeGoods": [
+      ],
+      "startDate": "2020-03-31",
+      "endDate": "2049-03-31",
+      "score": 0,
+      "platformUniqueIds": {
+        "comboPlatformId": "## WILL BE REPLACED BY COMBO_ID WITH VENDOR_COMBO_ID 'VENDOR-COMBO-BEESPR-18752-2' AND VENDOR KEY 'V-01' ##",
+        "comboAccountPlatformId": "## WILL BE REPLACED BY DYNAMIC COMBO_ACCOUNT_PLATFORM_ID WITH KEY 2 ##",
+        "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+        "comboDeliveryCenterPlatformId": null,
+        "deliveryCenterPlatformId": null
+      },
+      "vendorUniqueIds": {
+        "vendorAccountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##",
+        "vendorDeliveryCenterId": null,
+        "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+        "vendorComboId": "VENDOR-COMBO-BEESPR-18752-2"
+      }
+    }
+  ]
+}
