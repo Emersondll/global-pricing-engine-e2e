@@ -1,0 +1,25 @@
+{
+  "charges": [
+    {
+      "deliveryCenterId": "## WILL BE REPLACED BY DYNAMIC DELIVERY_CENTER_ID HASH WITH KEY 1 ##",
+      "vendorChargeId": "VENDOR-CHARGE-BEESPR-21182-FIRST-ORDER",
+      "type": "DELIVERY_DATE_FEE",
+      "conditions": {
+        "alternativeDeliveryDate": true,
+        "firstOrder": true
+      },
+      "output": {
+        "scope": "ORDER",
+        "applyTo": "TOTAL",
+        "type": "AMOUNT",
+        "value": 100,
+        "ratio": "FIXED",
+        "vendorItemIds": []
+      }
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "hasMore": false
+  }
+}
