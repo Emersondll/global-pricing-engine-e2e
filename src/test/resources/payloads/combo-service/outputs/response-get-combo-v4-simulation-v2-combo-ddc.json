@@ -1,0 +1,50 @@
+{
+  "pagination": {
+    "page": 0,
+    "hasNext": false
+  },
+  "combos": [
+    {
+      "title": "TESTE",
+      "description": "SEJACERVEJEIRO",
+      "image": "",
+      "deleted": false,
+      "enabled": true,
+      "price": 0,
+      "type": "D",
+      "featured": 0,
+      "items": [
+        {
+          "vendorItemId": "ORIGINAL_ITEM_3926_1",
+          "vendorComboItemId": "Cerveza",
+          "price": 80,
+          "quantity": 1,
+          "returnable": false
+        },
+        {
+          "vendorItemId": "ORIGINAL_ITEM_3926_2",
+          "vendorComboItemId": "Cerveza",
+          "price": 45,
+          "quantity": 1,
+          "returnable": false
+        }
+      ],
+      "startDate": "2020-03-31",
+      "endDate": "2049-03-31",
+      "score": 0,
+      "platformUniqueIds": {
+        "comboPlatformId": "## WILL BE REPLACED BY COMBO_ID WITH VENDOR_COMBO_ID 'ORIGINAL_COMBO_3926' AND VENDOR KEY 'V-01' ##",
+        "comboAccountPlatformId": null,
+        "contractId": null,
+        "comboDeliveryCenterPlatformId": "## WILL BE REPLACED BY DYNAMIC COMBO_DELIVERY_CENTER_PLATFORM_ID WITH KEY 1 ##",
+        "deliveryCenterPlatformId": "## WILL BE REPLACED BY DYNAMIC DELIVERY_CENTER_ID HASH WITH KEY 1 ##"
+      },
+      "vendorUniqueIds": {
+        "vendorAccountId": null,
+        "vendorDeliveryCenterId": "## WILL BE REPLACED BY DYNAMIC DELIVERY_CENTER_ID WITH KEY 1 ##",
+        "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+        "vendorComboId": "ORIGINAL_COMBO_3926"
+      }
+    }
+  ]
+}
