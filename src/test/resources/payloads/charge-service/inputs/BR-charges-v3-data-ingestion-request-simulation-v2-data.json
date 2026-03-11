@@ -1,0 +1,7 @@
+[
+  {
+    "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+    "paymentMethod": "BANK_SLIP",
+    "paymentTerm": 5
+  }
+]
