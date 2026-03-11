@@ -1,0 +1,9 @@
+[
+    {
+        "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+        "deliveryCenterId": null,
+        "type": null,
+        "paymentMethod": "BANK_SLIP",
+        "paymentTerm": 30
+    }
+]
