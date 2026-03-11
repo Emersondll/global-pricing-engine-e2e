@@ -1,0 +1,39 @@
+{
+  "vendorDeliveryCenterIds": [
+    "## WILL BE REPLACED BY DYNAMIC DELIVERY_CENTER_ID WITH KEY 1 ##"
+  ],
+  "combos": [
+    {
+      "vendorComboId": "ORIGINAL_COMBO_3926",
+      "title": "TESTE",
+      "description": "SEJACERVEJEIRO",
+      "type": "D",
+      "image": null,
+      "startDate": "2020-03-31T23:59:59.999Z",
+      "endDate": "2049-03-31T23:59:59.999Z",
+      "externalId": "TESTE",
+      "items": [
+        {
+          "vendorItemId": "ORIGINAL_ITEM_3926_1",
+          "vendorComboItemId": "Cerveza",
+          "price": 80,
+          "quantity": 1,
+          "returnable": false
+        },
+        {
+          "vendorItemId": "ORIGINAL_ITEM_3926_2",
+          "vendorComboItemId": "Cerveza",
+          "price": 45,
+          "quantity": 1,
+          "returnable": false
+        }
+      ],
+      "featured": 0,
+      "price": 0,
+      "originalPrice": null,
+      "discountPercentOff": null,
+      "score": 0,
+      "defaultLanguage": "es-HN"
+    }
+  ]
+}
