@@ -1,0 +1,76 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "combos": [
+    {
+      "vendorComboId": "VENDOR-COMBO-BEESPR-15567-1",
+      "title": "VENDOR-COMBO-BEESPR-15567-1",
+      "description": "VENDOR-COMBO-BEESPR-15567-1",
+      "type": "D",
+      "startDate": "2020-03-31T23:59:59.999Z",
+      "endDate": "2049-03-31T23:59:59.999Z",
+      "externalId": "VENDOR-COMBO-BEESPR-15567-1",
+      "items": [
+        {
+          "vendorItemId": "VENDOR-ITEM-BEESPR-15567-1",
+          "vendorComboItemId": "VENDOR-COMBO-ITEM-BEESPR-15567-1",
+          "price": 10.00,
+          "quantity": 1,
+          "returnable": true
+        }
+      ],
+      "featured": 0,
+      "originalPrice": 11.00,
+      "price": 10.00,
+      "score": 0,
+      "defaultLanguage": "en-CA"
+    },
+    {
+      "vendorComboId": "VENDOR-COMBO-BEESPR-15567-2",
+      "title": "VENDOR-COMBO-BEESPR-15567-2",
+      "description": "VENDOR-COMBO-BEESPR-15567-2",
+      "type": "D",
+      "startDate": "2020-03-31T23:59:59.999Z",
+      "endDate": "2049-03-31T23:59:59.999Z",
+      "externalId": "VENDOR-COMBO-BEESPR-15567-2",
+      "items": [
+        {
+          "vendorItemId": "VENDOR-ITEM-BEESPR-15567-2",
+          "vendorComboItemId": "VENDOR-COMBO-ITEM-BEESPR-15567-2",
+          "price": 11.00,
+          "quantity": 1,
+          "returnable": true
+        }
+      ],
+      "featured": 0,
+      "originalPrice": 12.00,
+      "price": 11.00,
+      "score": 0,
+      "defaultLanguage": "en-CA"
+    },
+    {
+      "vendorComboId": "VENDOR-COMBO-BEESPR-20479-3",
+      "title": "VENDOR-COMBO-BEESPR-20479-3",
+      "description": "VENDOR-COMBO-BEESPR-20479-3",
+      "type": "D",
+      "startDate": "2020-03-31T23:59:59.999Z",
+      "endDate": "2049-03-31T23:59:59.999Z",
+      "externalId": "VENDOR-COMBO-BEESPR-20479-3",
+      "items": [
+        {
+          "vendorItemId": "VENDOR-1-BEESPR-20479-3",
+          "vendorComboItemId": "VENDOR-COMBO-ITEM-BEESPR-20479-3",
+          "price": 83.00,
+          "quantity": 1,
+          "returnable": true
+        }
+      ],
+      "featured": 0,
+      "originalPrice": 83.74,
+      "price": 83.00,
+      "score": 0,
+      "defaultLanguage": "en-CA"
+    }
+  ]
+}
