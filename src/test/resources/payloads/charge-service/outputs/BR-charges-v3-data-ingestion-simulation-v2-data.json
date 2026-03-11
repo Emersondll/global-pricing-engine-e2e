@@ -1,0 +1,44 @@
+{
+  "charges": [
+    {
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorChargeId": "CHARGE-BEESPR-16705-ACC",
+      "type": "PAYMENT_METHOD_FEE",
+      "conditions": {
+        "paymentMethod": "BANK_SLIP"
+      },
+      "output": {
+        "scope": "ORDER",
+        "applyTo": "TOTAL",
+        "type": "AMOUNT",
+        "value": 10.10000000,
+        "ratio": "FIXED",
+        "vendorItemIds": [
+          "VENDOR-BEESPR-16705-2"
+        ]
+      }
+    },
+    {
+      "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+      "vendorChargeId": "CHARGE-BEESPR-16705-VDR",
+      "type": "PAYMENT_METHOD_FEE",
+      "conditions": {
+        "paymentMethod": "BANK_SLIP"
+      },
+      "output": {
+        "scope": "ORDER",
+        "applyTo": "TOTAL",
+        "type": "AMOUNT",
+        "value": 10.10000000,
+        "ratio": "FIXED",
+        "vendorItemIds": [
+          "VENDOR-BEESPR-16705-1"
+        ]
+      }
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "hasMore": false
+  }
+}
