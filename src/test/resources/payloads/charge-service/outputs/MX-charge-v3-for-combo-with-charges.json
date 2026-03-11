@@ -1,0 +1,71 @@
+{
+  "charges": [
+    {
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorChargeId": "CHARGE-02-T20962",
+      "type": "PAYMENT_METHOD_FEE",
+      "conditions": {
+        "paymentMethod": "CREDIT",
+        "paymentTerms": [
+          1
+        ]
+      },
+      "output": {
+        "scope": "LINE_ITEM",
+        "applyTo": "BASE_PRICE_AFTER_DISCOUNT",
+        "type": "PERCENT",
+        "value": 10,
+        "ratio": "FIXED",
+        "vendorItemIds": [
+          "VENDOR-BEESPR-20962-1",
+          "VENDOR-BEESPR-20962-2"
+        ],
+        "base": "BASE_PRICE_AFTER_PRODUCT_CHARGES"
+      }
+    },
+    {
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorChargeId": "CHARGE-01-T20962",
+      "type": "PAYMENT_METHOD_FEE",
+      "conditions": {
+        "paymentMethod": "CREDIT",
+        "paymentTerms": [
+          1
+        ]
+      },
+      "output": {
+        "scope": "LINE_ITEM",
+        "applyTo": "BASE_PRICE_AFTER_DISCOUNT",
+        "type": "PERCENT",
+        "value": 10,
+        "ratio": "FIXED",
+        "vendorItemIds": [
+          "VENDOR-BEESPR-20962-1"
+        ],
+        "base": "BASE_PRICE_AFTER_PRODUCT_CHARGES"
+      }
+    },
+    {
+      "vendorId": "7289d6e3-ea3b-4a23-904f-61e5b3e5c0b7",
+      "vendorChargeId": "VENDOR-CHARGE-BEESPR-17550-OVERPRICE-VDR",
+      "type": "OVERPRICE",
+      "conditions": {
+        "paymentMethod": "CREDIT"
+      },
+      "output": {
+        "scope": "LINE_ITEM",
+        "applyTo": "BASE_PRICE",
+        "type": "PERCENT",
+        "value": 55.0,
+        "ratio": "FIXED",
+        "vendorItemIds": [
+          "BEESPR-17550-1"
+        ]
+      }
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "hasMore": false
+  }
+}
