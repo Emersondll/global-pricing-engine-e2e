@@ -1,0 +1,5 @@
+{
+  "entity": "DEALS",
+  "version": "V3",
+  "payload": "{\"type\":\"ACCOUNT\",\"ids\":[\"## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##\"],\"deals\":[{\n\"vendorDealId\":\"VENDOR-DEAL-1\",\n\"vendorPromotionId\":\"VENDOR-PROMO-1\",\n\"accumulationType\":null,\n\"priority\":1,\n\"level\":0,\n\"hiddenOnBrowse\":false,\n\"conditions\":{\n\"couponCode\":\"COUPON-CODE-E2E\",\n\"deliveryDate\":[\n{\n\"startDate\":\"2018-01-01\",\n\"endDate\":\"2039-12-30\"\n}\n],\n\"lineItem\":{\n\"vendorItemIds\":[\n\"VENDOR-ITEM-17575\"\n],\n\"minimumQuantity\":1,\n\"sharedMinimumQuantity\":false,\n\"crossDiscount\":false\n}\n},\n\"output\":{\n\"lineItemDiscount\":{\n\"vendorItemIds\":[\n\"VENDOR-ITEM-17575\"\n],\n\"type\":\"%\",\n\"value\":50,\n\"maxQuantity\":5000,\n\"fixed\":true\n}\n}\n}]}"
+}
