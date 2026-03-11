@@ -1,0 +1,82 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##"
+  ],
+  "charges": [
+    {
+      "vendorChargeId": "ADF_PROMAX_01",
+      "type": "PAYMENT_METHOD_FEE",
+      "conditions": {
+        "paymentMethod": "BANK_SLIP",
+        "paymentTerms": [
+          1
+        ]
+      },
+      "output": {
+        "scope": "ORDER",
+        "applyTo": "TOTAL",
+        "type": "PERCENT",
+        "value": 3,
+        "ratio": "PRO_RATA"
+      }
+    },
+    {
+      "vendorChargeId": "ADF_PROMAX_02",
+      "type": "PAYMENT_METHOD_FEE",
+      "conditions": {
+        "paymentMethod": "BANK_SLIP",
+        "paymentTerms": [
+          2,
+          4
+        ]
+      },
+      "output": {
+        "scope": "ORDER",
+        "applyTo": "TOTAL",
+        "type": "PERCENT",
+        "value": 5.2,
+        "ratio": "PRO_RATA"
+      }
+    },
+    {
+      "vendorChargeId": "ADF_ROBIN_01",
+      "type": "PAYMENT_METHOD_FEE",
+      "conditions": {
+        "dependsOnVendorChargeIds": [
+          "ADF_PROMAX_02"
+        ],
+        "paymentMethod": "BANK_SLIP",
+        "scaledFrom": "ORDER_TOTAL"
+      },
+      "output": {
+        "scope": "ORDER",
+        "applyTo": "TOTAL",
+        "type": "PERCENT",
+        "paymentTermBase": 30,
+        "ratio": "PRO_RATA",
+        "ranges": [
+          {
+            "from": 0,
+            "value": 6.50
+          },
+          {
+            "from": 50.00,
+            "value": 5.50
+          },
+          {
+            "from": 250.00,
+            "value": 4.50
+          },
+          {
+            "from": 750.00,
+            "value": 3.50
+          },
+          {
+            "from": 1750.00,
+            "value": 2.50
+          }
+        ]
+      }
+    }
+  ]
+}
