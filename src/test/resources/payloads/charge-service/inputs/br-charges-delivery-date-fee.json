@@ -1,0 +1,24 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##"
+  ],
+  "charges": [
+    {
+      "scenarioDescription": "Charge Delivery date Fee",
+      "vendorChargeId": "VENDOR-CHARGE-DELIVERY-DATE-FEE-01",
+      "type": "DELIVERY_DATE_FEE",
+      "conditions": {
+        "alternativeDeliveryDate": true,
+        "orderTotal": {
+          "maximumValue": 250000.00
+        }
+      },
+      "output": {
+        "scope": "ORDER",
+        "applyTo": "TOTAL",
+        "type": "AMOUNT",
+        "value": 1000.25
+      }
+    }
+  ]
+}
