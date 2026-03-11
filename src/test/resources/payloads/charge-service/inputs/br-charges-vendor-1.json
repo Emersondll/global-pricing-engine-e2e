@@ -1,0 +1,74 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "charges": [
+    {
+      "vendorChargeId": "VENDOR-CHARGE-OVERPRICE-01",
+      "type": "OVERPRICE",
+      "conditions": {
+        "paymentMethod": "CREDIT"
+      },
+      "output": {
+        "scope": "LINE_ITEM",
+        "applyTo": "BASE_PRICE",
+        "type": "PERCENT",
+        "value": 3,
+        "vendorItemIds": [
+          "VENDOR-SKU-BEESPR-15572-1",
+          "VENDOR-SKU-BEESPR-15572-2"
+        ]
+      }
+    },
+    {
+      "vendorChargeId": "VENDOR-CHARGE-DELIVERY-01",
+      "type": "DELIVERY_DATE_FEE",
+      "conditions": {
+        "alternativeDeliveryDate": true,
+        "orderTotal": {
+          "maximumValue": 5000000.00
+        }
+      },
+      "output": {
+        "scope": "ORDER",
+        "applyTo": "TOTAL",
+        "type": "AMOUNT",
+        "value": 1000.01
+      }
+    },
+    {
+      "vendorChargeId": "VENDOR-CHARGE-OVERPRICE-BPAD-01",
+      "type": "OVERPRICE",
+      "conditions": {
+        "paymentMethod": "CREDIT"
+      },
+      "output": {
+        "scope": "LINE_ITEM",
+        "applyTo": "BASE_PRICE_AFTER_DISCOUNT",
+        "type": "%",
+        "value": 3,
+        "ratio": "FIXED",
+        "vendorItemIds": [
+          "VENDOR-ITEM-BEESPR-19022-1"
+        ]
+      }
+    },
+    {
+      "vendorChargeId": "VENDOR-CHARGE-OVERPRICE-BP-02",
+      "type": "OVERPRICE",
+      "conditions": {
+        "paymentMethod": "CREDIT"
+      },
+      "output": {
+        "scope": "LINE_ITEM",
+        "applyTo": "BASE_PRICE",
+        "type": "%",
+        "value": 3,
+        "ratio": "FIXED",
+        "vendorItemIds": [
+          "VENDOR-ITEM-BEESPR-19022-2"
+        ]
+      }
+    }
+  ]
+}
