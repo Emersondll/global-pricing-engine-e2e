@@ -1,0 +1,9 @@
+[
+  {
+    "accountId": "## WILL BE REPLACED BY ACCOUNT_ID IN RESPONSE AT INDEX 0 ##",
+    "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+    "vendorAccountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##",
+    "customerAccountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##",
+    "priceListId": "## WILL BE REPLACED BY DYNAMIC PRICE_LIST_ID ##"
+  }
+]
