@@ -1,0 +1,29 @@
+{
+  "charges": [
+    {
+      "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+      "vendorAccountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##",
+      "vendorChargeId": "VENDOR-CHARGE-DELIVERY-DATE-FEE-01",
+      "type": "DELIVERY_DATE_FEE",
+      "conditions": {
+        "alternativeDeliveryDate": true,
+        "orderTotal": {
+          "maximumValue": 250000.0
+        }
+      },
+      "output": {
+        "scope": "ORDER",
+        "applyTo": "TOTAL",
+        "type": "AMOUNT",
+        "value": 1000.25,
+        "ratio": "FIXED"
+      }
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "size": 1,
+    "totalPages": 1,
+    "totalElements": 1
+  }
+}
