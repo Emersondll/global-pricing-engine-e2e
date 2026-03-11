@@ -1,0 +1,73 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "combos": [
+    {
+      "vendorComboId": "VENDOR-COMBO-BEESPR-18752-1",
+      "title": "VENDOR-COMBO-BEESPR-18752-1",
+      "description": "VENDOR-COMBO-BEESPR-18752-1",
+      "type": "D",
+      "image": null,
+      "startDate": "2020-03-31T23:59:59.999Z",
+      "endDate": "2049-03-31T23:59:59.999Z",
+      "externalId": "VENDOR-COMBO-BEESPR-18752-1",
+      "items": [
+        {
+          "vendorItemId": "VENDOR-BEESPR-18752-1",
+          "vendorComboItemId": "VENDOR-COMBO-ITEM-BEESPR-18752-1",
+          "price": 11.00,
+          "quantity": 1,
+          "returnable": true
+        }
+      ],
+      "featured": 0,
+      "originalPrice": 11.00,
+      "price": 11.00,
+      "discountPercentOff": null,
+      "score": 0,
+      "defaultLanguage": "en-CA",
+      "limit": {
+        "daily": 10,
+        "monthly": 100
+      },
+      "consumedLimit": {
+        "daily": 2,
+        "monthly": 50
+      }
+    },
+    {
+      "vendorComboId": "VENDOR-COMBO-BEESPR-18752-2",
+      "title": "VENDOR-COMBO-BEESPR-18752-2",
+      "description": "VENDOR-COMBO-BEESPR-18752-2",
+      "type": "D",
+      "image": null,
+      "startDate": "2020-03-31T23:59:59.999Z",
+      "endDate": "2049-03-31T23:59:59.999Z",
+      "externalId": "VENDOR-COMBO-BEESPR-18752-2",
+      "items": [
+        {
+          "vendorItemId": "VENDOR-BEESPR-18752-2",
+          "vendorComboItemId": "VENDOR-COMBO-ITEM-BEESPR-18752-2",
+          "price": 12.00,
+          "quantity": 1,
+          "returnable": true
+        }
+      ],
+      "featured": 0,
+      "originalPrice": 12.00,
+      "price": 12.00,
+      "discountPercentOff": null,
+      "score": 0,
+      "defaultLanguage": "en-CA",
+      "limit": {
+        "daily": 20,
+        "monthly": 200
+      },
+      "consumedLimit": {
+        "daily": 6,
+        "monthly": 100
+      }
+    }
+  ]
+}
