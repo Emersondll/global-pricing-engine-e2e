@@ -1,0 +1,5 @@
+{
+  "entity": "CHARGES",
+  "version": "V3",
+  "payload": "{\"type\":\"VENDOR\",\"ids\":[\"## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##\"],\"charges\":[{\"vendorChargeId\":\"CHARGE-BEESPR-16705-VDR\",\"type\":\"PAYMENT_METHOD_FEE\",\"conditions\":{\"paymentMethod\":\"BANK_SLIP\"},\"output\":{\"scope\":\"ORDER\",\"applyTo\":\"TOTAL\",\"type\":\"AMOUNT\",\"value\":10.10,\"vendorItemIds\":[\"VENDOR-BEESPR-16705-1\"]}}]}"
+}
