@@ -1,0 +1,37 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "deals": [
+    {
+      "scenarioDescription": "Simple Deal Line Item",
+      "vendorDealId": "DEAL-01-T19723",
+      "vendorPromotionId": "VENDOR_PROMOTION_ID_T19723",
+      "accumulationType": "ADD",
+      "priority": 1,
+      "level": 0,
+      "hiddenOnBrowse": false,
+      "enforced": false,
+      "conditions": {
+        "paymentMethod": "BANK_SLIP",
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-ITEM-1-BEESPR-T19723"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-ITEM-1-BEESPR-T19723"
+          ],
+          "type": "$",
+          "value": 10
+        }
+      }
+    }
+  ]
+}
