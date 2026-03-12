@@ -1,0 +1,64 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "deals": [
+    {
+      "vendorDealId": "VENDOR-DEAL-01-BEESPR-21363",
+      "vendorPromotionId": "VENDOR-PROMO-01-BEESPR-21363",
+      "level": 1,
+      "type": "PRICE_REDUCTION",
+      "enforced": false,
+      "conditions": {
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-ITEM-BEESPR-21363-01"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-ITEM-BEESPR-21363-01"
+          ],
+          "type": "%",
+          "value": 30,
+          "maxQuantity": null,
+          "proportion": null
+        }
+      }
+    },
+    {
+      "vendorDealId": "VENDOR-DEAL-02-BEESPR-21363",
+      "vendorPromotionId": "VENDOR-PROMO-02-BEESPR-21363",
+      "level": 2,
+      "type": "PRICE_REDUCTION",
+      "enforced": false,
+      "conditions": {
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-ITEM-BEESPR-21363-01"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-ITEM-BEESPR-21363-01"
+          ],
+          "type": "%",
+          "value": 10,
+          "maxQuantity": null,
+          "proportion": null
+        }
+      }
+    }
+  ]
+}
