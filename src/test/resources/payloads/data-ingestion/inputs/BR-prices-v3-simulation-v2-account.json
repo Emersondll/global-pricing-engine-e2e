@@ -1,0 +1,6 @@
+{
+  "entity": "PRICES",
+  "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+  "version": "v3",
+  "payload": "{\"type\": \"ACCOUNT\",\"ids\": [\"## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##\"],\"prices\": [{\"type\": \"PER_UNIT\",\"vendorItemId\": \"BEESPR-16872-SKU002\",\"sku\": \"BEESPR-16872-SKU02\",\"basePrice\": 8.39,\"measureUnit\": \"CS\",\"minimumPrice\": 5.99,\"quantityPerPallet\": 88}]}"
+}
