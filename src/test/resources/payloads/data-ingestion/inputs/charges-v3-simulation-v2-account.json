@@ -1,0 +1,5 @@
+{
+  "entity": "CHARGES",
+  "version": "V3",
+  "payload": "{\"type\":\"ACCOUNT\",\"ids\":[\"## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##\"],\"charges\":[{\"vendorChargeId\":\"VENDOR-CHARGE-BEESPR-17550-OVERPRICE-ACC\",\"type\":\"OVERPRICE\",\"conditions\":{\"paymentMethod\":\"CREDIT\"},\"output\":{\"scope\":\"LINE_ITEM\",\"applyTo\":\"BASE_PRICE\",\"type\":\"PERCENT\",\"value\":2.00,\"ratio\":\"FIXED\",\"vendorItemIds\":[\"BEESPR-17550-2\"]}},{\"vendorChargeId\":\"VENDOR-CHARGE-BEESPR-17550-OVERPRICE-PLR\",\"type\":\"OVERPRICE\",\"conditions\":{\"paymentMethod\":\"CREDIT\"},\"output\":{\"scope\":\"LINE_ITEM\",\"applyTo\":\"BASE_PRICE\",\"type\":\"PERCENT\",\"value\":4.00,\"ratio\":\"FIXED\",\"vendorItemIds\":[\"BEESPR-17550-4\"]}}]}"
+}
