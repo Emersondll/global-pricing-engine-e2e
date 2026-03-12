@@ -1,0 +1,5 @@
+{
+  "entity": "CHARGES",
+  "version": "v3",
+  "payload": "{\"ids\":[\"## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##\"],\"type\":\"ACCOUNT\",\"charges\": [ { \"vendorChargeId\": \"VENDOR-CHARGE-OVERPRICE-01\", \"type\": \"OVERPRICE\", \"conditions\": { \"paymentMethod\": \"CREDIT\" }, \"output\": { \"scope\": \"LINE_ITEM\", \"applyTo\": \"BASE_PRICE\", \"type\": \"PERCENT\", \"value\": 3, \"vendorItemIds\": [ \"VENDOR-SKU-BEESPR-15572-1\", \"VENDOR-SKU-BEESPR-15572-2\" ] } }]}"
+}
