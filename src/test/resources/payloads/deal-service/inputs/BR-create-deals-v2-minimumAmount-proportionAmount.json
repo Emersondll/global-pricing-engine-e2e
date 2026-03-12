@@ -1,0 +1,46 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "deals": [
+    {
+      "scenarioDescription": "MinimumAmount and ProportionAmount validation",
+      "vendorDealId": "VENDOR-DEAL-BEESPR-21949",
+      "vendorPromotionId": "VENDOR-PROMO-BEESPR-21949",
+      "accumulationType": "ADD",
+      "hiddenOnBrowse": null,
+      "priority": 1,
+      "level": 0,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-BEESPR-21949"
+          ],
+          "minimumQuantity": 1,
+          "crossDiscount": true,
+          "minimumAmount": 200,
+          "sharedMinimumQuantity": false
+        }
+      },
+      "output": {
+        "freeGoods": {
+          "fixed": false,
+          "proportionAmount": 200,
+          "partial": false,
+          "items": [
+            {
+              "vendorItems": [
+                {
+                  "vendorItemId": "VENDOR-BEESPR-21949-FREEGOOD",
+                  "measureUnit": "UNIT"
+                }
+              ],
+              "quantity": 1
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
