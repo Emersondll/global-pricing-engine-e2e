@@ -1,0 +1,36 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "deals": [
+    {
+      "vendorDealId": "VENDOR-DEAL-01-BEESPR-20051",
+      "vendorPromotionId": "VENDOR-PROMO-01-BEESPR-20051",
+      "conditions": {
+        "multipleLineItem": {
+          "items": [
+            {
+              "vendorItemIds": [
+                "VENDOR-SKU-BEESPR-20051-1"
+              ],
+              "minimumAmount": 200.00
+            }
+          ]
+        }
+      },
+      "output": {
+        "multipleLineItemDiscount": {
+          "type": "%",
+          "items": [
+            {
+              "vendorItemId": "VENDOR-SKU-BEESPR-20051-1",
+              "value": "10"
+            }
+          ],
+          "proportion": null
+        }
+      }
+    }
+  ]
+}
