@@ -1,0 +1,5 @@
+{
+  "entity": "CHARGES",
+  "version": "V3",
+  "payload": "{\"type\":\"VENDOR\",\"ids\":[\"## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##\"],\"charges\":[{\"vendorChargeId\":\"VENDOR-CHARGE-BEESPR-17550-OVERPRICE-VDR\",\"type\":\"OVERPRICE\",\"conditions\":{\"paymentMethod\":\"CREDIT\"},\"output\":{\"scope\":\"LINE_ITEM\",\"applyTo\":\"BASE_PRICE\",\"type\":\"PERCENT\",\"value\":55.00,\"ratio\":\"FIXED\",\"vendorItemIds\":[\"BEESPR-17550-1\"]}}]}"
+}
