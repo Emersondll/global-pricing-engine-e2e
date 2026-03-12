@@ -1,0 +1,5 @@
+{
+  "entity": "CHARGES",
+  "version": "v3",
+  "payload": "{\"ids\":[\"## WILL BE REPLACED BY DYNAMIC DELIVERY_CENTER_ID WITH KEY 1 ##\"],\"type\":\"DELIVERY_CENTER\",\"charges\": [{ \"vendorChargeId\": \"VENDOR-CHARGE-DELIVERY-DDC-01\", \"type\": \"DELIVERY_DATE_FEE\", \"conditions\": { \"alternativeDeliveryDate\": true, \"orderTotal\": { \"maximumValue\": 5000.00 } }, \"output\": { \"scope\": \"ORDER\", \"applyTo\": \"TOTAL\", \"type\": \"AMOUNT\", \"value\": 1000.01 } } ]}"
+}
