@@ -1,0 +1,5 @@
+{
+  "entity": "COMBOS_DELIVERY_CENTERS",
+  "version": "v3",
+  "payload": "{\"vendorDeliveryCenterIds\":[\"## WILL BE REPLACED BY DYNAMIC DELIVERY_CENTER_ID WITH KEY 1 ##\"],\"combos\":[{\"vendorComboId\":\"VENDOR-COMBO-BEESPR-17550-3\",\"title\":\"VENDOR-COMBO-BEESPR-17550-3\",\"type\":\"D\",\"description\":\"Combo for DDC item: BEESPR-17550-3\",\"image\":null,\"startDate\":\"2021-12-13T00:00:00+00:00\",\"endDate\":\"2099-12-31T23:59:59+00:00\",\"items\":[{\"vendorItemId\":\"BEESPR-17550-3\",\"vendorComboItemId\":\"COMBO-BEESPR-17550-3\",\"price\":10.00,\"quantity\":3,\"returnable\":false}],\"translations\":{\"fr-CA\":{\"title\":\"TitleFR\",\"description\":\"descriptionFR\",\"image\":\"imageFR\"}},\"defaultLanguage\":\"en-CA\",\"originalPrice\":36,\"price\":30,\"discountPercentOff\":0}]}"
+}
