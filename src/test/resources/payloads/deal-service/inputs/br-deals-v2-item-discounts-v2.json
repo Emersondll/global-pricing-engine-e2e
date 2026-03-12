@@ -1,0 +1,83 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##"
+  ],
+  "deals": [
+    {
+      "scenarioDescription": "[Price Range V2] Scaled Line Item",
+      "vendorDealId": "VENDOR-DEAL-6",
+      "vendorPromotionId": "PROMO-1",
+      "accumulationType": "ADD",
+      "priority": 1,
+      "level": 0,
+      "timezone": "America/Sao_Paulo",
+      "conditions": {
+        "paymentMethod": "CASH",
+        "deliveryDate": [
+          {
+            "startDate": "2022-06-01",
+            "endDate": "2122-08-01"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-15566-01",
+            "VENDOR-SKU-BEESPR-16583-01"
+          ],
+          "minimumQuantity": 10,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-15566-01",
+            "VENDOR-SKU-BEESPR-16583-01"
+          ],
+          "type": "%",
+          "value": 8,
+          "maxQuantity": null,
+          "proportion": null
+        }
+      }
+    },
+    {
+      "scenarioDescription": "[Price Range V2] Scaled Line Item - prices with taxes.proportional = true",
+      "vendorDealId": "VENDOR-DEAL-BEESPR-18695-1",
+      "vendorPromotionId": "PROMO-1",
+      "priority": 1,
+      "level": 0,
+      "timezone": "America/Sao_Paulo",
+      "conditions": {
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-18965-01",
+            "VENDOR-SKU-BEESPR-18965-02",
+            "VENDOR-SKU-BEESPR-18965-03",
+            "VENDOR-SKU-BEESPR-18965-04",
+            "VENDOR-SKU-BEESPR-20479-05"
+          ],
+          "minimumQuantity": 10,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-18965-01",
+            "VENDOR-SKU-BEESPR-18965-02",
+            "VENDOR-SKU-BEESPR-18965-03",
+            "VENDOR-SKU-BEESPR-18965-04",
+            "VENDOR-SKU-BEESPR-20479-05"
+          ],
+          "type": "$",
+          "value": 10,
+          "maxQuantity": null,
+          "proportion": null
+        }
+      }
+    }
+  ]
+}
