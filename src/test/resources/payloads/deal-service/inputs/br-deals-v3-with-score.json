@@ -1,0 +1,13 @@
+[
+  {
+    "type": "ACCOUNT",
+    "ids": [
+      "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+    ],
+    "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+    "score": 1,
+    "vendorDealId": [
+      "ALGO-SELLING-VENDOR-DEAL-1"
+    ]
+  }
+]
