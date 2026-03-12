@@ -1,0 +1,46 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "deals": [
+    {
+      "scenarioDescription": "Deal will not be applied, SKU has minimumPrice",
+      "vendorDealId": "ALGO-SELLING-VENDOR-DEAL-1",
+      "vendorPromotionId": "ALGO-SELLING-VENDOR-PROMO-1",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "conditions": {
+        "simulationDateTime": {
+          "startDateTime": "2018-01-01 00:00",
+          "endDateTime": "2039-12-30 00:00"
+        },
+        "deliveryDate": [
+          {
+            "startDate": "2018-01-01",
+            "endDate": "2039-12-30"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESAS-22572"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESAS-22572"
+          ],
+          "type": "%",
+          "value": 50,
+          "maxQuantity": 5000,
+          "fixed": true
+        }
+      }
+    }
+  ]
+}
