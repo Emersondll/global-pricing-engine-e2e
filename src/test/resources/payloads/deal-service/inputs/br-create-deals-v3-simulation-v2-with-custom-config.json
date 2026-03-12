@@ -1,0 +1,81 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "deals": [
+    {
+      "scenarioDescription": "Simple ScaledLineItem Discount 1",
+      "vendorDealId": "VENDOR-DEAL-1",
+      "vendorPromotionId": "VENDOR-PROMO-1",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "conditions": {
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-19559-1-2-1",
+            "VENDOR-SKU-BEESPR-19559-2-2-1"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemScaledDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-19559-1-2-1",
+            "VENDOR-SKU-BEESPR-19559-2-2-1"
+          ],
+          "ranges": [
+            {
+              "from": 1,
+              "to": 5,
+              "type": "$",
+              "value": 1,
+              "maxQuantity": null,
+              "proportion": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioDescription": "Simple ScaledLineItem Discount 1",
+      "vendorDealId": "VENDOR-DEAL-2",
+      "vendorPromotionId": "VENDOR-PROMO-2",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "conditions": {
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-19559-1-2-1",
+            "VENDOR-SKU-BEESPR-19559-2-2-1"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemScaledDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-19559-1-2-1",
+            "VENDOR-SKU-BEESPR-19559-2-2-1"
+          ],
+          "ranges": [
+            {
+              "from": 6,
+              "to": 10,
+              "type": "$",
+              "value": 2,
+              "maxQuantity": null,
+              "proportion": null
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
