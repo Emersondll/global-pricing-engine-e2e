@@ -1,0 +1,6 @@
+{
+  "entity": "PRICES",
+  "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+  "version": "v3",
+  "payload": "{\"type\": \"VENDOR\",\"ids\": [\"## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##\"],\"prices\": [{\"type\": \"PER_UNIT\",\"vendorItemId\": \"BEESPR-16872-SKU002\",\"sku\": \"BEESPR-16872-SKU002\",\"basePrice\": 982.91,\"measureUnit\": \"CS\",\"minimumPrice\": 500.99,\"deposit\": 39.99,\"consignment\": 21.75,\"quantityPerPallet\": 88,\"promotionalPrice\": {\"price\": 890.99,\"externalId\": \"ZTPM\",\"validUntil\": \"2025-12-31\"}}]}"
+}
