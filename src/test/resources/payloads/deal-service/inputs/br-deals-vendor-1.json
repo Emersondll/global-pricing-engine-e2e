@@ -1,0 +1,131 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "deals": [
+    {
+      "scenarioDescription": "Deal with conditions and max quantity",
+      "vendorDealId": "VENDOR-DEAL-1",
+      "vendorPromotionId": "VENDOR-PROMO-1",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "conditions": {
+        "simulationDateTime": {
+          "startDateTime": "2018-01-01 00:00",
+          "endDateTime": "2039-12-30 00:00"
+        },
+        "deliveryDate": [
+          {
+            "startDate": "2018-01-01",
+            "endDate": "2039-12-30"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-15572-1"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-15572-1",
+            "VENDOR-SKU-BEESPR-15572-2",
+            "VENDOR-SKU-BEESPR-15572-3"
+          ],
+          "type": "%",
+          "value": 10,
+          "maxQuantity": 5,
+          "fixed": true
+        }
+      }
+    },
+    {
+      "scenarioDescription": "Free Goods",
+      "vendorDealId": "VENDOR-DEAL-2",
+      "vendorPromotionId": "VENDOR-PROMO-2",
+      "priority": 1,
+      "level": 1,
+      "conditions": {
+        "simulationDateTime": {
+          "startDateTime": "2021-12-06 00:00",
+          "endDateTime": "2091-12-24 00:00"
+        },
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-15572-4"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "freeGoods": {
+          "partial": true,
+          "items": [
+            {
+              "vendorItems": [
+                {
+                  "vendorItemId": "VENDOR-SKU-1",
+                  "measureUnit": "UNIT",
+                  "price": "48.04"
+                }
+              ],
+              "quantity": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "vendorDealId": "DEAL-BEEPR-19022-ML-1",
+      "vendorPromotionId": "PROMO-BEEPR-19022-ML-1",
+      "externalId": "EXT-BEEPR-19022-ML-1",
+      "priority": 1,
+      "level": 0,
+      "enabled": true,
+      "conditions": {
+        "paymentMethod": "CREDIT",
+        "deliveryDate": [
+          {
+            "startDate": "2018-01-01",
+            "endDate": "2030-12-31"
+          }
+        ],
+        "multipleLineItem": {
+          "items": [
+            {
+              "vendorItemIds": [
+                "VENDOR-ITEM-BEESPR-19022-1",
+                "VENDOR-ITEM-BEESPR-19022-2"
+              ],
+              "minimumQuantity": 1
+            }
+          ]
+        }
+      },
+      "output": {
+        "multipleLineItemDiscount": {
+          "type": "PERCENT_OFF",
+          "items": [
+            {
+              "vendorItemId": "VENDOR-ITEM-BEESPR-19022-1",
+              "value": 10,
+              "maxQuantity": 10
+            },
+            {
+              "vendorItemId": "VENDOR-ITEM-BEESPR-19022-2",
+              "value": 10,
+              "maxQuantity": 10
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
