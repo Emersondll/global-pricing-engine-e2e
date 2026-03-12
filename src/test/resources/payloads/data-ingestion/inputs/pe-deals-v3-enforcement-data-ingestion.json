@@ -1,0 +1,5 @@
+{
+  "entity": "DEALS",
+  "version": "V3",
+  "payload": "{\"type\":\"ACCOUNT\",\"ids\":[\"## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##\"],\"deals\":[{\"vendorDealId\":\"VENDOR-DEAL-BEESPR-18770\",\"vendorPromotionId\":\"VENDOR-PROMO-3\",\"accumulationType\":null,\"priority\":0,\"level\":0,\"hiddenOnBrowse\":true,\"enforced\":true,\"conditions\":{\"paymentMethod\":\"CASH\",\"lineItem\":{\"vendorItemIds\":[\"VENDOR-1-BEESPR-18770\"],\"minimumQuantity\":1,\"sharedMinimumQuantity\":false,\"crossDiscount\":false}},\"output\":{\"lineItemDiscount\":{\"vendorItemIds\":[\"VENDOR-1-BEESPR-18770\"],\"type\":\"$\",\"value\":9.9,\"maxQuantity\":5000,\"fixed\":true}}}]}"
+}
