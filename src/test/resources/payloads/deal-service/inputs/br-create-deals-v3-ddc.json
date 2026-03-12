@@ -1,0 +1,38 @@
+{
+  "type": "DELIVERY_CENTER",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC DELIVERY_CENTER_ID WITH KEY 1 ##"
+  ],
+  "deals": [
+    {
+      "vendorDealId": "VENDOR-DEAL-01-BEESPR-21523",
+      "vendorPromotionId": "VENDOR-PROMO-01-BEESPR-21523",
+      "conditions": {
+        "deliveryDate": [
+          {
+            "startDate": "2018-01-01",
+            "endDate": "2100-12-31"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-ITEM-17575"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "type": "%",
+          "discount": 5,
+          "vendorItemIds": [
+            "VENDOR-ITEM-17575"
+          ],
+          "proportion": null
+        }
+      }
+    }
+  ]
+}
