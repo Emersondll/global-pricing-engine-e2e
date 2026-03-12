@@ -1,0 +1,16 @@
+[
+  {
+    "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+    "itemIds": [
+      "## WILL BE REPLACED BY ITEM_ID WITH VENDOR_ITEM_ID 'VENDOR-ITEM-17575' AND VENDOR KEY 'V-01' ##"
+    ],
+    "couponCode": ["COUPON-CODE-E2E"]
+  },
+  {
+    "deliveryCenterId": "## WILL BE REPLACED BY DYNAMIC DELIVERY_CENTER_ID HASH WITH KEY 1 ##",
+    "itemIds": [
+      "## WILL BE REPLACED BY ITEM_ID WITH VENDOR_ITEM_ID 'VENDOR-ITEM-17575' AND VENDOR KEY 'V-01' ##"
+    ],
+    "couponCode": ["COUPON-CODE-E2E"]
+  }
+]
