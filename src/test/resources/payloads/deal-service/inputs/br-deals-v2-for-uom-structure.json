@@ -1,0 +1,291 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "deals": [
+    {
+      "scenarioDescription": "Line Item",
+      "vendorDealId": "DEAL001",
+      "vendorPromotionId": "VENDOR-PROMO-DEAL-BEESPR-T4598",
+      "priority": 1,
+      "level": 0,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-1-BEESPR-T4598"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-1-BEESPR-T4598"
+          ],
+          "type": "%",
+          "value": 50,
+          "maxQuantity": 10,
+          "proportion": null,
+          "fixed": true
+        }
+      }
+    },
+    {
+      "scenarioDescription": "Scaled Line Item",
+      "vendorDealId": "DEAL002",
+      "vendorPromotionId": "VENDOR-PROMO-5",
+      "priority": 1,
+      "level": 0,
+      "conditions": {
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-1-BEESPR-T4598"
+          ],
+          "minimumQuantity": 10,
+          "sharedMinimumQuantity": true,
+          "crossDiscount": true
+        }
+      },
+      "output": {
+        "lineItemScaledDiscount": {
+          "vendorItemIds": [
+            "VENDOR-1-BEESPR-T4598"
+          ],
+          "ranges": [
+            {
+              "from": 1,
+              "to": 10,
+              "type": "PERCENT_OFF",
+              "fixed": false,
+              "value": 20,
+              "maxQuantity": 10
+            },
+            {
+              "from": 11,
+              "to": 20,
+              "type": "PERCENT_OFF",
+              "fixed": false,
+              "value": 30,
+              "maxQuantity": 20
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioDescription": "Free Goods",
+      "vendorDealId": "DEAL003",
+      "vendorPromotionId": "VENDOR-PROMO-4",
+      "priority": 1,
+      "level": 1,
+      "conditions": {
+        "simulationDateTime": {
+          "startDateTime": "2021-12-06 00:00",
+          "endDateTime": "2091-12-24 00:00"
+        },
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-1-BEESPR-T4598"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "freeGoods": {
+          "partial": true,
+          "items": [
+            {
+              "vendorItems": [
+                {
+                  "vendorItemId": "VENDOR-1-BEESPR-T4598",
+                  "price": "48.04"
+                }
+              ],
+              "quantity": 10
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioDescription": "Scaled Free Goods",
+      "vendorDealId": "DEAL004",
+      "vendorPromotionId": "VENDOR-PROMO-10",
+      "accumulationType": "UNIQUE",
+      "priority": 478,
+      "level": 1,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2021-05-18 00:00",
+          "endDateTime": "3000-01-01 00:00"
+        },
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-1-BEESPR-T4598"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "scaledFreeGoods": {
+          "partial": false,
+          "ranges": [
+            {
+              "from": 1,
+              "to": 999999,
+              "fixed": false,
+              "proportion": null,
+              "items": [
+                {
+                  "vendorItems": [
+                    {
+                      "vendorItemId": "VENDOR-1-BEESPR-T4598",
+                      "measureUnit": "Unit",
+                      "price": "0.01"
+                    }
+                  ],
+                  "quantity": 2
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioDescription": "Multiple Line Item",
+      "vendorDealId": "VENDOR-DEAL-2",
+      "vendorPromotionId": "VENDOR-PROMO-2",
+      "priority": 1,
+      "level": 0,
+      "conditions": {
+        "multipleLineItem": {
+          "items": [
+            {
+              "vendorItemIds": [
+                "VENDOR-1-BEESPR-T4598",
+                "VENDOR-1-BEESPR-T4598-2",
+                "VENDOR-1-BEESPR-T4598-3"
+              ],
+              "minimumQuantity": 1
+            }
+          ]
+        }
+      },
+      "output": {
+        "multipleLineItemDiscount": {
+          "type": "PERCENT_OFF",
+          "items": [
+            {
+              "vendorItemId": "VENDOR-1-BEESPR-T4598",
+              "value": 5.0000
+            },
+            {
+              "vendorItemId": "VENDOR-1-BEESPR-T4598-2",
+              "value": 5.0000
+            },
+            {
+              "vendorItemId": "VENDOR-1-BEESPR-T4598-3",
+              "value": 12.0000
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioDescription": "Line Item deal for tests with price with tax.proportial = true",
+      "vendorDealId": "VENDOR-DEAL-BEESPR-18696-1",
+      "vendorPromotionId": "VENDOR-PROMO-BEESPR-18696-1",
+      "priority": 1,
+      "level": 0,
+      "conditions": {
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-1-BEESPR-18696-1"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-1-BEESPR-18696-1"
+          ],
+          "type": "$",
+          "value": 9.99,
+          "maxQuantity": 50
+        }
+      }
+    },
+    {
+      "scenarioDescription": "Line Item deal for tests with price with tax.proportial = true and other tax percent",
+      "vendorDealId": "VENDOR-DEAL-BEESPR-18696-2",
+      "vendorPromotionId": "VENDOR-PROMO-BEESPR-18696-2",
+      "priority": 1,
+      "level": 0,
+      "conditions": {
+        "deliveryDate": [
+          {
+            "startDate": "2018-01-01",
+            "endDate": "2029-12-31"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-1-BEESPR-18696-2"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-1-BEESPR-18696-2"
+          ],
+          "type": "$",
+          "value": 9.53,
+          "maxQuantity": 50
+        }
+      }
+    },
+    {
+      "scenarioDescription": "Line Item deal for tests with price with tax.proportial = null",
+      "vendorDealId": "VENDOR-DEAL-BEESPR-18696-3",
+      "vendorPromotionId": "VENDOR-PROMO-BEESPR-18696-3",
+      "priority": 1,
+      "level": 0,
+      "conditions": {
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-1-BEESPR-18696-3"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-1-BEESPR-18696-3"
+          ],
+          "type": "$",
+          "value": 19.99,
+          "maxQuantity": 50
+        }
+      }
+    }
+  ]
+}
