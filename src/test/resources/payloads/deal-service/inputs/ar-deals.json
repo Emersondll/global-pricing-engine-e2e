@@ -1,0 +1,851 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##"
+  ],
+  "deals": [
+    {
+      "scenarioDescription": "ADD accumulation type",
+      "vendorDealId": "VENDOR-DEAL-1",
+      "vendorPromotionId": "VENDOR-PROMO-1",
+      "accumulationType": "ADD",
+      "priority": 1,
+      "level": 1,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2021-02-01 00:00",
+          "endDateTime": "2999-12-31 23:59"
+        },
+        "multipleLineItem": {
+          "items": [
+            {
+              "vendorItemIds": [
+                "VENDOR-SKU-1",
+                "VENDOR-SKU-2",
+                "VENDOR-SKU-3",
+                "VENDOR-SKU-4",
+                "VENDOR-SKU-6"
+              ],
+              "minimumQuantity": 4
+            }
+          ]
+        }
+      },
+      "output": {
+        "multipleLineItemDiscount": {
+          "type": "PERCENT_OFF",
+          "items": [
+            {
+              "vendorItemId": "VENDOR-SKU-1",
+              "value": 5.0000
+            },
+            {
+              "vendorItemId": "VENDOR-SKU-2",
+              "value": 5.0000
+            },
+            {
+              "vendorItemId": "VENDOR-SKU-3",
+              "value": 5.0000
+            },
+            {
+              "vendorItemId": "VENDOR-SKU-4",
+              "value": 5.0000
+            },
+            {
+              "vendorItemId": "VENDOR-SKU-6",
+              "value": 5.0000
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioDescription": "ADD accumulation type",
+      "vendorDealId": "VENDOR-DEAL-2",
+      "vendorPromotionId": "VENDOR-PROMO-2",
+      "accumulationType": "ADD",
+      "priority": 2,
+      "level": 1,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2021-02-01 00:00",
+          "endDateTime": "2999-12-31 23:59"
+        },
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-1"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": true,
+          "crossDiscount": true
+        }
+      },
+      "output": {
+        "lineItemScaledDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-1"
+          ],
+          "ranges": [
+            {
+              "from": 1,
+              "to": 9999999,
+              "type": "%",
+              "value": 15.0000,
+              "proportion": null,
+              "maxQuantity": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioDescription": "COMPOSE accumulation type",
+      "vendorDealId": "VENDOR-DEAL-3",
+      "vendorPromotionId": "VENDOR-PROMO-3",
+      "accumulationType": "COMPOSE",
+      "priority": 3,
+      "level": 1,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2021-02-01 00:00",
+          "endDateTime": "2999-12-31 23:59"
+        },
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-1",
+            "VENDOR-SKU-2",
+            "VENDOR-SKU-3",
+            "VENDOR-SKU-4"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": true,
+          "crossDiscount": true
+        }
+      },
+      "output": {
+        "lineItemScaledDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-1",
+            "VENDOR-SKU-2",
+            "VENDOR-SKU-3",
+            "VENDOR-SKU-4"
+          ],
+          "ranges": [
+            {
+              "from": 1,
+              "to": 9999999,
+              "type": "%",
+              "value": 10.0000,
+              "proportion": null,
+              "maxQuantity": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioDescription": "COMPOSE accumulation type",
+      "vendorDealId": "VENDOR-DEAL-4",
+      "vendorPromotionId": "VENDOR-PROMO-4",
+      "accumulationType": "COMPOSE",
+      "priority": 4,
+      "level": 1,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2021-02-01 00:00",
+          "endDateTime": "2999-12-31 23:59"
+        },
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-1"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": true,
+          "crossDiscount": true
+        }
+      },
+      "output": {
+        "lineItemScaledDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-1"
+          ],
+          "ranges": [
+            {
+              "from": 1,
+              "to": 9999999,
+              "type": "%",
+              "value": 20.0000,
+              "proportion": null,
+              "maxQuantity": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioDescription": "UNIQUE accumulation type",
+      "vendorDealId": "VENDOR-DEAL-5",
+      "vendorPromotionId": "VENDOR-PROMO-5",
+      "accumulationType": "UNIQUE",
+      "priority": 5,
+      "level": 1,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2021-02-01 00:00",
+          "endDateTime": "2999-12-31 23:59"
+        },
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-2"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemScaledDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-2"
+          ],
+          "ranges": [
+            {
+              "from": 1,
+              "to": 9999999,
+              "type": "%",
+              "value": 10.0000,
+              "proportion": null,
+              "maxQuantity": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioDescription": "UNIQUE accumulation type",
+      "vendorDealId": "VENDOR-DEAL-6",
+      "vendorPromotionId": "VENDOR-PROMO-6",
+      "accumulationType": "UNIQUE",
+      "priority": 6,
+      "level": 1,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2021-02-01 00:00",
+          "endDateTime": "2999-12-31 23:59"
+        },
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-2"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemScaledDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-2"
+          ],
+          "ranges": [
+            {
+              "from": 1,
+              "to": 9999999,
+              "type": "%",
+              "value": 20.0000,
+              "proportion": null,
+              "maxQuantity": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioDescription": "HIGH accumulation type",
+      "vendorDealId": "VENDOR-DEAL-7",
+      "vendorPromotionId": "VENDOR-PROMO-7",
+      "accumulationType": "HIGH",
+      "priority": 7,
+      "level": 1,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2021-02-01 00:00",
+          "endDateTime": "2999-12-31 23:59"
+        },
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-3"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": true,
+          "crossDiscount": true
+        }
+      },
+      "output": {
+        "lineItemScaledDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-3"
+          ],
+          "ranges": [
+            {
+              "from": 1,
+              "to": 9999999,
+              "type": "%",
+              "value": 40.0000,
+              "proportion": null,
+              "maxQuantity": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioDescription": "LOW accumulation type",
+      "vendorDealId": "VENDOR-DEAL-8",
+      "vendorPromotionId": "VENDOR-PROMO-8",
+      "accumulationType": "LOW",
+      "priority": 8,
+      "level": 1,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2021-02-01 00:00",
+          "endDateTime": "2999-12-31 23:59"
+        },
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-4"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemScaledDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-4"
+          ],
+          "ranges": [
+            {
+              "from": 1,
+              "to": 9999999,
+              "type": "%",
+              "value": 14.0000,
+              "proportion": null,
+              "maxQuantity": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioDescription": "CREDIT payment method",
+      "vendorDealId": "VENDOR-DEAL-9",
+      "vendorPromotionId": "VENDOR-PROMO-9",
+      "accumulationType": "ADD",
+      "priority": 9,
+      "level": 1,
+      "conditions": {
+        "paymentMethod": "CREDIT",
+        "simulationDateTime": {
+          "startDateTime": "2021-02-01 00:00",
+          "endDateTime": "2999-12-31 23:59"
+        },
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-1"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemScaledDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-1"
+          ],
+          "ranges": [
+            {
+              "from": 1,
+              "to": 9999999,
+              "type": "%",
+              "value": 15.0000,
+              "proportion": null,
+              "maxQuantity": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioDescription": "Scaled Free Goods",
+      "vendorDealId": "VENDOR-DEAL-10",
+      "vendorPromotionId": "VENDOR-PROMO-10",
+      "accumulationType": "UNIQUE",
+      "priority": 478,
+      "level": 1,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2021-05-18 00:00",
+          "endDateTime": "3000-01-01 00:00"
+        },
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-5"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "scaledFreeGoods": {
+          "partial": false,
+          "ranges": [
+            {
+              "from": 1,
+              "to": 999999,
+              "fixed": false,
+              "proportion": null,
+              "items": [
+                {
+                  "vendorItems": [
+                    {
+                      "vendorItemId": "VENDOR-SKU-5",
+                      "measureUnit": "Unit",
+                      "price": "0.01"
+                    }
+                  ],
+                  "quantity": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioDescription": "Deal compose being the first(lower priority) deal of the item",
+      "vendorDealId": "VENDOR-DEAL-11",
+      "vendorPromotionId": "VENDOR-PROMO-11",
+      "accumulationType": "COMPOSE",
+      "priority": 0,
+      "level": 1,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2021-02-01 00:00",
+          "endDateTime": "2999-12-31 23:59"
+        },
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-6"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemScaledDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-6"
+          ],
+          "ranges": [
+            {
+              "from": 1,
+              "to": 9999999,
+              "type": "%",
+              "value": 10.0000,
+              "proportion": null,
+              "maxQuantity": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioDescription": "Deal with priority and maxQuantity filled in",
+      "vendorDealId": "VENDOR-DEAL-12",
+      "vendorPromotionId": "VENDOR-PROMO-12",
+      "accumulationType": "ADD",
+      "priority": 1,
+      "level": 1,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2021-02-01 00:00",
+          "endDateTime": "2999-12-31 23:59"
+        },
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-6"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemScaledDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-6"
+          ],
+          "ranges": [
+            {
+              "from": 1,
+              "to": 9999999,
+              "type": "%",
+              "value": 10.0000,
+              "proportion": null,
+              "maxQuantity": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioDescription": "Deal with maxQuantity filled in",
+      "vendorDealId": "VENDOR-DEAL-13",
+      "vendorPromotionId": "VENDOR-PROMO-13",
+      "accumulationType": "HIGH",
+      "priority": 2,
+      "level": 1,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2021-02-01 00:00",
+          "endDateTime": "2999-12-31 23:59"
+        },
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-6"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemScaledDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-6"
+          ],
+          "ranges": [
+            {
+              "from": 1,
+              "to": 9999999,
+              "type": "%",
+              "value": 17.0000,
+              "proportion": null,
+              "maxQuantity": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioDescription": "Scaled Free Goods with accumulation type different of UNIQUE -> Will be ignored",
+      "vendorDealId": "VENDOR-DEAL-BEESPR-15128-1",
+      "vendorPromotionId": "VENDOR-DEAL-BEESPR-15128-1",
+      "accumulationType": "COMPOSE",
+      "priority": 0,
+      "level": 1,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2021-05-18 00:00",
+          "endDateTime": "3000-01-01 00:00"
+        },
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-6"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "scaledFreeGoods": {
+          "partial": false,
+          "ranges": [
+            {
+              "from": 1,
+              "to": 999999,
+              "fixed": false,
+              "proportion": null,
+              "items": [
+                {
+                  "vendorItems": [
+                    {
+                      "vendorItemId": "VENDOR-SKU-5",
+                      "measureUnit": "Unit",
+                      "price": "5.00"
+                    }
+                  ],
+                  "quantity": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioDescription": "Scaled Free Goods with proportion -> Lower total discount to priority 0, will be applied",
+      "vendorDealId": "VENDOR-DEAL-BEESPR-15128-2",
+      "vendorPromotionId": "VENDOR-DEAL-BEESPR-15128-2",
+      "accumulationType": "UNIQUE",
+      "priority": 0,
+      "level": 1,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2021-05-18 00:00",
+          "endDateTime": "3000-01-01 00:00"
+        },
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-6"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "scaledFreeGoods": {
+          "partial": false,
+          "ranges": [
+            {
+              "from": 1,
+              "to": 4,
+              "fixed": false,
+              "proportion": null,
+              "items": [
+                {
+                  "vendorItems": [
+                    {
+                      "vendorItemId": "VENDOR-SKU-5",
+                      "measureUnit": "Unit",
+                      "price": "3.00"
+                    }
+                  ],
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "from": 5,
+              "to": 15,
+              "fixed": false,
+              "proportion": 3,
+              "items": [
+                {
+                  "vendorItems": [
+                    {
+                      "vendorItemId": "VENDOR-SKU-5",
+                      "measureUnit": "Unit",
+                      "price": "8.00"
+                    },
+                    {
+                      "vendorItemId": "VENDOR-SKU-6",
+                      "measureUnit": "Unit",
+                      "price": "2.00"
+                    }
+                  ],
+                  "quantity": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioDescription": "Scaled Free Goods with proportion",
+      "vendorDealId": "VENDOR-DEAL-BEESPR-15128-3",
+      "vendorPromotionId": "VENDOR-DEAL-BEESPR-15128-3",
+      "accumulationType": "UNIQUE",
+      "priority": 0,
+      "level": 1,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2021-05-18 00:00",
+          "endDateTime": "3000-01-01 00:00"
+        },
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-6"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "freeGoods": {
+          "partial": false,
+          "proportion": 3,
+          "items": [
+            {
+              "vendorItems": [
+                {
+                  "vendorItemId": "VENDOR-SKU-5",
+                  "measureUnit": "Unit",
+                  "price": "6.00"
+                }
+              ],
+              "quantity": 1
+            },
+            {
+              "vendorItems": [
+                {
+                  "vendorItemId": "VENDOR-SKU-6",
+                  "measureUnit": "Unit",
+                  "price": "3.00"
+                }
+              ],
+              "quantity": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioDescription": "Scaled Free Goods with priority null(processed as 1) -> Lower total discount to priority 1, will be applied",
+      "vendorDealId": "VENDOR-DEAL-BEESPR-15128-4",
+      "vendorPromotionId": "VENDOR-DEAL-BEESPR-15128-4",
+      "accumulationType": "UNIQUE",
+      "priority": 1,
+      "level": 1,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2021-05-18 00:00",
+          "endDateTime": "3000-01-01 00:00"
+        },
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-6"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "scaledFreeGoods": {
+          "partial": false,
+          "ranges": [
+            {
+              "from": 1,
+              "to": 999999,
+              "fixed": false,
+              "proportion": 1,
+              "items": [
+                {
+                  "vendorItems": [
+                    {
+                      "vendorItemId": "VENDOR-SKU-3",
+                      "measureUnit": "Unit",
+                      "price": "2.00"
+                    },
+                    {
+                      "vendorItemId": "VENDOR-SKU-2",
+                      "measureUnit": "Unit",
+                      "price": "2.00"
+                    },
+                    {
+                      "vendorItemId": "VENDOR-SKU-5",
+                      "measureUnit": "Unit",
+                      "price": "6.00"
+                    }
+                  ],
+                  "quantity": 1
+                },
+                {
+                  "vendorItems": [
+                    {
+                      "vendorItemId": "VENDOR-SKU-7",
+                      "measureUnit": "Unit",
+                      "price": "2.00"
+                    },
+                    {
+                      "vendorItemId": "VENDOR-SKU-8",
+                      "measureUnit": "Unit",
+                      "price": "2.00"
+                    }
+                  ],
+                  "quantity": 2
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioDescription": "Scaled Free Goods with proportion null",
+      "vendorDealId": "VENDOR-DEAL-BEESPR-15128-5",
+      "vendorPromotionId": "VENDOR-DEAL-BEESPR-15128-5",
+      "accumulationType": "UNIQUE",
+      "priority": 1,
+      "level": 1,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2021-05-18 00:00",
+          "endDateTime": "3000-01-01 00:00"
+        },
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-6"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "freeGoods": {
+          "partial": false,
+          "proportion": null,
+          "items": [
+            {
+              "vendorItems": [
+                {
+                  "vendorItemId": "VENDOR-SKU-5",
+                  "measureUnit": "Unit",
+                  "price": "9.00"
+                }
+              ],
+              "quantity": 10
+            },
+            {
+              "vendorItems": [
+                {
+                  "vendorItemId": "VENDOR-SKU-6",
+                  "measureUnit": "Unit",
+                  "price": "3.00"
+                }
+              ],
+              "quantity": 4
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
