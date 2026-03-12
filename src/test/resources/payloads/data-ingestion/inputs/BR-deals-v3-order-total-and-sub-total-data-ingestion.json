@@ -1,0 +1,5 @@
+{
+  "entity": "DEALS",
+  "version": "V3",
+  "payload": "{\"type\":\"ACCOUNT\",\"ids\":[\"## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##\"],\"deals\":[{\"vendorDealId\":\"VENDOR-DEAL-BEESPR-20743-V2-2\",\"vendorPromotionId\":\"VENDOR-PROMO-20743-V2-2\",\"accumulationType\":\"ADD\",\"priority\":1,\"level\":1,\"timezone\":\"America/Sao_Paulo\",\"hiddenOnBrowse\":\"true\",\"conditions\":{\"firstOrder\":false,\"couponCode\":\"BEESPR-20743\",\"amounts\":[{\"value\":100,\"field\":\"TOTAL\",\"operator\":\"GE\",\"scope\":\"ORDER\"}]},\"output\":{\"orderTotalDiscount\":{\"type\":\"$\",\"discount\":10,\"proportion\":null}},\"enforced\":false},{\"vendorDealId\":\"VENDOR-DEAL-BEESPR-20743-V2-3\",\"vendorPromotionId\":\"VENDOR-PROMO-20743-V2-3\",\"accumulationType\":\"ADD\",\"priority\":1,\"level\":1,\"timezone\":\"America/Sao_Paulo\",\"hiddenOnBrowse\":\"true\",\"conditions\":{\"firstOrder\":false,\"couponCode\":\"BEESPR-20743\",\"amounts\":[{\"value\":100,\"field\":\"SUBTOTAL\",\"operator\":\"GE\",\"scope\":\"ORDER\"}]},\"output\":{\"orderTotalDiscount\":{\"type\":\"$\",\"discount\":10,\"proportion\":null}},\"enforced\":false}]}"
+}
