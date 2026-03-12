@@ -1,0 +1,5 @@
+{
+  "entity": "DEALS",
+  "version": "V3",
+  "payload": "{\"type\":\"DELIVERY_CENTER\",\"ids\":[\"## WILL BE REPLACED BY DYNAMIC DELIVERY_CENTER_ID WITH KEY 1 ##\"],\"deals\":[{\n\"vendorDealId\":\"VENDOR-DEAL-DDC-2\",\n\"vendorPromotionId\":\"VENDOR-PROMO-DDC-2\",\n\"accumulationType\":null,\n\"priority\":1,\n\"level\":0,\n\"conditions\":{\n\"deliveryDate\":[\n{\n\"startDate\":\"2018-01-01\",\n\"endDate\":\"2039-12-30\"\n}\n],\n\"lineItem\":{\n\"vendorItemIds\":[\n\"VENDOR-ITEM-BEESPR-17374\"\n],\n\"minimumQuantity\":1,\n\"sharedMinimumQuantity\":false,\n\"crossDiscount\":false\n}\n},\n\"output\":{\n\"lineItemDiscount\":{\n\"vendorItemIds\":[\n\"VENDOR-ITEM-BEESPR-17374\"\n],\n\"type\":\"%\",\n\"value\":20,\n\"maxQuantity\":5000,\n\"fixed\":true\n}\n}\n}]}"
+}
