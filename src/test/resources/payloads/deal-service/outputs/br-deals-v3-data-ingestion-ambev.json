@@ -1,0 +1,129 @@
+{
+  "deals": [
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-1",
+      "vendorPromotionId": "VENDOR-PROMO-1",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "timezone": "America/Sao_Paulo",
+      "hiddenOnBrowse": false,
+      "conditions": {
+        "couponCode": "COUPON-CODE-E2E",
+        "deliveryDate": [
+          {
+            "startDate": "2018-01-01",
+            "endDate": "2039-12-30"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-ITEM-17575"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-ITEM-17575"
+          ],
+          "type": "%",
+          "value": 50.00000000,
+          "maxQuantity": 5000,
+          "proportion": null
+        }
+      },
+      "vendorId": null
+    },
+    {
+      "deliveryCenterId": "## WILL BE REPLACED BY DYNAMIC DELIVERY_CENTER_ID HASH WITH KEY 1 ##",
+      "contractId": null,
+      "vendorDealId": "VENDOR-DEAL-2",
+      "vendorPromotionId": "VENDOR-PROMO-2",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "timezone": "America/Sao_Paulo",
+      "hiddenOnBrowse": true,
+      "conditions": {
+        "deliveryDate": [
+          {
+            "startDate": "2018-01-01",
+            "endDate": "2039-12-30"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-ITEM-17575"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-ITEM-17575"
+          ],
+          "type": "%",
+          "value": 50.00000000,
+          "maxQuantity": 5000,
+          "proportion": null
+        }
+      },
+      "vendorId": null
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": null,
+      "vendorDealId": "VENDOR-DEAL-3",
+      "vendorPromotionId": "VENDOR-PROMO-3",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "timezone": "America/Sao_Paulo",
+      "hiddenOnBrowse": false,
+      "conditions": {
+        "deliveryDate": [
+          {
+            "startDate": "2018-01-01",
+            "endDate": "2039-12-30"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-ITEM-17575"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-ITEM-17575"
+          ],
+          "type": "%",
+          "value": 50.00000000,
+          "maxQuantity": 5000,
+          "proportion": null
+        }
+      },
+      "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##"
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "hasMore": false
+  }
+}
