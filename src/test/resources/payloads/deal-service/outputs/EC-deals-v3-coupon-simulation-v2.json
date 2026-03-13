@@ -1,0 +1,282 @@
+{
+  "deals": [
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-BEESPR-17680-V2-5-1",
+      "vendorPromotionId": "VENDOR-PROMO-17680-V2-5-1",
+      "accumulationType": "ADD",
+      "priority": 1,
+      "level": 1,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2020-01-01T00:00:00Z",
+          "endDateTime": "2049-03-31"
+        },
+        "deliveryDate": [
+          {
+            "startDate": "2020-01-01",
+            "endDate": "2049-12-31"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-BEESPR-17680-V2-5"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-BEESPR-17680-V2-5"
+          ],
+          "type": "$",
+          "value": 3.00000000,
+          "maxQuantity": null,
+          "proportion": null
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-BEESPR-17680-V2-5",
+      "vendorPromotionId": "VENDOR-PROMO-17680-V2-5",
+      "accumulationType": "ADD",
+      "priority": 1,
+      "level": 1,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2020-01-01T00:00:00Z",
+          "endDateTime": "2049-03-31"
+        },
+        "deliveryDate": [
+          {
+            "startDate": "2020-01-01",
+            "endDate": "2049-12-31"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-BEESPR-17680-V2-5"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        },
+        "couponCode": "CC-17680-V2-5"
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-BEESPR-17680-V2-5"
+          ],
+          "type": "$",
+          "value": 8.00000000,
+          "maxQuantity": null,
+          "proportion": null
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-BEESPR-17680-V2-4",
+      "vendorPromotionId": "VENDOR-PROMO-17680-V2-4",
+      "accumulationType": "ADD",
+      "priority": 1,
+      "level": 1,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2020-01-01T00:00:00Z",
+          "endDateTime": "2049-03-31"
+        },
+        "deliveryDate": [
+          {
+            "startDate": "2020-01-01",
+            "endDate": "2049-12-31"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-BEESPR-17680-V2-4"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        },
+        "couponCode": "CC-17680-V2-4"
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-BEESPR-17680-V2-4"
+          ],
+          "type": "$",
+          "value": 7.00000000,
+          "maxQuantity": null,
+          "proportion": null
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-BEESPR-17680-V2-3",
+      "vendorPromotionId": "VENDOR-PROMO-17680-V2-3",
+      "accumulationType": "ADD",
+      "priority": 1,
+      "level": 1,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2020-01-01T00:00:00Z",
+          "endDateTime": "2049-03-31"
+        },
+        "deliveryDate": [
+          {
+            "startDate": "2020-01-01",
+            "endDate": "2049-12-31"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-BEESPR-17680-V2-3"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": true,
+          "multipleConditionItems": false,
+          "crossDiscount": true
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-BEESPR-17680-V2-3"
+          ],
+          "type": "$",
+          "value": 7.00000000,
+          "maxQuantity": null,
+          "proportion": null
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": true
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-BEESPR-17680-V2-2",
+      "vendorPromotionId": "VENDOR-PROMO-17680-V2-2",
+      "accumulationType": "ADD",
+      "priority": 1,
+      "level": 1,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2020-01-01T00:00:00Z",
+          "endDateTime": "2049-03-31"
+        },
+        "deliveryDate": [
+          {
+            "startDate": "2020-01-01",
+            "endDate": "2049-12-31"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-BEESPR-17680-V2-2"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        },
+        "couponCode": "CC-17680-V2-2"
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-BEESPR-17680-V2-2"
+          ],
+          "type": "$",
+          "value": 6.00000000,
+          "maxQuantity": null,
+          "proportion": null
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": true
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-BEESPR-17680-V2-1",
+      "vendorPromotionId": "VENDOR-PROMO-17680-V2-1",
+      "accumulationType": "ADD",
+      "priority": 1,
+      "level": 1,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2020-01-01T00:00:00Z",
+          "endDateTime": "2049-03-31"
+        },
+        "deliveryDate": [
+          {
+            "startDate": "2020-01-01",
+            "endDate": "2049-12-31"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-BEESPR-17680-V2-1"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": true,
+          "multipleConditionItems": false,
+          "crossDiscount": true
+        },
+        "couponCode": "CC-17680-V2-1"
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-BEESPR-17680-V2-1"
+          ],
+          "type": "$",
+          "value": 7.00000000,
+          "maxQuantity": null,
+          "proportion": null
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "hasMore": false
+  }
+}
