@@ -1,0 +1,215 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##"
+  ],
+  "deals": [
+    {
+      "scenarioDescription": "ADD accumulation type",
+      "vendorDealId": "VENDOR-DEAL-1",
+      "vendorPromotionId": "VENDOR-PROMO-1",
+      "accumulationType": "ADD",
+      "priority": 1,
+      "level": 1,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2021-02-01 00:00",
+          "endDateTime": "2030-12-31 00:00"
+        },
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-14583-1"
+          ],
+          "minimumQuantity": 10,
+          "sharedMinimumQuantity": true,
+          "crossDiscount": true
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-14583-1"
+          ],
+          "type": "PERCENT_OFF",
+          "value": 20,
+          "maxQuantity": 5
+        }
+      }
+    },
+    {
+      "vendorDealId": "VENDOR-DEAL-2",
+      "vendorPromotionId": "VENDOR-PROMO-2",
+      "priority": 1,
+      "level": 0,
+      "conditions": {
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-14583-2"
+          ],
+          "minimumQuantity": 10,
+          "sharedMinimumQuantity": true,
+          "crossDiscount": true
+        }
+      },
+      "output": {
+        "freeGoods": {
+          "proportion": 10,
+          "partial": true,
+          "items": [
+            {
+              "vendorItems": [
+                {
+                  "vendorItemId": "VENDOR-SKU-BEESPR-14583-2",
+                  "measureUnit": "UNIT",
+                  "price": "12.29"
+                }
+              ],
+              "quantity": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioDescription": "Deal Scaled Line Item Discount with more than one gap between ranges",
+      "vendorDealId": "VENDOR-DEAL-4",
+      "vendorPromotionId": "VENDOR-PROMO-4",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "conditions": {
+        "deliveryDate": [
+          {
+            "startDate": "2018-01-01",
+            "endDate": "2039-12-30"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-12744"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemScaledDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-12744"
+          ],
+          "ranges": [
+            {
+              "from": 1,
+              "to": 5,
+              "type": "%",
+              "value": "5"
+            },
+            {
+              "from": 6,
+              "to": 10,
+              "type": "%",
+              "value": "7"
+            },
+            {
+              "from": 11,
+              "to": 20,
+              "type": "%",
+              "value": "9"
+            },
+            {
+              "from": 26,
+              "to": null,
+              "type": "%",
+              "value": "11"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioDescription": "Deal Scaled Line Item Discount with more than one gap between ranges",
+      "vendorDealId": "VENDOR-DEAL-5",
+      "vendorPromotionId": "VENDOR-PROMO-5",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "conditions": {
+        "deliveryDate": [
+          {
+            "startDate": "2018-01-01",
+            "endDate": "2039-12-30"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-12744"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemScaledDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-12744"
+          ],
+          "ranges": [
+            {
+              "from": 5,
+              "to": 14,
+              "type": "%",
+              "value": "10"
+            },
+            {
+              "from": 25,
+              "to": null,
+              "type": "%",
+              "value": "12"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioDescription": "Deal Scaled Line Item Discount with more than one gap between ranges",
+      "vendorDealId": "VENDOR-DEAL-6",
+      "vendorPromotionId": "VENDOR-PROMO-6",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "conditions": {
+        "deliveryDate": [
+          {
+            "startDate": "2018-01-01",
+            "endDate": "2039-12-30"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-12744"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemScaledDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-12744"
+          ],
+          "ranges": [
+            {
+              "from": 1,
+              "to": null,
+              "type": "%",
+              "value": "6"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
