@@ -1,0 +1,50 @@
+{
+  "deals": [
+    {
+      "vendorId": null,
+      "hiddenOnBrowse": false,
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VD-BEESPR-22035-1",
+      "vendorPromotionId": "VD-BEESPR-22035-1",
+      "accumulationType": "ADD",
+      "priority": 1,
+      "level": 1,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "conditions": {
+        "paymentMethod": "CASH",
+        "lineItem": {
+          "vendorItemIds": [
+            "VI-BEESPR-22035-1"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "freeGoods": {
+          "proportion": null,
+          "partial": false,
+          "items": [
+            {
+              "quantity": 10,
+              "vendorItems": [
+                {
+                  "vendorItemId": "FG-VI-BEESPR-22035-1",
+                  "measureUnit": "UNIT",
+                  "price": 5.45
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "hasMore": false
+  }
+}
