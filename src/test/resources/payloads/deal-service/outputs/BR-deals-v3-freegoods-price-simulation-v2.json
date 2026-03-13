@@ -1,0 +1,356 @@
+{
+  "deals": [
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-BEESPR-18293-V2-1",
+      "vendorPromotionId": "VENDOR-DEAL-BEESPR-18293-V2-1",
+      "accumulationType": "ADD",
+      "priority": 1,
+      "level": 1,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2020-01-01T00:00:00Z",
+          "endDateTime": "2049-03-31"
+        },
+        "deliveryDate": [
+          {
+            "startDate": "2020-01-01",
+            "endDate": "2049-12-31"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-BEESPR-18293-V2-1"
+          ],
+          "minimumQuantity": 5,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "freeGoods": {
+          "proportion": null,
+          "partial": false,
+          "items": [
+            {
+              "quantity": 1,
+              "vendorItems": [
+                {
+                  "vendorItemId": "VENDOR-BEESPR-18293-V2-2",
+                  "measureUnit": "UNIT",
+                  "price": null
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-BEESPR-18293-V2-2",
+      "vendorPromotionId": "VENDOR-DEAL-BEESPR-18293-V2-2",
+      "accumulationType": "ADD",
+      "priority": 1,
+      "level": 1,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2020-01-01T00:00:00Z",
+          "endDateTime": "2049-03-31"
+        },
+        "deliveryDate": [
+          {
+            "startDate": "2020-01-01",
+            "endDate": "2049-12-31"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-BEESPR-18293-V2-2",
+            "VENDOR-BEESPR-18293-V2-3"
+          ],
+          "minimumQuantity": 10,
+          "sharedMinimumQuantity": true,
+          "multipleConditionItems": true,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "freeGoods": {
+          "proportion": null,
+          "partial": false,
+          "items": [
+            {
+              "quantity": 2,
+              "vendorItems": [
+                {
+                  "vendorItemId": "VENDOR-BEESPR-18293-V2-4",
+                  "measureUnit": "UNIT",
+                  "price": null
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": true
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-BEESPR-18293-V2-3",
+      "vendorPromotionId": "VENDOR-DEAL-BEESPR-18293-V2-3",
+      "accumulationType": "ADD",
+      "priority": 1,
+      "level": 1,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2020-01-01T00:00:00Z",
+          "endDateTime": "2049-03-31"
+        },
+        "deliveryDate": [
+          {
+            "startDate": "2020-01-01",
+            "endDate": "2049-12-31"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-BEESPR-18293-V2-4"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": true,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "scaledFreeGoods": {
+          "partial": false,
+          "ranges": [
+            {
+              "from": 1,
+              "to": 10,
+              "proportion": 1,
+              "items": [
+                {
+                  "quantity": 1,
+                  "vendorItems": [
+                    {
+                      "vendorItemId": "VENDOR-BEESPR-18293-V2-5",
+                      "measureUnit": "UNIT",
+                      "price": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "from": 11,
+              "to": 20,
+              "proportion": 1,
+              "items": [
+                {
+                  "quantity": 2,
+                  "vendorItems": [
+                    {
+                      "vendorItemId": "VENDOR-BEESPR-18293-V2-5",
+                      "measureUnit": "UNIT",
+                      "price": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": true
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-BEESPR-18293-V2-4",
+      "vendorPromotionId": "VENDOR-DEAL-BEESPR-18293-V2-4",
+      "accumulationType": "ADD",
+      "priority": 1,
+      "level": 1,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2020-01-01T00:00:00Z",
+          "endDateTime": "2049-03-31"
+        },
+        "deliveryDate": [
+          {
+            "startDate": "2020-01-01",
+            "endDate": "2049-12-31"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-BEESPR-18293-V2-5",
+            "VENDOR-BEESPR-18293-V2-6"
+          ],
+          "minimumQuantity": 10,
+          "sharedMinimumQuantity": true,
+          "multipleConditionItems": true,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "freeGoods": {
+          "proportion": 10,
+          "partial": false,
+          "items": [
+            {
+              "quantity": 2,
+              "vendorItems": [
+                {
+                  "vendorItemId": "VENDOR-BEESPR-18293-V2-7",
+                  "measureUnit": "UNIT",
+                  "price": null
+                },
+                {
+                  "vendorItemId": "VENDOR-BEESPR-18293-V2-8",
+                  "measureUnit": "UNIT",
+                  "price": null
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-BEESPR-18293-V2-5",
+      "vendorPromotionId": "VENDOR-DEAL-BEESPR-18293-V2-5",
+      "accumulationType": "ADD",
+      "priority": 1,
+      "level": 1,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2020-01-01T00:00:00Z",
+          "endDateTime": "2049-03-31"
+        },
+        "deliveryDate": [
+          {
+            "startDate": "2020-01-01",
+            "endDate": "2049-12-31"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-BEESPR-18293-V2-7"
+          ],
+          "minimumQuantity": 5,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "freeGoods": {
+          "proportion": null,
+          "partial": false,
+          "items": [
+            {
+              "quantity": 1,
+              "vendorItems": [
+                {
+                  "vendorItemId": "VENDOR-BEESPR-18293-V2-9",
+                  "measureUnit": "UNIT",
+                  "price": 11.50000000
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-BEESPR-18293-V2-6",
+      "vendorPromotionId": "VENDOR-DEAL-BEESPR-18293-V2-6",
+      "accumulationType": "ADD",
+      "priority": 1,
+      "level": 1,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2020-01-01T00:00:00Z",
+          "endDateTime": "2049-03-31"
+        },
+        "deliveryDate": [
+          {
+            "startDate": "2020-01-01",
+            "endDate": "2049-12-31"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-BEESPR-18293-V2-8",
+            "VENDOR-BEESPR-18293-V2-9"
+          ],
+          "minimumQuantity": 10,
+          "sharedMinimumQuantity": true,
+          "multipleConditionItems": true,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "freeGoods": {
+          "proportion": 10,
+          "partial": false,
+          "items": [
+            {
+              "quantity": 1,
+              "vendorItems": [
+                {
+                  "vendorItemId": "VENDOR-BEESPR-18293-V2-10",
+                  "measureUnit": "UNIT",
+                  "price": 10.50000000
+                },
+                {
+                  "vendorItemId": "VENDOR-BEESPR-18293-V2-11",
+                  "measureUnit": "UNIT",
+                  "price": 9.50000000
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "hasMore": false
+  }
+}
