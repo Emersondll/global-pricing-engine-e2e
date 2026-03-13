@@ -1,0 +1,86 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "deals": [
+    {
+      "scenarioDescription": "lineItem - Vendor1",
+      "vendorDealId": "VENDOR-DEAL-1",
+      "vendorPromotionId": "VENDOR-PROMO-1",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "enforced": false,
+      "conditions": {
+        "simulationDateTime": {
+          "startDateTime": "2018-01-01 00:00",
+          "endDateTime": "2039-12-30 00:00"
+        },
+        "deliveryDate": [
+          {
+            "startDate": "2018-01-01",
+            "endDate": "2039-12-30"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-15572-1"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-15572-1"
+          ],
+          "type": "%",
+          "value": 10,
+          "maxQuantity": 1,
+          "fixed": true
+        }
+      }
+    },
+    {
+      "scenarioDescription": "Free Good - Vendor 1",
+      "vendorDealId": "VENDOR-DEAL-2",
+      "vendorPromotionId": "VENDOR-PROMO-2",
+      "priority": 1,
+      "level": 1,
+      "enforced": false,
+      "conditions": {
+        "simulationDateTime": {
+          "startDateTime": "2021-12-06 00:00",
+          "endDateTime": "2091-12-24 00:00"
+        },
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-15572-1"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "freeGoods": {
+          "partial": true,
+          "items": [
+            {
+              "vendorItems": [
+                {
+                  "vendorItemId": "VENDOR-SKU-1",
+                  "measureUnit": "UNIT",
+                  "price": "40"
+                }
+              ],
+              "quantity": 1
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
