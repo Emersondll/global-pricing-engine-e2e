@@ -1,0 +1,65 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##"
+  ],
+  "deals": [
+    {
+      "scenarioDescription": "Line Item Discount",
+      "vendorDealId": "VENDOR-DEAL-4",
+      "vendorPromotionId": "VENDOR-PROMO-4",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-4"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-4"
+          ],
+          "type": "$",
+          "value": 9.90,
+          "maxQuantity": 5000,
+          "fixed": true
+        }
+      }
+    },
+    {
+      "scenarioDescription": "Line Item Scaled Discount",
+      "vendorDealId": "VENDOR-DEAL-5",
+      "vendorPromotionId": "VENDOR-PROMO-5",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "conditions": {
+        "paymentMethod": "CASH"
+      },
+      "output": {
+        "lineItemScaledDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-5"
+          ],
+          "ranges": [
+            {
+              "from": 10,
+              "to": 999999,
+              "type": "%",
+              "value": 11.95,
+              "proportion": null,
+              "maxQuantity": null
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
