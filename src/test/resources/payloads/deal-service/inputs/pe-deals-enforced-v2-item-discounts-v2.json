@@ -1,0 +1,103 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "deals": [
+    {
+      "scenarioDescription": "[Price Range V2] Line item deal with enforced true",
+      "vendorDealId": "VENDOR-DEAL-BEESPR-19416-1",
+      "vendorPromotionId": "PROMO-BEESPR-19416-1",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "enforced": true,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-19416-01"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-19416-01"
+          ],
+          "type": "%",
+          "value": 8,
+          "maxQuantity": 9,
+          "proportion": null
+        }
+      }
+    },
+    {
+      "scenarioDescription": "[Price Range V2] Line item deal with enforced false",
+      "vendorDealId": "VENDOR-DEAL-BEESPR-19416-2",
+      "vendorPromotionId": "PROMO-BEESPR-19416-2",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "enforced": false,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-19416-01"
+          ],
+          "minimumQuantity": 10,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-19416-01"
+          ],
+          "type": "%",
+          "value": 10,
+          "maxQuantity": 14,
+          "proportion": null
+        }
+      }
+    },
+    {
+      "scenarioDescription": "[Price Range V2] Line item deal with enforced null",
+      "vendorDealId": "VENDOR-DEAL-BEESPR-19416-3",
+      "vendorPromotionId": "PROMO-BEESPR-19416-3",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "enforced": null,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-19416-01"
+          ],
+          "minimumQuantity": 15,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-19416-01"
+          ],
+          "type": "%",
+          "value": 15,
+          "maxQuantity": null,
+          "proportion": null
+        }
+      }
+    }
+  ]
+}
