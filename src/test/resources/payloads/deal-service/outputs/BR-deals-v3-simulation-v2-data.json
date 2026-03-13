@@ -1,0 +1,88 @@
+{
+  "deals": [
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-16704-ACC",
+      "vendorPromotionId": "VENDOR-PROMO-16704-ACC",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "conditions": {
+        "deliveryDate": [
+          {
+            "startDate": "2018-01-01",
+            "endDate": "2039-12-30"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-ITEM-BEESPR-16704-2"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-ITEM-BEESPR-16704-2"
+          ],
+          "type": "%",
+          "value": 10.00000000,
+          "maxQuantity": 5000,
+          "proportion": null
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": null,
+      "vendorDealId": "VENDOR-DEAL-16704-VDR",
+      "vendorPromotionId": "VENDOR-PROMO-16704-VDR",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "conditions": {
+        "deliveryDate": [
+          {
+            "startDate": "2018-01-01",
+            "endDate": "2039-12-30"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-ITEM-BEESPR-16704-1"
+          ],
+          "minimumQuantity": 1,
+          "multipleConditionItems": false,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-ITEM-BEESPR-16704-1"
+          ],
+          "type": "%",
+          "value": 30.00000000,
+          "maxQuantity": 5000,
+          "proportion": null
+        }
+      },
+      "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+      "hiddenOnBrowse": false
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "hasMore": false
+  }
+}
