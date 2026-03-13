@@ -1,0 +1,43 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "deals": [
+    {
+      "scenarioDescription": "Free Good with minimum amount",
+      "vendorDealId": "VENDOR-ITEM-BEESPR-21948",
+      "vendorPromotionId": "VENDOR-PROMO-BEESPR-21948",
+      "priority": 1,
+      "level": 1,
+      "conditions": {
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-ITEM-BEESPR-21948"
+          ],
+          "minimumQuantity": 1,
+          "minimumAmount": 1.000,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "freeGoods": {
+          "partial": true,
+          "items": [
+            {
+              "vendorItems": [
+                {
+                  "vendorItemId": "VENDOR-ITEM-BEESPR-21948",
+                  "price": "48.04"
+                }
+              ],
+              "quantity": 5
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
+
