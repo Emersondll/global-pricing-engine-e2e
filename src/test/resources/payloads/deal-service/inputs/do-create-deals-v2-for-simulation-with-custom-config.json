@@ -1,0 +1,188 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##"
+  ],
+  "deals": [
+    {
+      "scenarioDescription": "Simple LineItem Discount 1",
+      "vendorDealId": "VENDOR-DEAL-1",
+      "vendorPromotionId": "VENDOR-PROMO-1",
+      "accumulationType": null,
+      "priority": 0,
+      "level": 0,
+      "conditions": {
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-19559-1-2"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-19559-1-2"
+          ],
+          "type": "$",
+          "value": 5,
+          "maxQuantity": null,
+          "fixed": true
+        }
+      }
+    },
+    {
+      "scenarioDescription": "Simple LineItem Discount 2",
+      "vendorDealId": "VENDOR-DEAL-2",
+      "vendorPromotionId": "VENDOR-PROMO-2",
+      "accumulationType": null,
+      "priority": 0,
+      "level": 0,
+      "conditions": {
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-19559-1-2"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-19559-1-2"
+          ],
+          "type": "$",
+          "value": 10,
+          "maxQuantity": null,
+          "fixed": true
+        }
+      }
+    },
+    {
+      "scenarioDescription": "Simple Order Level Discount 1",
+      "vendorDealId": "VENDOR-DEAL-3",
+      "vendorPromotionId": "VENDOR-PROMO-3",
+      "accumulationType": null,
+      "priority": 0,
+      "level": 0,
+      "conditions": {
+        "paymentMethod": "CREDIT"
+      },
+      "output": {
+        "orderTotalDiscount": {
+          "type": "$",
+          "discount": 5,
+          "proportion": null
+        }
+      }
+    },
+    {
+      "scenarioDescription": "Simple Order Level Discount 2",
+      "vendorDealId": "VENDOR-DEAL-4",
+      "vendorPromotionId": "VENDOR-PROMO-4",
+      "accumulationType": null,
+      "priority": 0,
+      "level": 0,
+      "conditions": {
+        "paymentMethod": "CREDIT"
+      },
+      "output": {
+        "orderTotalDiscount": {
+          "type": "$",
+          "discount": 10,
+          "proportion": null
+        }
+      }
+    },
+    {
+      "scenarioDescription": "Simple Free Good 1",
+      "vendorDealId": "VENDOR-DEAL-5",
+      "vendorPromotionId": "VENDOR-PROMO-5",
+      "accumulationType": null,
+      "priority": 0,
+      "level": 0,
+      "conditions": {
+        "paymentMethod": "CREDIT"
+      },
+      "output": {
+        "freeGoods": {
+          "proportion": null,
+          "partial": false,
+          "items": [
+            {
+              "vendorItems": [
+                {
+                  "vendorItemId": "FREE-GOOD-1",
+                  "measureUnit": "UNIT",
+                  "price": "10"
+                }
+              ],
+              "quantity": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioDescription": "Simple Free Good 1",
+      "vendorDealId": "VENDOR-DEAL-5",
+      "vendorPromotionId": "VENDOR-PROMO-5",
+      "accumulationType": null,
+      "priority": 0,
+      "level": 0,
+      "conditions": {
+        "paymentMethod": "CREDIT"
+      },
+      "output": {
+        "freeGoods": {
+          "proportion": null,
+          "partial": false,
+          "items": [
+            {
+              "vendorItems": [
+                {
+                  "vendorItemId": "FREE-GOOD-1",
+                  "measureUnit": "UNIT",
+                  "price": "10"
+                }
+              ],
+              "quantity": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioDescription": "Simple Free Good 2",
+      "vendorDealId": "VENDOR-DEAL-6",
+      "vendorPromotionId": "VENDOR-PROMO-6",
+      "accumulationType": null,
+      "priority": 0,
+      "level": 0,
+      "conditions": {
+        "paymentMethod": "CREDIT"
+      },
+      "output": {
+        "freeGoods": {
+          "proportion": null,
+          "partial": false,
+          "items": [
+            {
+              "vendorItems": [
+                {
+                  "vendorItemId": "FREE-GOOD-1",
+                  "measureUnit": "UNIT",
+                  "price": "15"
+                }
+              ],
+              "quantity": 1
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
