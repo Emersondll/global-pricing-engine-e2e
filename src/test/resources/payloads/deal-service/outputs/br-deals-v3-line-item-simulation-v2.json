@@ -1,0 +1,43 @@
+{
+  "deals": [
+    {
+      "accumulationType": "ADD",
+      "conditions": {
+        "lineItem": {
+          "crossDiscount": false,
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "vendorItemIds": [
+            "VENDOR-ITEM-1-BEESPR-T19723"
+          ]
+        },
+        "paymentMethod": "BANK_SLIP"
+      },
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "deliveryCenterId": null,
+      "enforced": false,
+      "hiddenOnBrowse": false,
+      "level": 0,
+      "output": {
+        "lineItemDiscount": {
+          "maxQuantity": null,
+          "proportion": null,
+          "type": "$",
+          "value": 10,
+          "vendorItemIds": [
+            "VENDOR-ITEM-1-BEESPR-T19723"
+          ]
+        }
+      },
+      "priority": 1,
+      "timezone": "America/Sao_Paulo",
+      "vendorDealId": "DEAL-01-T19723",
+      "vendorId": null,
+      "vendorPromotionId": "VENDOR_PROMOTION_ID_T19723"
+    }
+  ],
+  "pagination": {
+    "hasMore": false,
+    "page": 0
+  }
+}
