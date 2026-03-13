@@ -1,0 +1,39 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "deals": [
+    {
+      "vendorDealId": "DEAL_ACCOUNT-BEESPR-22082",
+      "vendorPromotionId": "PROMOTION_ACCOUNT-BEESPR-22082",
+      "priority": 1,
+      "level": 0,
+      "hiddenOnBrowse": false,
+      "conditions": {
+        "lineItem": {
+          "vendorItemIds": [
+            "12561916-TST",
+            "12571135-TST"
+          ],
+          "minimumQuantity": 1,
+          "crossDiscount": false,
+          "sharedMinimumQuantity": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "12561916-TST",
+            "12571135-TST"
+          ],
+          "type": "%",
+          "value": 15,
+          "maxQuantity": 1,
+          "proportion": 1
+        }
+      },
+      "enforced": false
+    }
+  ]
+}
