@@ -1,0 +1,80 @@
+{
+  "deals": [
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-01-BEESPR-21363",
+      "vendorPromotionId": "VENDOR-PROMO-01-BEESPR-21363",
+      "accumulationType": null,
+      "priority": null,
+      "level": 1,
+      "timezone": "America/Sao_Paulo",
+      "conditions": {
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-ITEM-BEESPR-21363-01"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-ITEM-BEESPR-21363-01"
+          ],
+          "type": "%",
+          "value": 30,
+          "maxQuantity": null,
+          "proportion": null
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false,
+      "enforced": false,
+      "type": "PRICE_REDUCTION"
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-02-BEESPR-21363",
+      "vendorPromotionId": "VENDOR-PROMO-02-BEESPR-21363",
+      "accumulationType": null,
+      "priority": null,
+      "level": 2,
+      "timezone": "America/Sao_Paulo",
+      "conditions": {
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-ITEM-BEESPR-21363-01"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-ITEM-BEESPR-21363-01"
+          ],
+          "type": "%",
+          "value": 10,
+          "maxQuantity": null,
+          "proportion": null
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false,
+      "enforced": false,
+      "type": "PRICE_REDUCTION"
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "hasMore": false
+  }
+}
