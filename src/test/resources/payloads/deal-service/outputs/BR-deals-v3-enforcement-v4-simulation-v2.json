@@ -1,0 +1,83 @@
+{
+  "deals": [
+    {
+      "vendorId": null,
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VD-BEESPR-17144-1",
+      "vendorPromotionId": "VD-BEESPR-17144-1",
+      "accumulationType": "ADD",
+      "priority": 1,
+      "level": 1,
+      "timezone": "America/Sao_Paulo",
+      "hiddenOnBrowse": false,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "lineItem": {
+          "vendorItemIds": [
+            "VI-BEESPR-17144-1"
+          ],
+          "minimumQuantity": 10,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VI-BEESPR-17144-1"
+          ],
+          "type": "$",
+          "value": 15.99,
+          "maxQuantity": null,
+          "proportion": null
+        }
+      }
+    },
+    {
+      "vendorId": null,
+      "hiddenOnBrowse": false,
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VD-BEESPR-17144-2",
+      "vendorPromotionId": "VD-BEESPR-17144-2",
+      "accumulationType": "ADD",
+      "priority": 2,
+      "level": 2,
+      "timezone": "America/Sao_Paulo",
+      "conditions": {
+        "paymentMethod": "CASH",
+        "lineItem": {
+          "vendorItemIds": [
+            "VI-BEESPR-17144-1"
+          ],
+          "minimumQuantity": 10,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "freeGoods": {
+          "proportion": null,
+          "partial": true,
+          "items": [
+            {
+              "quantity": 3,
+              "vendorItems": [
+                {
+                  "vendorItemId": "FG-VI-BEESPR-17144-1",
+                  "measureUnit": "UNIT",
+                  "price": 5.45
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "hasMore": false
+  }
+}
