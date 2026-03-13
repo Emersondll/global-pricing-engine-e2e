@@ -1,0 +1,100 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##"
+  ],
+  "deals": [
+    {
+      "scenarioDescription": "[Price Range V2] Line item deal with enforced true",
+      "vendorDealId": "VENDOR-DEAL-BEESPR-19419-1",
+      "vendorPromotionId": "PROMO-BEESPR-19419-1",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "enforced": true,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-19419-01"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-19419-01"
+          ],
+          "type": "%",
+          "value": 8,
+          "maxQuantity": 9,
+          "proportion": null
+        }
+      }
+    },
+    {
+      "scenarioDescription": "[Price Range V2] Line item deal with enforced false",
+      "vendorDealId": "VENDOR-DEAL-BEESPR-19419-2",
+      "vendorPromotionId": "PROMO-BEESPR-19419-2",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "enforced": false,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-19419-01"
+          ],
+          "minimumQuantity": 10,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-19419-01"
+          ],
+          "type": "%",
+          "value": 10,
+          "maxQuantity": 14,
+          "proportion": null
+        }
+      }
+    },
+    {
+      "scenarioDescription": "[Price Range V2] Line item deal with enforced null",
+      "vendorDealId": "VENDOR-DEAL-BEESPR-19419-3",
+      "vendorPromotionId": "PROMO-BEESPR-19419-3",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "enforced": null,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-19419-01"
+          ],
+          "minimumQuantity": 15,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-19419-01"
+          ],
+          "type": "%",
+          "value": 15,
+          "maxQuantity": null,
+          "proportion": null
+        }
+      }
+    }
+  ]
+}
