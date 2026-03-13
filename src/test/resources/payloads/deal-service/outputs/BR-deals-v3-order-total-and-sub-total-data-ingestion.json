@@ -1,0 +1,72 @@
+{
+  "deals": [
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-BEESPR-20743-V2-2",
+      "vendorPromotionId": "VENDOR-PROMO-20743-V2-2",
+      "accumulationType": "ADD",
+      "priority": 1,
+      "level": 1,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "conditions": {
+        "couponCode": "BEESPR-20743",
+        "firstOrder": false,
+        "amounts": [
+          {
+            "scope": "ORDER",
+            "operator": "GE",
+            "field": "TOTAL",
+            "value": 100.0
+          }
+        ]
+      },
+      "output": {
+        "orderTotalDiscount": {
+          "type": "$",
+          "discount": 10,
+          "proportion": null
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": true,
+      "enforced": false
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-BEESPR-20743-V2-3",
+      "vendorPromotionId": "VENDOR-PROMO-20743-V2-3",
+      "accumulationType": "ADD",
+      "priority": 1,
+      "level": 1,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "conditions": {
+        "couponCode": "BEESPR-20743",
+        "firstOrder": false,
+        "amounts": [
+          {
+            "scope": "ORDER",
+            "operator": "GE",
+            "field": "SUBTOTAL",
+            "value": 100.0
+          }
+        ]
+      },
+      "output": {
+        "orderTotalDiscount": {
+          "type": "$",
+          "discount": 10,
+          "proportion": null
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": true,
+      "enforced": false
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "hasMore": false
+  }
+}
