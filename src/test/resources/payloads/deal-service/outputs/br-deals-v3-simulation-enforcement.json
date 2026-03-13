@@ -1,0 +1,147 @@
+{
+  "deals": [
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-1",
+      "vendorPromotionId": "VENDOR-PROMO-1",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "timezone": "America/Sao_Paulo",
+      "conditions": {
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-18537-1"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-18537-1"
+          ],
+          "type": "%",
+          "value": 30.00000000,
+          "maxQuantity": 5000,
+          "proportion": null
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": true,
+      "enforced": true
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-2",
+      "vendorPromotionId": "VENDOR-PROMO-2",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "timezone": "America/Sao_Paulo",
+      "conditions": {
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-18537-2"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-18537-2"
+          ],
+          "type": "%",
+          "value": 40.00000000,
+          "maxQuantity": 5000,
+          "proportion": null
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": true,
+      "enforced": true
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-3",
+      "vendorPromotionId": "VENDOR-PROMO-3",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "timezone": "America/Sao_Paulo",
+      "conditions": {
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-18537-3"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-18537-3"
+          ],
+          "type": "%",
+          "value": 20.00000000,
+          "maxQuantity": 5000,
+          "proportion": null
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": true
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-4",
+      "vendorPromotionId": "VENDOR-PROMO-4",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "timezone": "America/Sao_Paulo",
+      "conditions": {
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-18537-4"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-18537-4"
+          ],
+          "type": "%",
+          "value": 10.00000000,
+          "maxQuantity": 5000,
+          "proportion": null
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": true,
+      "enforced": false
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "hasMore": false
+  }
+}
