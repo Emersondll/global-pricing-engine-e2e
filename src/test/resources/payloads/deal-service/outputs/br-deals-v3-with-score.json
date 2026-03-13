@@ -1,0 +1,51 @@
+{
+  "deals": [
+    {
+      "vendorDealId": "ALGO-SELLING-VENDOR-DEAL-1",
+      "vendorPromotionId": "ALGO-SELLING-VENDOR-PROMO-1",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "conditions": {
+        "simulationDateTime": {
+          "startDateTime": "2018-01-01",
+          "endDateTime": "2039-12-30"
+        },
+        "deliveryDate": [
+          {
+            "startDate": "2018-01-01",
+            "endDate": "2039-12-30"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESAS-22572"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESAS-22572"
+          ],
+          "type": "%",
+          "value": 50,
+          "maxQuantity": 5000,
+          "proportion": null
+        }
+      },
+      "score": 1,
+      "hiddenOnBrowse": false
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "size": 1,
+    "totalPages": 1,
+    "totalElements": 1
+  }
+}
