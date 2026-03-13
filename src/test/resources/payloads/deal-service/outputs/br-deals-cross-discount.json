@@ -1,0 +1,98 @@
+{
+  "deals": [
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "DEAL-01-BEESPR-T19865",
+      "vendorPromotionId": "VENDOR-PROMO-DEAL-01-BEESPR-T19865",
+      "accumulationType": "ADD",
+      "priority": null,
+      "level": 0,
+      "timezone": "America/Sao_Paulo",
+      "conditions": {
+        "paymentMethod": "CASH",
+        "deliveryDate": [
+          {
+            "startDate": "2018-01-01",
+            "endDate": "2100-12-31"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-ITEM-1-BEESPR-T19865"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": true
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-ITEM-2-BEESPR-T19865"
+          ],
+          "type": "%",
+          "value": 8,
+          "maxQuantity": 9,
+          "proportion": null
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "DEAL-02-BEESPR-T19865",
+      "vendorPromotionId": "VENDOR-PROMO-DEAL-01-BEESPR-T19865",
+      "accumulationType": "ADD",
+      "priority": null,
+      "level": 0,
+      "timezone": "America/Sao_Paulo",
+      "conditions": {
+        "paymentMethod": "CASH",
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-ITEM-3-BEESPR-T19865"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": true
+        }
+      },
+      "output": {
+        "lineItemScaledDiscount": {
+          "vendorItemIds": [
+            "VENDOR-ITEM-4-BEESPR-T19865"
+          ],
+          "ranges": [
+            {
+              "from": 1,
+              "to": 5,
+              "proportion": null,
+              "type": "%",
+              "value": 5,
+              "maxQuantity": 5
+            },
+            {
+              "from": 6,
+              "to": 10,
+              "proportion": null,
+              "type": "%",
+              "value": 7,
+              "maxQuantity": 9
+            }
+          ]
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "hasMore": false
+  }
+}
