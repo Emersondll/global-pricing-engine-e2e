@@ -1,0 +1,34 @@
+{
+  "type":"DELIVERY_CENTER",
+  "ids":[
+    "## WILL BE REPLACED BY DYNAMIC DELIVERY_CENTER_ID WITH KEY 1 ##"
+  ],
+  "deals":[
+    {
+      "vendorDealId": "BEESDTCPL-2769",
+      "vendorPromotionId": "PROMOTION-BEESDTCPL-2769",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "conditions": {
+        "couponCode": "E2E_ENFORCED_COUPON",
+        "amounts": [
+          {
+            "value": 0,
+            "field": "TOTAL",
+            "operator": "GE",
+            "scope": "ORDER"
+          }
+        ]
+      },
+      "output": {
+        "orderTotalDiscount": {
+          "type": "%",
+          "discount": 10,
+          "proportion": null
+        }
+      },
+      "enforced": true
+    }
+  ]
+}
