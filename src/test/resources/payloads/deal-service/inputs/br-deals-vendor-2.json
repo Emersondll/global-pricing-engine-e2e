@@ -1,0 +1,91 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 2 ##"
+  ],
+  "deals": [
+    {
+      "scenarioDescription": "[Price Range] Scaled Line Item",
+      "vendorDealId": "VENDOR-DEAL-1",
+      "vendorPromotionId": "VENDOR-PROMO-1",
+      "priority": 1,
+      "level": 0,
+      "conditions": {
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-15572-1"
+          ],
+          "minimumQuantity": 2,
+          "sharedMinimumQuantity": true,
+          "crossDiscount": true
+        }
+      },
+      "output": {
+        "lineItemScaledDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-15572-1",
+            "VENDOR-SKU-BEESPR-15572-2",
+            "VENDOR-SKU-BEESPR-15572-3"
+          ],
+          "ranges": [
+            {
+              "from": 1,
+              "to": 2,
+              "type": "$",
+              "fixed": true,
+              "value": 10,
+              "maxQuantity": 5
+            },
+            {
+              "from": 3,
+              "to": 20,
+              "type": "$",
+              "fixed": false,
+              "value": 8,
+              "maxQuantity": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioDescription": "Multiple Line Item deal",
+      "vendorDealId": "VENDOR-DEAL-2",
+      "vendorPromotionId": "VENDOR-PROMO-2",
+      "priority": 1,
+      "level": 0,
+      "conditions": {
+        "multipleLineItem": {
+          "items": [
+            {
+              "vendorItemIds": [
+                "VENDOR-SKU-BEESPR-15572-1",
+                "VENDOR-SKU-BEESPR-15572-2",
+                "VENDOR-SKU-BEESPR-15572-3"
+              ],
+              "minimumQuantity": 1
+            }
+          ]
+        }
+      },
+      "output": {
+        "multipleLineItemDiscount": {
+          "type": "PERCENT_OFF",
+          "items": [
+            {
+              "vendorItemId": "VENDOR-SKU-BEESPR-15572-1",
+              "value": 5.0000
+            },
+            {
+              "vendorItemId": "VENDOR-SKU-BEESPR-15572-2",
+              "value": 5.0000
+            },
+            {
+              "vendorItemId": "VENDOR-SKU-BEESPR-15572-3",
+              "value": 12.0000
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
