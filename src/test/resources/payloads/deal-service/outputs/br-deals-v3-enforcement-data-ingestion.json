@@ -1,0 +1,90 @@
+{
+  "deals": [
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-1",
+      "vendorPromotionId": "VENDOR-PROMO-1",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "timezone": "America/Sao_Paulo",
+      "hiddenOnBrowse": true,
+      "enforced": true,
+      "conditions": {
+        "deliveryDate": [
+          {
+            "startDate": "2018-01-01",
+            "endDate": "2039-12-30"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-ITEM-18536"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-ITEM-18536"
+          ],
+          "type": "%",
+          "value": 30.00000000,
+          "maxQuantity": 5000,
+          "proportion": null
+        }
+      },
+      "vendorId": null
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-2",
+      "vendorPromotionId": "VENDOR-PROMO-2",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "timezone": "America/Sao_Paulo",
+      "hiddenOnBrowse": true,
+      "enforced": true,
+      "conditions": {
+        "deliveryDate": [
+          {
+            "startDate": "2018-01-01",
+            "endDate": "2039-12-30"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-ITEM-18536"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-ITEM-18536"
+          ],
+          "type": "%",
+          "value": 50.00000000,
+          "maxQuantity": 5000,
+          "proportion": null
+        }
+      },
+      "vendorId": null
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "hasMore": false
+  }
+}
