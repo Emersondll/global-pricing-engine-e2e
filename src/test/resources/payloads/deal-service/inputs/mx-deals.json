@@ -1,0 +1,43 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##"
+  ],
+  "deals": [
+    {
+      "scenarioDescription": "Line Item Scaled Discount",
+      "vendorDealId": "VENDOR-DEAL-1",
+      "vendorPromotionId": "VENDOR-PROMO-1",
+      "priority": 1,
+      "level": 1,
+      "conditions": {
+        "simulationDateTime": {
+          "startDateTime": "2021-02-01 00:00",
+          "endDateTime": "2999-12-31 23:59"
+        },
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-2"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemScaledDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-2"
+          ],
+          "ranges": [
+            {
+              "from": 1,
+              "to": 999999,
+              "type": "%",
+              "value": 28.5714
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
