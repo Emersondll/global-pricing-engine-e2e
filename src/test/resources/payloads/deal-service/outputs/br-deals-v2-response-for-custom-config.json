@@ -1,0 +1,40 @@
+{
+  "deals": [
+    {
+      "vendorDealId": "VENDOR-DEAL-1",
+      "vendorPromotionId": "VENDOR-PROMO-1",
+      "accumulationType": "ADD",
+      "priority": 1,
+      "level": 1,
+      "timezone": "America/Sao_Paulo",
+      "conditions": {
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-19557-1"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-19557-1"
+          ],
+          "type": "%",
+          "value": 17.799,
+          "maxQuantity": null,
+          "proportion": null
+        }
+      },
+      "hiddenOnBrowse": false
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "size": 1,
+    "totalPages": 1,
+    "totalElements": 1
+  }
+}
