@@ -1,0 +1,25 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "deals": [
+    {
+      "vendorDealId": "VENDOR-DEAL-1",
+      "vendorPromotionId": "VENDOR-PROMO-1",
+      "priority": 0,
+      "level": 0,
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-20705-1",
+            "VENDOR-SKU-BEESPR-20705-2"
+          ],
+          "type": "$",
+          "value": 5,
+          "fixed": true
+        }
+      }
+    }
+  ]
+}
