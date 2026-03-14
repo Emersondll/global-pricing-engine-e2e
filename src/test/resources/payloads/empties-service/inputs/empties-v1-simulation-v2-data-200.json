@@ -1,0 +1,20 @@
+[
+  {
+    "sku": "VENDOR-SKU-BEESPR-17987-1",
+    "empties": [
+      {
+        "emptyId": "BEESPR-17987-VENDOR-EMPTY-1",
+        "quantity": 9
+      }
+    ]
+  },
+  {
+    "sku": "VENDOR-SKU-BEESPR-17987-4",
+    "empties": [
+      {
+        "emptyId": "BEESPR-17987-VENDOR-EMPTY-4",
+        "quantity": 9
+      }
+    ]
+  }
+]
