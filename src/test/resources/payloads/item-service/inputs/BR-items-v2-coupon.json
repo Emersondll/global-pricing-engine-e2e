@@ -1,0 +1,102 @@
+[
+  {
+    "sku": "SKU-BEESPR-ACC-17680-V2-1",
+    "name": "VENDOR-BEESPR-ACC-17680-V2-1",
+    "brandId": "01",
+    "package": {
+      "count": 1,
+      "id": "01",
+      "itemCount": 12,
+      "name": "CS"
+    },
+    "container": {
+      "name": "CS",
+      "returnable": false,
+      "size": 12,
+      "unitOfMeasurement": "KG"
+    },
+    "sourceData": {
+      "vendorItemId": "VENDOR-BEESPR-ACC-17680-V2-1"
+    }
+  },
+  {
+    "sku": "SKU-BEESPR-17680-V2-2",
+    "name": "VENDOR-BEESPR-17680-V2-2",
+    "brandId": "01",
+    "package": {
+      "count": 1,
+      "id": "01",
+      "itemCount": 12,
+      "name": "CS"
+    },
+    "container": {
+      "name": "CS",
+      "returnable": false,
+      "size": 12,
+      "unitOfMeasurement": "KG"
+    },
+    "sourceData": {
+      "vendorItemId": "VENDOR-BEESPR-17680-V2-2"
+    }
+  },
+  {
+    "sku": "SKU-BEESPR-17680-V2-3",
+    "name": "VENDOR-BEESPR-17680-V2-3",
+    "brandId": "01",
+    "package": {
+      "count": 1,
+      "id": "01",
+      "itemCount": 13,
+      "name": "CS"
+    },
+    "container": {
+      "name": "CS",
+      "returnable": false,
+      "size": 13,
+      "unitOfMeasurement": "KG"
+    },
+    "sourceData": {
+      "vendorItemId": "VENDOR-BEESPR-17680-V2-3"
+    }
+  },
+  {
+    "sku": "SKU-BEESPR-17680-V2-4",
+    "name": "VENDOR-BEESPR-17680-V2-4",
+    "brandId": "01",
+    "package": {
+      "count": 1,
+      "id": "01",
+      "itemCount": 14,
+      "name": "CS"
+    },
+    "container": {
+      "name": "CS",
+      "returnable": false,
+      "size": 14,
+      "unitOfMeasurement": "KG"
+    },
+    "sourceData": {
+      "vendorItemId": "VENDOR-BEESPR-17680-V2-4"
+    }
+  },
+  {
+    "sku": "SKU-BEESPR-17680-V2-5",
+    "name": "VENDOR-BEESPR-17680-V2-5",
+    "brandId": "01",
+    "package": {
+      "count": 1,
+      "id": "01",
+      "itemCount": 15,
+      "name": "CS"
+    },
+    "container": {
+      "name": "CS",
+      "returnable": false,
+      "size": 15,
+      "unitOfMeasurement": "KG"
+    },
+    "sourceData": {
+      "vendorItemId": "VENDOR-BEESPR-17680-V2-5"
+    }
+  }
+]
