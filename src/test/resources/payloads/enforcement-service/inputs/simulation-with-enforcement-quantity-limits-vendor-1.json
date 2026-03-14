@@ -1,0 +1,20 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "enforcements": [
+    {
+      "entity": "PROMOTION",
+      "entityId": "VENDOR-PROMO-17680-V2-1",
+      "type": "QUANTITY",
+      "startDate": "2020-10-01T00:00:00.000Z",
+      "endDate": "2030-02-28T00:00:00.000Z",
+      "limits": [
+        {
+          "renew": "WEEKLY",
+          "value": 100
+        }
+      ]
+    }
+  ]
+}
