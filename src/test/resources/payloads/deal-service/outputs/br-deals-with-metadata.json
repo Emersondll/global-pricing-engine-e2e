@@ -1,0 +1,188 @@
+{
+  "deals": [
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "DEAL-01-BEESPR-T19779",
+      "vendorPromotionId": "VENDOR-PROMO-DEAL-01-BEESPR-T19779",
+      "accumulationType": "ADD",
+      "priority": null,
+      "level": 0,
+      "timezone": "America/Sao_Paulo",
+      "conditions": {
+        "paymentMethod": "CASH",
+        "deliveryDate": [
+          {
+            "startDate": "2018-01-01",
+            "endDate": "2122-12-31"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-1-BEESPR-T19779"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "palletDiscount": {
+          "discount": 92.33,
+          "proportion": 10,
+          "measureUnit": "PAL"
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false,
+      "metadata": {
+        "title": "Buy 3 get 1 free",
+        "description": "Buy 3, get 1 - Buy 3, get 16 or discounts 10% off for all beers.",
+        "image": "http://example.com",
+        "startDate": "2019-08-24T14:15:22Z",
+        "endDate": "2020-08-24T14:15:22Z",
+        "type": "DISCOUNT"
+      }
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "DEAL-02-BEESPR-T19779",
+      "vendorPromotionId": "VENDOR-PROMO-DEAL-02-BEESPR-T19779",
+      "accumulationType": "ADD",
+      "priority": null,
+      "level": 0,
+      "timezone": "America/Sao_Paulo",
+      "conditions": {
+        "paymentMethod": "CASH",
+        "deliveryDate": [
+          {
+            "startDate": "2018-01-01",
+            "endDate": "2122-12-31"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-1-BEESPR-T19779"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "palletDiscount": {
+          "discount": 92.33,
+          "proportion": 10,
+          "measureUnit": "PAL"
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false,
+      "metadata": {
+        "title": "Buy 3 get 2 free!",
+        "description": "Buy 3, get 2 - Buy 12, get 16 or discounts 10% off for all beers.",
+        "image": "http://example.com",
+        "startDate": "2019-08-24T14:15:22Z",
+        "endDate": "2020-08-24T14:15:22Z",
+        "type": "DISCOUNT"
+      }
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "DEAL-03-BEESPR-T19779",
+      "vendorPromotionId": "VENDOR-PROMO-DEAL-03-BEESPR-T19779",
+      "accumulationType": "ADD",
+      "priority": null,
+      "level": 0,
+      "timezone": "America/Sao_Paulo",
+      "conditions": {
+        "paymentMethod": "CASH",
+        "deliveryDate": [
+          {
+            "startDate": "2018-01-01",
+            "endDate": "2122-12-31"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-1-BEESPR-T19779"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "palletDiscount": {
+          "discount": 92.33,
+          "proportion": 10,
+          "measureUnit": "PAL"
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false,
+      "metadata": {
+        "title": "Buy 4 get 1 free",
+        "description": "Buy 4, get 1 - Buy 12, get 16 or discounts 10% off for all beers.",
+        "image": "http://example.com",
+        "startDate": "2019-08-24T14:15:22Z",
+        "endDate": "2020-08-24T14:15:22Z",
+        "type": "DISCOUNT"
+      }
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "DEAL-04-BEESPR-T19779",
+      "vendorPromotionId": "VENDOR-PROMO-DEAL-04-BEESPR-T19779",
+      "accumulationType": "ADD",
+      "priority": null,
+      "level": 0,
+      "timezone": "America/Sao_Paulo",
+      "conditions": {
+        "paymentMethod": "CASH",
+        "deliveryDate": [
+          {
+            "startDate": "2018-01-01",
+            "endDate": "2122-12-31"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-1-BEESPR-T19779"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "palletDiscount": {
+          "discount": 92.33,
+          "proportion": 10,
+          "measureUnit": "PAL"
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false,
+      "metadata": {
+        "title": "Buy 4 get 2 free",
+        "description": "Buy 4, get 2 - Buy 12, get 16 or discounts 10% off for all beers.",
+        "image": "http://example.com",
+        "startDate": "2019-08-24T14:15:22Z",
+        "endDate": "2020-08-24T14:15:22Z",
+        "type": "DISCOUNT"
+      }
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "hasMore": false
+  }
+}
