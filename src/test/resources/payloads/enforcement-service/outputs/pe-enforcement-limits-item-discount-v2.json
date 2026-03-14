@@ -1,0 +1,30 @@
+{
+  "enforcements": [
+    {
+      "id": {
+        "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+        "vendorAccountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##",
+        "entity": "PROMOTION",
+        "entityId": "PROMO-BEESPR-19416-1",
+        "type": "BUDGET"
+      },
+      "enforcementPlatformId": "## WILL BE REPLACED BY DYNAMIC ENFORCEMENT_PLATFORM_ID WITH KEY 1 ##",
+      "balance": 50.0,
+      "startDate": "2020-10-01",
+      "endDate": "2100-02-28"
+    },
+    {
+      "id": {
+        "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+        "vendorAccountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##",
+        "entity": "PROMOTION",
+        "entityId": "PROMO-BEESPR-19416-3",
+        "type": "QUANTITY"
+      },
+      "enforcementPlatformId": "## WILL BE REPLACED BY DYNAMIC ENFORCEMENT_PLATFORM_ID WITH KEY 2 ##",
+      "balance": 20,
+      "startDate": "2020-10-01",
+      "endDate": "2100-02-28"
+    }
+  ]
+}
