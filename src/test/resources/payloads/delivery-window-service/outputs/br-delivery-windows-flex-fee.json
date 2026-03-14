@@ -1,0 +1,23 @@
+{
+  "content": [
+    {
+      "deliveryWindowId": "## WILL BE REPLACED BY DELIVERY_WINDOW_ID WITH VENDOR_DELIVERY_WINDOW_ID 'DW-ID-FLEX-BEESPR-T4533' AND VENDOR KEY 'V-01' ##",
+      "vendorDeliveryWindowId": "DW-ID-FLEX-BEESPR-T4533",
+      "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+      "deliveryScheduleId": "DW-SCHED-ID-FLEX-BEESPR-T4533",
+      "deliveryDate": "2030-09-09",
+      "expirationDate": "2030-09-07T23:59:59Z",
+      "type": "FLEX",
+      "fee": {
+        "value": 10.5,
+        "maximumOrderTotal": 1000
+      }
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "pageSize": 1,
+    "totalElements": 1,
+    "totalPages": 1
+  }
+}
