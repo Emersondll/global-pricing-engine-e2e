@@ -1,0 +1,70 @@
+{
+  "deals": [
+    {
+      "vendorDealId": "VENDOR-DEAL-4",
+      "vendorPromotionId": "VENDOR-PROMO-4",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "timezone": "America/Santo_Domingo",
+      "hiddenOnBrowse": false,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-4"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-4"
+          ],
+          "type": "$",
+          "value": 9.90,
+          "maxQuantity": 5000,
+          "proportion": null
+        }
+      }
+    },
+    {
+      "vendorDealId": "VENDOR-DEAL-5",
+      "vendorPromotionId": "VENDOR-PROMO-5",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "timezone": "America/Santo_Domingo",
+      "hiddenOnBrowse": false,
+      "conditions": {
+        "paymentMethod": "CASH"
+      },
+      "output": {
+        "lineItemScaledDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-5"
+          ],
+          "ranges": [
+            {
+              "from": 10,
+              "to": 999999,
+              "proportion": null,
+              "type": "%",
+              "value": 11.95,
+              "maxQuantity": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "size": 2,
+    "totalPages": 1,
+    "totalElements": 2
+  }
+}
