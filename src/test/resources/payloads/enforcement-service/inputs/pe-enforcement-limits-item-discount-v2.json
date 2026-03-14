@@ -1,0 +1,33 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "enforcements": [
+    {
+      "entity": "PROMOTION",
+      "entityId": "PROMO-BEESPR-19416-1",
+      "type": "BUDGET",
+      "startDate": "2020-10-01T00:00:00.000Z",
+      "endDate": "2100-02-28T00:00:00.000Z",
+      "limits": [
+        {
+          "renew": "WEEKLY",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "entity": "PROMOTION",
+      "entityId": "PROMO-BEESPR-19416-3",
+      "type": "QUANTITY",
+      "startDate": "2020-10-01T00:00:00.000Z",
+      "endDate": "2100-02-28T00:00:00.000Z",
+      "limits": [
+        {
+          "renew": "WEEKLY",
+          "value": 20
+        }
+      ]
+    }
+  ]
+}
