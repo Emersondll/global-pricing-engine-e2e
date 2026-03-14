@@ -1,0 +1,46 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##"
+  ],
+  "enforcements": [
+    {
+      "entity": "PROMOTION",
+      "entityId": "VENDOR-PROMO-1",
+      "type": "BUDGET",
+      "startDate": "2020-10-01T00:00:00.000Z",
+      "endDate": "2030-02-28T00:00:00.000Z",
+      "limits": [
+        {
+          "renew": "WEEKLY",
+          "value": 50.0
+        }
+      ]
+    },
+    {
+      "entity": "PROMOTION",
+      "entityId": "VENDOR-PROMO-3",
+      "type": "BUDGET",
+      "startDate": "2020-10-01T00:00:00.000Z",
+      "endDate": "2030-02-28T00:00:00.000Z",
+      "limits": [
+        {
+          "renew": "WEEKLY",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "entity": "PROMOTION",
+      "entityId": "VENDOR-DEAL-ENFORCED-FALSE-1",
+      "type": "BUDGET",
+      "startDate": "2020-10-01T00:00:00.000Z",
+      "endDate": "2030-02-28T00:00:00.000Z",
+      "limits": [
+        {
+          "renew": "WEEKLY",
+          "value": 0
+        }
+      ]
+    }
+  ]
+}
