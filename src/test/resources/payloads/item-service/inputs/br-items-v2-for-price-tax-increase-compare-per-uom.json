@@ -1,0 +1,22 @@
+[
+  {
+    "sku": "SKU-BEESPR-20086-01",
+    "name": "BACON SADIA",
+    "brandId": "01",
+    "package": {
+      "count": 5,
+      "id": "01",
+      "itemCount": 7,
+      "name": "CX"
+    },
+    "container": {
+      "name": "CX",
+      "returnable": false,
+      "size": 3,
+      "unitOfMeasurement": "KG"
+    },
+    "sourceData": {
+      "vendorItemId": "VENDOR-SKU-BEESPR-20086-01"
+    }
+  }
+]
