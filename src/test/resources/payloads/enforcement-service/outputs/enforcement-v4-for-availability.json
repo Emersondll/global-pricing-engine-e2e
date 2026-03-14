@@ -1,0 +1,56 @@
+{
+  "enforcements": [
+    {
+      "id": {
+        "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+        "vendorAccountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##",
+        "entity": "PROMOTION",
+        "entityId": "VENDOR-PROMO-EID-BEESPR-20103-1",
+        "type": "AVAILABILITY"
+      },
+      "enforcementPlatformId": "## WILL BE REPLACED BY DYNAMIC ENFORCEMENT_PLATFORM_ID WITH KEY 1 ##",
+      "balance": 1,
+      "startDate": "2020-10-01",
+      "endDate": "2120-02-28"
+    },
+    {
+      "id": {
+        "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+        "vendorAccountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##",
+        "entity": "PROMOTION",
+        "entityId": "VENDOR-PROMO-EID-BEESPR-20103-2",
+        "type": "AVAILABILITY"
+      },
+      "enforcementPlatformId": "## WILL BE REPLACED BY DYNAMIC ENFORCEMENT_PLATFORM_ID WITH KEY 2 ##",
+      "balance": 0,
+      "startDate": "2020-10-01",
+      "endDate": "2120-02-28"
+    },
+    {
+      "id": {
+        "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+        "vendorAccountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##",
+        "entity": "PROMOTION",
+        "entityId": "VENDOR-PROMO-EID-BEESPR-20103-4",
+        "type": "AVAILABILITY"
+      },
+      "enforcementPlatformId": "## WILL BE REPLACED BY DYNAMIC ENFORCEMENT_PLATFORM_ID WITH KEY 4 ##",
+      "balance": 1,
+      "startDate": "2020-10-01",
+      "endDate": "2120-02-28"
+    },
+    {
+      "id": {
+        "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+        "vendorAccountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##",
+        "entity": "PROMOTION",
+        "entityId": "VENDOR-PROMO-EID-BEESPR-20103-5",
+        "type": "AVAILABILITY"
+      },
+      "enforcementPlatformId": "## WILL BE REPLACED BY DYNAMIC ENFORCEMENT_PLATFORM_ID WITH KEY 5 ##",
+      "balance": 0,
+      "startDate": "2020-10-01",
+      "endDate": "2120-02-28"
+    }
+  ]
+}
