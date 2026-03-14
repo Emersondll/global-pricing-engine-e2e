@@ -1,0 +1,386 @@
+{
+  "deals": [
+    {
+      "vendorDealId": "VENDOR-DEAL-1",
+      "vendorPromotionId": "VENDOR-PROMO-1",
+      "accumulationType": "ADD",
+      "priority": 1,
+      "level": 1,
+      "timezone": "America/Lima",
+      "hiddenOnBrowse": false,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2021-02-01T05:00:00Z",
+          "endDateTime": "2030-12-31T05:00:00Z"
+        },
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-14583-1"
+          ],
+          "minimumQuantity": 10,
+          "sharedMinimumQuantity": true,
+          "crossDiscount": true
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-14583-1"
+          ],
+          "type": "%",
+          "value": 20,
+          "maxQuantity": 5,
+          "proportion": null
+        }
+      }
+    },
+    {
+      "vendorDealId": "VENDOR-DEAL-2",
+      "vendorPromotionId": "VENDOR-PROMO-2",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "timezone": "America/Lima",
+      "hiddenOnBrowse": false,
+      "conditions": {
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-14583-2"
+          ],
+          "minimumQuantity": 10,
+          "sharedMinimumQuantity": true,
+          "crossDiscount": true
+        }
+      },
+      "output": {
+        "freeGoods": {
+          "proportion": 10,
+          "partial": true,
+          "items": [
+            {
+              "quantity": 3,
+              "vendorItems": [
+                {
+                  "vendorItemId": "VENDOR-SKU-BEESPR-14583-2",
+                  "measureUnit": "UNIT",
+                  "price": 12.29
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "vendorDealId": "VENDOR-DEAL-3",
+      "vendorPromotionId": "VENDOR-PROMO-3",
+      "accumulationType": "ADD",
+      "priority": 1,
+      "level": 1,
+      "timezone": "America/Lima",
+      "hiddenOnBrowse": false,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "simulationDateTime": {
+          "startDateTime": "2021-02-01T05:00:00Z",
+          "endDateTime": "2030-12-31T05:00:00Z"
+        },
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-14583-1"
+          ],
+          "minimumQuantity": 5,
+          "sharedMinimumQuantity": true,
+          "crossDiscount": true
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-14583-1"
+          ],
+          "type": "%",
+          "value": 20,
+          "maxQuantity": 10,
+          "proportion": null
+        }
+      }
+    },
+    {
+      "vendorDealId": "VENDOR-DEAL-4",
+      "vendorPromotionId": "VENDOR-PROMO-4",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "timezone": "America/Lima",
+      "hiddenOnBrowse": false,
+      "conditions": {
+        "deliveryDate": [
+          {
+            "startDate": "2018-01-01",
+            "endDate": "2039-12-30"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-12744"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemScaledDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-12744"
+          ],
+          "ranges": [
+            {
+              "from": 1,
+              "to": 5,
+              "proportion": null,
+              "type": "%",
+              "value": 5,
+              "maxQuantity": null
+            },
+            {
+              "from": 6,
+              "to": 10,
+              "proportion": null,
+              "type": "%",
+              "value": 7,
+              "maxQuantity": null
+            },
+            {
+              "from": 11,
+              "to": 20,
+              "proportion": null,
+              "type": "%",
+              "value": 9,
+              "maxQuantity": null
+            },
+            {
+              "from": 26,
+              "to": null,
+              "proportion": null,
+              "type": "%",
+              "value": 11,
+              "maxQuantity": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "vendorDealId": "VENDOR-DEAL-5",
+      "vendorPromotionId": "VENDOR-PROMO-5",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "timezone": "America/Lima",
+      "hiddenOnBrowse": false,
+      "conditions": {
+        "deliveryDate": [
+          {
+            "startDate": "2018-01-01",
+            "endDate": "2039-12-30"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-12744"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemScaledDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-12744"
+          ],
+          "ranges": [
+            {
+              "from": 5,
+              "to": 14,
+              "proportion": null,
+              "type": "%",
+              "value": 10,
+              "maxQuantity": null
+            },
+            {
+              "from": 25,
+              "to": null,
+              "proportion": null,
+              "type": "%",
+              "value": 12,
+              "maxQuantity": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "vendorDealId": "VENDOR-DEAL-6",
+      "vendorPromotionId": "VENDOR-PROMO-6",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "timezone": "America/Lima",
+      "hiddenOnBrowse": false,
+      "conditions": {
+        "deliveryDate": [
+          {
+            "startDate": "2018-01-01",
+            "endDate": "2039-12-30"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-12744"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemScaledDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-12744"
+          ],
+          "ranges": [
+            {
+              "from": 1,
+              "to": null,
+              "proportion": null,
+              "type": "%",
+              "value": 6,
+              "maxQuantity": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "vendorDealId": "VENDOR-DEAL-7",
+      "vendorPromotionId": "VENDOR-PROMO-7",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "timezone": "America/Lima",
+      "hiddenOnBrowse": false,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "deliveryDate": [
+          {
+            "startDate": "2018-01-01",
+            "endDate": "2029-12-25"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-15809"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-15809"
+          ],
+          "type": "%",
+          "value": 5,
+          "maxQuantity": 50,
+          "proportion": null
+        }
+      }
+    },
+    {
+      "vendorDealId": "VENDOR-DEAL-8",
+      "vendorPromotionId": "VENDOR-PROMO-8",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "timezone": "America/Lima",
+      "hiddenOnBrowse": false,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "deliveryDate": [
+          {
+            "startDate": "2018-01-01",
+            "endDate": "2029-12-25"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-15809"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-15809"
+          ],
+          "type": "$",
+          "value": 3,
+          "maxQuantity": 50,
+          "proportion": null
+        }
+      }
+    },
+    {
+      "vendorDealId": "VENDOR-DEAL-9",
+      "vendorPromotionId": "VENDOR-PROMO-9",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "timezone": "America/Lima",
+      "hiddenOnBrowse": false,
+      "conditions": {
+        "paymentMethod": "CASH",
+        "deliveryDate": [
+          {
+            "startDate": "2018-01-01",
+            "endDate": "2029-12-25"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-15809"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-15809"
+          ],
+          "type": "$",
+          "value": 1.99,
+          "maxQuantity": 50,
+          "proportion": null
+        }
+      }
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "size": 9,
+    "totalPages": 1,
+    "totalElements": 9
+  }
+}
