@@ -1,0 +1,33 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "enforcements": [
+    {
+      "entity": "PROMOTION",
+      "entityId": "VD-BEESPR-17144-1",
+      "type": "BUDGET",
+      "startDate": "2020-10-01T00:00:00.000Z",
+      "endDate": "2030-02-28T00:00:00.000Z",
+      "limits": [
+        {
+          "renew": "WEEKLY",
+          "value": 0.08
+        }
+      ]
+    },
+    {
+      "entity": "FREEGOOD",
+      "entityId": "VD-BEESPR-22035-1",
+      "type": "QUANTITY",
+      "startDate": "2020-10-01T00:00:00.000Z",
+      "endDate": "2030-02-28T00:00:00.000Z",
+      "limits": [
+        {
+          "renew": "WEEKLY",
+          "value": 9
+        }
+      ]
+    }
+  ]
+}
