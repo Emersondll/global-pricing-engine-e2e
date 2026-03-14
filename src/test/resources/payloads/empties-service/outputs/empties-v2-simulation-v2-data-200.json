@@ -1,0 +1,34 @@
+{
+  "content": [
+    {
+      "sku": "VENDOR-SKU-BEESPR-17987-1",
+      "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+      "vendorItemId": "VENDOR-SKU-BEESPR-17987-1",
+      "empties": [
+        {
+          "vendorEmptiesId": "BEESPR-17987-VENDOR-EMPTY-1",
+          "emptyId": "BEESPR-17987-VENDOR-EMPTY-1",
+          "quantity": 9
+        }
+      ],
+      "ddc": "0123"
+    },
+    {
+      "sku": "VENDOR-SKU-BEESPR-17987-4",
+      "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+      "vendorItemId": "VENDOR-SKU-BEESPR-17987-4",
+      "empties": [
+        {
+          "vendorEmptiesId": "BEESPR-17987-VENDOR-EMPTY-4",
+          "emptyId": "BEESPR-17987-VENDOR-EMPTY-4",
+          "quantity": 9
+        }
+      ],
+      "ddc": "0123"
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "hasNext": false
+  }
+}
