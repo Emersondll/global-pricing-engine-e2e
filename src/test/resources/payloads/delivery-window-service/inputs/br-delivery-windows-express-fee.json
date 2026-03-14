@@ -1,0 +1,13 @@
+[
+  {
+    "id": "DW-ID-FLEX-BEESPR-T4534",
+    "deliveryScheduleId": "DW-SCHED-ID-EXPRESS-BEESPR-T4534",
+    "deliveryDate": "2030-09-09",
+    "expirationDate": "2030-09-07T23:59:59Z",
+    "type": "EXPRESS",
+    "fee": {
+      "value": 11.0,
+      "maximumOrderTotal": 1000
+    }
+  }
+]
