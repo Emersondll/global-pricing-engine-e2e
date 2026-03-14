@@ -1,0 +1,23 @@
+[
+  {
+    "sku": "VENDOR-SKU-1-BEESPR-T20131",
+    "name": "SALSICHA SADIA",
+    "brandId": "SALSICHA-01",
+    "package": {
+      "count": 1,
+      "id": "01",
+      "itemCount": 12,
+      "name": "CX",
+      "size": 3.6
+    },
+    "container": {
+      "name": "CX",
+      "returnable": false,
+      "size": 3.2,
+      "unitOfMeasurement": "KG"
+    },
+    "sourceData": {
+      "vendorItemId": "VENDOR-ITEM-1-BEESPR-T20131"
+    }
+  }
+]
