@@ -1,0 +1,128 @@
+[
+  {
+    "sku": "SKU-1-BEESPR-T4598",
+    "name": "BACON-BEESPR-T4598",
+    "brandId": "01",
+    "package": {
+      "count": 5,
+      "id": "01",
+      "itemCount": 7,
+      "size": 105,
+      "name": "CX"
+    },
+    "container": {
+      "name": "CX",
+      "returnable": false,
+      "size": 3,
+      "unitOfMeasurement": "KG"
+    },
+    "sourceData": {
+      "vendorItemId": "VENDOR-1-BEESPR-T4598"
+    }
+  },
+  {
+    "sku": "SKU-1-BEESPR-T4598-2",
+    "name": "BACON-BEESPR-T4598-2",
+    "brandId": "01",
+    "package": {
+      "count": 2,
+      "id": "01",
+      "itemCount": 3,
+      "size": 12,
+      "name": "CX"
+    },
+    "container": {
+      "name": "CX",
+      "returnable": false,
+      "size": 2,
+      "unitOfMeasurement": "KG"
+    },
+    "sourceData": {
+      "vendorItemId": "VENDOR-1-BEESPR-T4598-2"
+    }
+  },
+  {
+    "sku": "SKU-1-BEESPR-T4598-3",
+    "name": "BACON-BEESPR-T4598-3",
+    "brandId": "01",
+    "package": {
+      "count": 5,
+      "id": "01",
+      "itemCount": 5,
+      "size": 100,
+      "name": "CX"
+    },
+    "container": {
+      "name": "CX",
+      "returnable": false,
+      "size": 4,
+      "unitOfMeasurement": "KG"
+    },
+    "sourceData": {
+      "vendorItemId": "VENDOR-1-BEESPR-T4598-3"
+    }
+  },
+  {
+    "sku": "VENDOR-1-BEESPR-18696-1",
+    "name": "VENDOR-1-BEESPR-18696-1",
+    "brandId": "01",
+    "package": {
+      "count": 10,
+      "id": "01",
+      "itemCount": 2,
+      "size": 40,
+      "name": "CX"
+    },
+    "container": {
+      "name": "CX",
+      "returnable": false,
+      "size": 4,
+      "unitOfMeasurement": "KG"
+    },
+    "sourceData": {
+      "vendorItemId": "VENDOR-1-BEESPR-18696-1"
+    }
+  },
+  {
+    "sku": "VENDOR-1-BEESPR-18696-2",
+    "name": "VENDOR-1-BEESPR-18696-2",
+    "brandId": "01",
+    "package": {
+      "count": 6,
+      "id": "01",
+      "itemCount": 7,
+      "size": 15,
+      "name": "CX"
+    },
+    "container": {
+      "name": "CX",
+      "returnable": false,
+      "size": 2,
+      "unitOfMeasurement": "KG"
+    },
+    "sourceData": {
+      "vendorItemId": "VENDOR-1-BEESPR-18696-2"
+    }
+  },
+  {
+    "sku": "VENDOR-1-BEESPR-18696-3",
+    "name": "VENDOR-1-BEESPR-18696-3",
+    "brandId": "01",
+    "package": {
+      "count": 5,
+      "id": "01",
+      "itemCount": 5,
+      "size": 105,
+      "name": "CX"
+    },
+    "container": {
+      "name": "CX",
+      "returnable": false,
+      "size": 3,
+      "unitOfMeasurement": "KG"
+    },
+    "sourceData": {
+      "vendorItemId": "VENDOR-1-BEESPR-18696-3"
+    }
+  }
+]
