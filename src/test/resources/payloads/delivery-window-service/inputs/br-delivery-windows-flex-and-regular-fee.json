@@ -1,0 +1,20 @@
+[
+  {
+    "id": "DWID-001",
+    "deliveryScheduleId": "deliveryScheduleId",
+    "deliveryDate": "2023-12-30",
+    "expirationDate": "2023-12-30T23:59:59Z",
+    "type": "FLEX",
+    "fee": {
+      "value": 10.5,
+      "maximumOrderTotal": 200
+    }
+  },
+  {
+    "id": "DWID-003",
+    "deliveryScheduleId": "deliveryScheduleId",
+    "deliveryDate": "2023-12-30",
+    "expirationDate": "2023-12-30T23:59:59Z",
+    "type": "REGULAR"
+  }
+]
