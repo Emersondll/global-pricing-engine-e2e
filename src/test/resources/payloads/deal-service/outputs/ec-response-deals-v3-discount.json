@@ -1,0 +1,45 @@
+{
+  "deals": [
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "DEAL_ACCOUNT-BEESPR-22082",
+      "vendorPromotionId": "PROMOTION_ACCOUNT-BEESPR-22082",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "timezone": "America/Guayaquil",
+      "conditions": {
+        "lineItem": {
+          "vendorItemIds": [
+            "12561916-TST",
+            "12571135-TST"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": true,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "12561916-TST",
+            "12571135-TST"
+          ],
+          "type": "%",
+          "value": 15,
+          "maxQuantity": 1,
+          "proportion": 1
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false,
+      "enforced": false
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "hasMore": false
+  }
+}
