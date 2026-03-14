@@ -1,0 +1,19 @@
+{
+  "vendorAccountIds": ["bees-account-id-specific-user-coupon"],
+  "enforcements": [
+    {
+      "description": "E2E-PROMOTION-SPECIFIC-USER-COUPON",
+      "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-02' ##",
+      "entity": "PROMOTION",
+      "entityId": "PROMOTION-SPECIFIC-USER-COUPON",
+      "type": "QUANTITY",
+      "startDate": "2020-10-01T00:00:00.000Z",
+      "endDate": "2030-02-28T00:00:00.000Z",
+      "limits": [
+        {
+          "value": 100
+        }
+      ]
+    }
+  ]
+}
