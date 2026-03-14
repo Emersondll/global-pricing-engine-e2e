@@ -1,0 +1,190 @@
+{
+  "deals": [
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-1",
+      "vendorPromotionId": "VENDOR-PROMO-1",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "timezone": "America/Lima",
+      "enforced": false,
+      "conditions": {
+        "simulationDateTime": {
+          "startDateTime": "2018-01-01T05:00:00Z",
+          "endDateTime": "2039-12-30T05:00:00Z"
+        },
+        "deliveryDate": [
+          {
+            "startDate": "2018-01-01",
+            "endDate": "2039-12-30"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-15572-1"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-15572-1"
+          ],
+          "type": "%",
+          "value": 10,
+          "maxQuantity": 1,
+          "proportion": null
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-2",
+      "vendorPromotionId": "VENDOR-PROMO-2",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 1,
+      "timezone": "America/Lima",
+      "enforced": false,
+      "conditions": {
+        "simulationDateTime": {
+          "startDateTime": "2021-12-06T05:00:00Z",
+          "endDateTime": "2091-12-24T05:00:00Z"
+        },
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-15572-1"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "freeGoods": {
+          "proportion": null,
+          "partial": true,
+          "items": [
+            {
+              "quantity": 1,
+              "vendorItems": [
+                {
+                  "vendorItemId": "VENDOR-SKU-1",
+                  "measureUnit": "UNIT",
+                  "price": 40
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 2 ##",
+      "vendorDealId": "VENDOR-DEAL-1",
+      "vendorPromotionId": "VENDOR-PROMO-1",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 0,
+      "timezone": "America/Lima",
+      "enforced": false,
+      "conditions": {
+        "simulationDateTime": {
+          "startDateTime": "2018-01-01T05:00:00Z",
+          "endDateTime": "2039-12-30T05:00:00Z"
+        },
+        "deliveryDate": [
+          {
+            "startDate": "2018-01-01",
+            "endDate": "2039-12-30"
+          }
+        ],
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-15572-1"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-15572-1"
+          ],
+          "type": "%",
+          "value": 10,
+          "maxQuantity": 1,
+          "proportion": null
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 2 ##",
+      "vendorDealId": "VENDOR-DEAL-2",
+      "vendorPromotionId": "VENDOR-PROMO-2",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 1,
+      "timezone": "America/Lima",
+      "enforced": false,
+      "conditions": {
+        "simulationDateTime": {
+          "startDateTime": "2021-12-06T05:00:00Z",
+          "endDateTime": "2091-12-24T05:00:00Z"
+        },
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-15572-1"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "freeGoods": {
+          "proportion": null,
+          "partial": true,
+          "items": [
+            {
+              "quantity": 1,
+              "vendorItems": [
+                {
+                  "vendorItemId": "VENDOR-SKU-1",
+                  "measureUnit": "UNIT",
+                  "price": 40
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "hasMore": false
+  }
+}
