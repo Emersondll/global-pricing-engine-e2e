@@ -1,0 +1,59 @@
+[
+  {
+    "id": {
+      "entity": "PROMOTION",
+      "entityDetail": null,
+      "entityId": "VENDOR-PROMO-1",
+      "type": "AVAILABILITY",
+      "vendorAccountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##",
+      "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##"
+    },
+    "limits": [
+      {
+        "renew": "WEEKLY",
+        "value": 2,
+        "balance": 2
+      }
+    ],
+    "startDate": "2020-10-01",
+    "endDate": "2030-02-28"
+  },
+  {
+    "id": {
+      "entity": "PROMOTION",
+      "entityDetail": null,
+      "entityId": "VENDOR-PROMO-3",
+      "type": "AVAILABILITY",
+      "vendorAccountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##",
+      "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##"
+    },
+    "limits": [
+      {
+        "renew": "WEEKLY",
+        "value": 0,
+        "balance": 0
+      }
+    ],
+    "startDate": "2020-10-01",
+    "endDate": "2030-02-28"
+  },
+  {
+    "id": {
+      "entity": "PROMOTION",
+      "entityDetail": null,
+      "entityId": "VENDOR-DEAL-ENFORCED-FALSE-1",
+      "type": "AVAILABILITY",
+      "vendorAccountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##",
+      "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##"
+    },
+    "limits": [
+      {
+        "renew": "WEEKLY",
+        "value": 0,
+        "balance": 0
+      }
+    ],
+    "startDate": "2020-10-01",
+    "endDate": "2030-02-28"
+  }
+]
