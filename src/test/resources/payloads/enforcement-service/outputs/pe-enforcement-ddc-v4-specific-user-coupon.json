@@ -1,0 +1,17 @@
+{
+  "enforcements": [
+    {
+      "id": {
+        "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-02' ##",
+        "vendorAccountId": "bees-account-id-specific-user-coupon",
+        "entity": "PROMOTION",
+        "entityId": "PROMOTION-SPECIFIC-USER-COUPON",
+        "type": "QUANTITY"
+      },
+      "enforcementPlatformId": "## WILL BE REPLACED BY DYNAMIC ENFORCEMENT_PLATFORM_ID WITH KEY 2 ##",
+      "balance": 100,
+      "startDate": "2020-10-01",
+      "endDate": "2030-02-28"
+    }
+  ]
+}
