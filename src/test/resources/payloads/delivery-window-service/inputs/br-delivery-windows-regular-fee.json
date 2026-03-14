@@ -1,0 +1,9 @@
+[
+  {
+    "id": "DW-ID-FLEX-BEESPR-T4535",
+    "deliveryScheduleId": "DW-SCHED-ID-FLEX-BEESPR-T4535",
+    "deliveryDate": "2030-09-09",
+    "expirationDate": "2030-09-07T23:59:59Z",
+    "type": "REGULAR"
+  }
+]
