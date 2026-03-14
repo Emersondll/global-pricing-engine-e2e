@@ -1,0 +1,83 @@
+{
+  "deals": [
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-01-BEESPR-20051",
+      "vendorPromotionId": "VENDOR-PROMO-01-BEESPR-20051",
+      "accumulationType": null,
+      "priority": null,
+      "level": 1,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "conditions": {
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-20051-1"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-20051-1"
+          ],
+          "type": "%",
+          "value": 5,
+          "maxQuantity": null,
+          "proportion": null
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-02-BEESPR-20051",
+      "vendorPromotionId": "VENDOR-PROMO-02-BEESPR-20051",
+      "accumulationType": null,
+      "priority": null,
+      "level": 1,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "conditions": {
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-20051-1",
+            "VENDOR-SKU-BEESPR-20051-2"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": true,
+          "crossDiscount": false
+        },
+        "couponCode": "COUPON-DEAL-02-BEESPR-20051",
+        "amounts": [
+          {
+            "scope": "ORDER",
+            "operator": "GE",
+            "field": "TOTAL",
+            "value": 245
+          }
+        ]
+      },
+      "output": {
+        "orderTotalDiscount": {
+          "type": "%",
+          "discount": 10,
+          "proportion": null,
+          "maxAmount": 7
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "hasMore": false
+  }
+}
