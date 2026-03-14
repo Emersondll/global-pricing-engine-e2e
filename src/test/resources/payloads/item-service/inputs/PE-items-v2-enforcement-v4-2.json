@@ -1,0 +1,22 @@
+[
+  {
+    "sku": "SKU-VI-BEESPR-22035-1",
+    "name": "VI-BEESPR-22035-1",
+    "brandId": "01",
+    "package": {
+      "count": 4,
+      "id": "01",
+      "itemCount": 6,
+      "name": "CS"
+    },
+    "container": {
+      "name": "CS",
+      "returnable": false,
+      "size": 8,
+      "unitOfMeasurement": "KG"
+    },
+    "sourceData": {
+      "vendorItemId": "VI-BEESPR-22035-1"
+    }
+  }
+]
