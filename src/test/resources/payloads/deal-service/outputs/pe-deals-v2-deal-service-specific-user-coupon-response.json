@@ -1,0 +1,39 @@
+{
+  "deals": [
+    {
+      "deliveryCenterId": "## WILL BE REPLACED BY DYNAMIC DELIVERY_CENTER_ID HASH WITH KEY 2 ##",
+      "vendorDealId": "DEAL-SPECIFIC-USER-COUPON",
+      "vendorPromotionId": "PROMOTION-SPECIFIC-USER-COUPON",
+      "accumulationType": null,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "enforced": true,
+      "contractId": null,
+      "priority": 1,
+      "level":0,
+      "conditions": {
+        "couponCode":"E2E-SPECIFIC-USER-COUPON",
+        "amounts":[
+          {
+            "value":0,
+            "field":"TOTAL",
+            "operator":"GE",
+            "scope":"ORDER"
+          }
+        ]
+      },
+      "output":{
+        "orderTotalDiscount":{
+          "type":"%",
+          "discount":10,
+          "proportion":null
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "hasMore": false
+  }
+}
