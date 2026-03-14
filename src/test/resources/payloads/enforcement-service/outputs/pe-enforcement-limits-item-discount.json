@@ -1,0 +1,40 @@
+[
+  {
+    "id": {
+      "entity": "PROMOTION",
+      "entityDetail": null,
+      "entityId": "PROMO-BEESPR-19419-1",
+      "type": "BUDGET",
+      "vendorAccountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##",
+      "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##"
+    },
+    "limits": [
+      {
+        "renew": "WEEKLY",
+        "value": 50.0,
+        "balance": 50.0
+      }
+    ],
+    "startDate": "2020-10-01",
+    "endDate": "2100-02-28"
+  },
+  {
+    "id": {
+      "entity": "PROMOTION",
+      "entityDetail": null,
+      "entityId": "PROMO-BEESPR-19419-3",
+      "type": "QUANTITY",
+      "vendorAccountId": "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##",
+      "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##"
+    },
+    "limits": [
+      {
+        "renew": "WEEKLY",
+        "value": 20,
+        "balance": 20
+      }
+    ],
+    "startDate": "2020-10-01",
+    "endDate": "2100-02-28"
+  }
+]
