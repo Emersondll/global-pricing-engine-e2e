@@ -1,0 +1,19 @@
+{
+  "vendorAccountIds": [ ],
+  "enforcements": [
+    {
+      "description": "E2E-BEESDTCPL-2769",
+      "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+      "entity": "PROMOTION",
+      "entityId": "PROMOTION-BEESDTCPL-2769",
+      "type": "QUANTITY",
+      "startDate": "2020-10-01T00:00:00.000Z",
+      "endDate": "2030-02-28T00:00:00.000Z",
+      "limits": [
+        {
+          "value": 100
+        }
+      ]
+    }
+  ]
+}
