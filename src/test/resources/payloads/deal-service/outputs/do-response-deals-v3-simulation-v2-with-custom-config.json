@@ -1,0 +1,186 @@
+{
+  "deals": [
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-1",
+      "vendorPromotionId": "VENDOR-PROMO-1",
+      "accumulationType": null,
+      "priority": 0,
+      "level": 0,
+      "timezone": "America/Santo_Domingo",
+      "conditions": {
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-19559-1-2-2"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-19559-1-2-2"
+          ],
+          "type": "$",
+          "value": 5,
+          "maxQuantity": null,
+          "proportion": null
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-2",
+      "vendorPromotionId": "VENDOR-PROMO-2",
+      "accumulationType": null,
+      "priority": 0,
+      "level": 0,
+      "timezone": "America/Santo_Domingo",
+      "conditions": {
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-19559-1-2-2"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "multipleConditionItems": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-19559-1-2-2"
+          ],
+          "type": "$",
+          "value": 10,
+          "maxQuantity": null,
+          "proportion": null
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-3",
+      "vendorPromotionId": "VENDOR-PROMO-3",
+      "accumulationType": null,
+      "priority": 0,
+      "level": 0,
+      "timezone": "America/Santo_Domingo",
+      "conditions": {
+        "paymentMethod": "CREDIT"
+      },
+      "output": {
+        "orderTotalDiscount": {
+          "type": "$",
+          "discount": 5,
+          "proportion": null
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-4",
+      "vendorPromotionId": "VENDOR-PROMO-4",
+      "accumulationType": null,
+      "priority": 0,
+      "level": 0,
+      "timezone": "America/Santo_Domingo",
+      "conditions": {
+        "paymentMethod": "CREDIT"
+      },
+      "output": {
+        "orderTotalDiscount": {
+          "type": "$",
+          "discount": 10,
+          "proportion": null
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-5",
+      "vendorPromotionId": "VENDOR-DEAL-5",
+      "accumulationType": null,
+      "priority": 0,
+      "level": 0,
+      "timezone": "America/Santo_Domingo",
+      "conditions": {
+        "paymentMethod": "CREDIT"
+      },
+      "output": {
+        "freeGoods": {
+          "proportion": null,
+          "partial": false,
+          "items": [
+            {
+              "quantity": 1,
+              "vendorItems": [
+                {
+                  "vendorItemId": "FREE-GOOD-SKU",
+                  "measureUnit": "UNIT",
+                  "price": 10
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false
+    },
+    {
+      "deliveryCenterId": null,
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "vendorDealId": "VENDOR-DEAL-6",
+      "vendorPromotionId": "VENDOR-DEAL-6",
+      "accumulationType": null,
+      "priority": 0,
+      "level": 0,
+      "timezone": "America/Santo_Domingo",
+      "conditions": {
+        "paymentMethod": "CREDIT"
+      },
+      "output": {
+        "freeGoods": {
+          "proportion": null,
+          "partial": false,
+          "items": [
+            {
+              "quantity": 1,
+              "vendorItems": [
+                {
+                  "vendorItemId": "FREE-GOOD-SKU",
+                  "measureUnit": "UNIT",
+                  "price": 15
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "vendorId": null,
+      "hiddenOnBrowse": false
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "hasMore": false
+  }
+}
