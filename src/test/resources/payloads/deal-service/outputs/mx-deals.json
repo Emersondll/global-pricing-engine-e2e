@@ -1,0 +1,50 @@
+{
+  "deals": [
+    {
+      "vendorDealId": "VENDOR-DEAL-1",
+      "vendorPromotionId": "VENDOR-PROMO-1",
+      "accumulationType": null,
+      "priority": 1,
+      "level": 1,
+      "timezone": "America/Mexico_City",
+      "hiddenOnBrowse": false,
+      "conditions": {
+        "simulationDateTime": {
+          "startDateTime": "2021-02-01T06:00:00Z",
+          "endDateTime": "3000-01-01T05:59:00Z"
+        },
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-2"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemScaledDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-2"
+          ],
+          "ranges": [
+            {
+              "from": 1,
+              "to": 999999,
+              "proportion": null,
+              "type": "%",
+              "value": 28.5714,
+              "maxQuantity": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "size": 1,
+    "totalPages": 1,
+    "totalElements": 1
+  }
+}
