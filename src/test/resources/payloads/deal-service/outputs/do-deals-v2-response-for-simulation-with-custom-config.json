@@ -1,0 +1,168 @@
+{
+  "deals": [
+    {
+      "vendorDealId": "VENDOR-DEAL-1",
+      "vendorPromotionId": "VENDOR-PROMO-1",
+      "accumulationType": null,
+      "priority": 0,
+      "level": 0,
+      "timezone": "## WILL BE REPLACED BY HEADER TIMEZONE ##",
+      "conditions": {
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-19559-1-2"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-19559-1-2"
+          ],
+          "type": "$",
+          "value": 5,
+          "maxQuantity": null,
+          "proportion": null
+        }
+      },
+      "hiddenOnBrowse": false
+    },
+    {
+      "vendorDealId": "VENDOR-DEAL-2",
+      "vendorPromotionId": "VENDOR-PROMO-2",
+      "accumulationType": null,
+      "priority": 0,
+      "level": 0,
+      "timezone": "## WILL BE REPLACED BY HEADER TIMEZONE ##",
+      "conditions": {
+        "lineItem": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-19559-1-2"
+          ],
+          "minimumQuantity": 1,
+          "sharedMinimumQuantity": false,
+          "crossDiscount": false
+        }
+      },
+      "output": {
+        "lineItemDiscount": {
+          "vendorItemIds": [
+            "VENDOR-SKU-BEESPR-19559-1-2"
+          ],
+          "type": "$",
+          "value": 10,
+          "maxQuantity": null,
+          "proportion": null
+        }
+      },
+      "hiddenOnBrowse": false
+    },
+    {
+      "vendorDealId": "VENDOR-DEAL-3",
+      "vendorPromotionId": "VENDOR-PROMO-3",
+      "accumulationType": null,
+      "priority": 0,
+      "level": 0,
+      "timezone": "## WILL BE REPLACED BY HEADER TIMEZONE ##",
+      "conditions": {
+        "paymentMethod": "CREDIT"
+      },
+      "output": {
+        "orderTotalDiscount": {
+          "type": "$",
+          "discount": 5,
+          "proportion": null
+        }
+      },
+      "hiddenOnBrowse": false
+    },
+    {
+      "vendorDealId": "VENDOR-DEAL-4",
+      "vendorPromotionId": "VENDOR-PROMO-4",
+      "accumulationType": null,
+      "priority": 0,
+      "level": 0,
+      "timezone": "## WILL BE REPLACED BY HEADER TIMEZONE ##",
+      "conditions": {
+        "paymentMethod": "CREDIT"
+      },
+      "output": {
+        "orderTotalDiscount": {
+          "type": "$",
+          "discount": 10,
+          "proportion": null
+        }
+      },
+      "hiddenOnBrowse": false
+    },
+    {
+      "vendorDealId": "VENDOR-DEAL-5",
+      "vendorPromotionId": "VENDOR-PROMO-5",
+      "accumulationType": null,
+      "priority": 0,
+      "level": 0,
+      "timezone": "## WILL BE REPLACED BY HEADER TIMEZONE ##",
+      "conditions": {
+        "paymentMethod": "CREDIT"
+      },
+      "output": {
+        "freeGoods": {
+          "proportion": null,
+          "partial": false,
+          "items": [
+            {
+              "quantity": 1,
+              "vendorItems": [
+                {
+                  "vendorItemId": "FREE-GOOD-1",
+                  "measureUnit": "UNIT",
+                  "price": 10
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "hiddenOnBrowse": false
+    },
+    {
+      "vendorDealId": "VENDOR-DEAL-6",
+      "vendorPromotionId": "VENDOR-PROMO-6",
+      "accumulationType": null,
+      "priority": 0,
+      "level": 0,
+      "timezone": "## WILL BE REPLACED BY HEADER TIMEZONE ##",
+      "conditions": {
+        "paymentMethod": "CREDIT"
+      },
+      "output": {
+        "freeGoods": {
+          "proportion": null,
+          "partial": false,
+          "items": [
+            {
+              "quantity": 1,
+              "vendorItems": [
+                {
+                  "vendorItemId": "FREE-GOOD-1",
+                  "measureUnit": "UNIT",
+                  "price": 15
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "hiddenOnBrowse": false
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "size": 6,
+    "totalPages": 1,
+    "totalElements": 6
+  }
+}
