@@ -1,0 +1,64 @@
+{
+  "type": "PRICE_LIST",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC PRICE_LIST_ID ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "Basic price used on discount",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-1",
+      "sku": "VENDOR-SKU-1",
+      "basePrice": 31.92,
+      "measureUnit": "CS",
+      "minimumPrice": 0,
+      "promotionalPrice": {
+        "price": 29.00,
+        "externalId": "ZTPM",
+        "validUntil": "2100-12-31"
+      }
+    },
+    {
+      "scenarioDescription": "Basic price used on discount",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-2",
+      "sku": "VENDOR-SKU-2",
+      "basePrice": 99.90,
+      "measureUnit": "CX",
+      "minimumPrice": 0,
+      "promotionalPrice": {
+        "price": 95.00,
+        "externalId": "ZTPM",
+        "validUntil": "2100-12-31"
+      }
+    },
+    {
+      "scenarioDescription": "Basic price used on discount",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-3",
+      "sku": "VENDOR-SKU-3",
+      "basePrice": 114.90,
+      "measureUnit": "CX",
+      "minimumPrice": 0,
+      "promotionalPrice": {
+        "price": 110.00,
+        "externalId": "ZTPM",
+        "validUntil": "2100-12-31"
+      }
+    },
+    {
+      "scenarioDescription": "Basic price used on discount",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-4",
+      "sku": "VENDOR-SKU-4",
+      "basePrice": 129.90,
+      "measureUnit": "CX",
+      "minimumPrice": 0,
+      "promotionalPrice": {
+        "price": 95.00,
+        "externalId": "ZTPM",
+        "validUntil": "2100-12-31"
+      }
+    }
+  ]
+}
