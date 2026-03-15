@@ -1,0 +1,65 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 2 ##"
+  ],
+  "prices": [
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-BEESPR-19859-V2-1",
+      "sku": "SKU-BEESPR-19859-V2-1",
+      "basePrice": 20,
+      "measureUnit": "CS",
+      "minimumPrice": 1,
+      "validFrom": null
+    },
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-BEESPR-19859-V2-2",
+      "sku": "SKU-BEESPR-19859-V2-2",
+      "basePrice": 12,
+      "measureUnit": "CS",
+      "minimumPrice": 0,
+      "charges": [
+        {
+          "chargeId": "LOGISTIC_COST",
+          "type": "$",
+          "value": 2
+        }
+      ],
+      "validFrom": null
+    },
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-BEESPR-19859-V2-3",
+      "sku": "SKU-BEESPR-19859-V2-3",
+      "basePrice": 13,
+      "measureUnit": "CS",
+      "minimumPrice": 3,
+      "validFrom": null
+    },
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-BEESPR-19859-V2-4",
+      "sku": "SKU-BEESPR-19859-V2-4",
+      "basePrice": 14,
+      "measureUnit": "CS",
+      "minimumPrice": 4,
+      "validFrom": null
+    },
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-BEESPR-19859-V2-5",
+      "sku": "SKU-BEESPR-19859-V2-5",
+      "basePrice": 11,
+      "measureUnit": "CS",
+      "minimumPrice": 7,
+      "validFrom": null,
+      "promotionalPrice": {
+        "price": 8,
+        "externalId": "ZTPM",
+        "validUntil": null
+      }
+    }
+  ]
+}
