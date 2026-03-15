@@ -1,0 +1,23 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "prices": [
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-ITEM-BEESPR-21953",
+      "sku": "SKU-BEESPR-21953",
+      "basePrice": 50,
+      "measureUnit": "CX",
+      "minimumPrice": 5.00,
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "%",
+          "value": 10
+        }
+      ]
+    }
+  ]
+}
