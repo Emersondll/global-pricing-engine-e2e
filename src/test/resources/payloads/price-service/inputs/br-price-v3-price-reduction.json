@@ -1,0 +1,41 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "Price for 1 unit",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-ITEM-BEESPR-21366-01",
+      "sku": "SKU-BEESPR-21366-01",
+      "basePrice": 100.00,
+      "measureUnit": "CX",
+      "minimumPrice": 0
+    },
+    {
+      "scenarioDescription": "Price with tax and charge",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-ITEM-BEESPR-21364-01",
+      "sku": "SKU-BEESPR-21364-01",
+      "basePrice": 100.00,
+      "measureUnit": "CX",
+      "minimumPrice": 0,
+      "taxes": [
+        {
+          "taxId": "ST",
+          "type": "%",
+          "value": 5,
+          "hidden": false
+        }
+      ],
+      "charges": [
+        {
+          "chargeId": "LOGISTIC_COST",
+          "type": "$",
+          "value": 30
+        }
+      ]
+    }
+  ]
+}
