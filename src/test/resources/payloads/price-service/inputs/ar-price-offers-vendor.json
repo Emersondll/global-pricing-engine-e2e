@@ -1,0 +1,18 @@
+{
+  "type": "VENDOR",
+  "ids": [
+    "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "Simple price for account",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-ITEM-BEESPR-21246-01",
+      "sku": "SKU-BEESPR-21246-01",
+      "basePrice": 200.00,
+      "measureUnit": "CX",
+      "minimumPrice": 0,
+      "validFrom": "## WILL BE REPLACED BY CURRENT DATE ##"
+    }
+  ]
+}
