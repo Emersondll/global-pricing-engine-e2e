@@ -1,0 +1,68 @@
+{
+  "type": "PRICE_LIST",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC PRICE_LIST_ID ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "Price type UOM and with data in the item-service",
+      "type": "PER_UOM",
+      "vendorItemId": "VENDOR-SKU-BEESPR-14278-1",
+      "sku": "SKU-BEESPR-14278-1",
+      "basePrice": 54.92,
+      "measureUnit": "CS",
+      "minimumPrice": 54.92,
+      "deposit": 0,
+      "quantityPerPallet": 4
+    },
+    {
+      "scenarioDescription": "Price type UOM, with data in the item-service, promotional price and minimumPrice",
+      "type": "PER_UOM",
+      "vendorItemId": "VENDOR-SKU-BEESPR-14278-2",
+      "sku": "SKU-BEESPR-14278-2",
+      "basePrice": 2.82,
+      "measureUnit": "CX",
+      "promotionalPrice": {
+        "price": 1.82,
+        "externalId": "ZTPM",
+        "validUntil": "2031-12-31"
+      },
+      "minimumPrice": 2,
+      "deposit": 0,
+      "quantityPerPallet": 0
+    },
+    {
+      "scenarioDescription": "Price type UOM and WITHOUT data in the item-service (item will be removed from the simulation)",
+      "type": "PER_UOM",
+      "vendorItemId": "VENDOR-SKU-BEESPR-14278-3",
+      "sku": "SKU-BEESPR-14278-3",
+      "basePrice": 67.92,
+      "measureUnit": "CS",
+      "minimumPrice": 47.92,
+      "deposit": 0,
+      "quantityPerPallet": 4
+    },
+    {
+      "scenarioDescription": "Price type UNIT and WITHOUT data in the item-service (only the field browsePricePerUoM will be removed from the simulation)",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-14278-4",
+      "sku": "SKU-BEESPR-14278-4",
+      "basePrice": 12.23,
+      "measureUnit": "CS",
+      "minimumPrice": 1.54,
+      "deposit": 0,
+      "quantityPerPallet": 4
+    },
+    {
+      "scenarioDescription": "Price type UNIT and with data in the item-service",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-14278-5",
+      "sku": "SKU-BEESPR-14278-5",
+      "basePrice": 3.15,
+      "measureUnit": "CS",
+      "minimumPrice": 1.92,
+      "deposit": 0,
+      "quantityPerPallet": 4
+    }
+  ]
+}
