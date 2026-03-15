@@ -1,0 +1,18 @@
+{
+  "type": "DELIVERY_CENTER",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC DELIVERY_CENTER_ID WITH KEY 1 ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "Simple price for delivery center",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-ITEM-BEESPR-21246-01",
+      "sku": "SKU-BEESPR-21246-01",
+      "basePrice": 180.00,
+      "measureUnit": "CX",
+      "minimumPrice": 0,
+      "validFrom": "## WILL BE REPLACED BY CURRENT DATE ##"
+    }
+  ]
+}
