@@ -1,0 +1,85 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "Basic price finding by contractId",
+      "type": "PER_UOM",
+      "vendorItemId": "VENDOR-SKU-BEESPR-15563-01",
+      "sku": "SKU-BEESPR-15563-01",
+      "basePrice": 31.92,
+      "measureUnit": "KG",
+      "minimumPrice": 0,
+      "promotionalPrice": {
+        "price": 29.00,
+        "externalId": "ZTPM",
+        "validUntil": "2100-12-31"
+      },
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "%",
+          "value": 12.99,
+          "hidden": false
+        }
+      ],
+      "charges": [
+        {
+          "chargeId": "LOGISTIC_COST",
+          "type": "%",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "scenarioDescription": "Basic price finding by contractId",
+      "type": "PER_UOM",
+      "vendorItemId": "VENDOR-SKU-BEESPR-15563-02",
+      "sku": "SKU-BEESPR-15563-02",
+      "basePrice": 99.90,
+      "measureUnit": "KG",
+      "minimumPrice": 80
+    },
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-20479-03",
+      "sku": "SKU-BEESPR-20479-03",
+      "basePrice": 83.74,
+      "measureUnit": "KG",
+      "minimumPrice": 0,
+      "quantityPerPallet": 0,
+      "timezone": "America/Sao_Paulo",
+      "taxes": [
+        {
+          "taxId": "ICEPORCENTUAL",
+          "type": "$",
+          "value": 0.837,
+          "hidden": false,
+          "proportional": true
+        },
+        {
+          "taxId": "IVA",
+          "type": "$",
+          "value": 12.51,
+          "hidden": false,
+          "proportional": true
+        },
+        {
+          "taxId": "ICE",
+          "type": "$",
+          "value": 29.90,
+          "hidden": false
+        }
+      ],
+      "charges": [
+        {
+          "chargeId": "LOGISTIC_COST",
+          "type": "$",
+          "value": 9.91
+        }
+      ]
+    }
+  ]
+}
