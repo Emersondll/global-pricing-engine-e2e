@@ -1,0 +1,27 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "prices": [
+    {
+      "type": "PER_UOM",
+      "vendorItemId": "VENDOR-ITEM-1-BEESPR-T20131",
+      "sku": "VENDOR-SKU-1-BEESPR-T20131",
+      "basePrice": 18.371015,
+      "minimumPrice": 11.0226090,
+      "measureUnit": "KG",
+      "deposit": 0.0,
+      "quantityPerPallet": 0,
+      "taxes": [
+        {
+          "taxId": "ST",
+          "type": "$",
+          "value": 4.026669,
+          "hidden": false,
+          "proportional": true
+        }
+      ]
+    }
+  ]
+}
