@@ -1,0 +1,41 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "prices": [
+    {
+      "vendorItemId": "VENDOR-BEESPR-20962-1",
+      "sku": "SKU-BEESPR-20962-1",
+      "itemId": "## WILL BE REPLACED BY ITEM_ID WITH VENDOR_ITEM_ID 'VENDOR-BEESPR-20962-1' AND VENDOR KEY 'V-01' ##",
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "basePrice": 22.25,
+      "minimumPrice": 0,
+      "measureUnit": "CX",
+      "type": "PER_UNIT",
+      "deposit": 1.0,
+      "quantityPerPallet": 0,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##"
+    },
+    {
+      "vendorItemId": "VENDOR-BEESPR-20962-2",
+      "sku": "SKU-BEESPR-20962-2",
+      "itemId": "## WILL BE REPLACED BY ITEM_ID WITH VENDOR_ITEM_ID 'VENDOR-BEESPR-20962-2' AND VENDOR KEY 'V-01' ##",
+      "contractId": "## WILL BE REPLACED BY DYNAMIC CONTRACT_ID WITH KEY 1 ##",
+      "basePrice": 22.25,
+      "measureUnit": "CX",
+      "minimumPrice": 5.00,
+      "type": "PER_UNIT",
+      "deposit": 1.0,
+      "quantityPerPallet": 0,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "charges": [
+        {
+          "chargeId": "LOGISTIC_COST",
+          "type": "$",
+          "value": 10.0
+        }
+      ]
+    }
+  ]
+}
