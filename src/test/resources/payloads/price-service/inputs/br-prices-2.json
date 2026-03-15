@@ -1,0 +1,37 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "minimumPrice equal basePrice",
+      "vendorItemId": "VENDOR-SKU-1",
+      "sku": "SKU-1",
+      "basePrice": 31.92,
+      "measureUnit": "CS",
+      "minimumPrice": 31.92,
+      "deposit": 0,
+      "quantityPerPallet": 50
+    },
+    {
+      "scenarioDescription": "minimumPrice less than basePrice",
+      "vendorItemId": "VENDOR-SKU-2",
+      "sku": "SKU-2",
+      "basePrice": 99.90,
+      "measureUnit": "CX",
+      "minimumPrice": 20,
+      "deposit": 0,
+      "quantityPerPallet": 0
+    },
+    {
+      "scenarioDescription": "minimumPrice less than basePrice",
+      "vendorItemId": "VENDOR-SKU-3",
+      "sku": "SKU-3",
+      "basePrice": 114.90,
+      "measureUnit": "CX",
+      "minimumPrice": 80,
+      "deposit": 0,
+      "quantityPerPallet": 0
+    }
+  ]
+}
