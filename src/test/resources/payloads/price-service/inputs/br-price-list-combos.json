@@ -1,0 +1,44 @@
+{
+  "type": "PRICE_LIST",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC PRICE_LIST_ID ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "Basic price used on combos",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-13302-1",
+      "sku": "SKU-BEESPR-13302-1",
+      "basePrice": 31.92,
+      "measureUnit": "CS",
+      "minimumPrice": 0
+    },
+    {
+      "scenarioDescription": "Basic price used on combos",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-13302-2",
+      "sku": "SKU-BEESPR-13302-2",
+      "basePrice": 99.90,
+      "measureUnit": "CX",
+      "minimumPrice": 0
+    },
+    {
+      "scenarioDescription": "Basic price used on combos",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-13302-3",
+      "sku": "SKU-BEESPR-13302-3",
+      "basePrice": 114.90,
+      "measureUnit": "CX",
+      "minimumPrice": 0
+    },
+    {
+      "scenarioDescription": "Basic price used on combos",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-13302-4",
+      "sku": "SKU-BEESPR-13302-4",
+      "basePrice": 129.90,
+      "measureUnit": "CX",
+      "minimumPrice": 0
+    }
+  ]
+}
