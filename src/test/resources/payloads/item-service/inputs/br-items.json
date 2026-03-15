@@ -1,0 +1,142 @@
+[
+  {
+    "sku": "SKU-BEESPR-14277-2",
+    "name": "BACON SADIA",
+    "brandId": "01",
+    "package": {
+      "count": 5,
+      "id": "01",
+      "itemCount": 7,
+      "name": "CX"
+    },
+    "container": {
+      "name": "CX",
+      "returnable": false,
+      "size": 3,
+      "unitOfMeasurement": "KG"
+    },
+    "sourceData": {
+      "vendorItemId": "VENDOR-SKU-BEESPR-14277-2"
+    }
+  },
+  {
+    "sku": "SKU-BEESPR-14277-3",
+    "name": "COPA LOMBO SUINA CONGELADA",
+    "brandId": "02",
+    "package": {
+      "count": 19,
+      "id": "01",
+      "itemCount": 5,
+      "name": "CX"
+    },
+    "container": {
+      "name": "CX",
+      "returnable": false,
+      "size": 2,
+      "unitOfMeasurement": "KG"
+    },
+    "sourceData": {
+      "vendorItemId": "VENDOR-SKU-BEESPR-14277-3"
+    }
+  },
+  {
+    "sku": "SKU-BEESPR-14277-4",
+    "name": "MARGARINA CREMOSA",
+    "brandId": "03",
+    "package": {
+      "count": 2,
+      "id": "01",
+      "itemCount": 12,
+      "name": "CX"
+    },
+    "container": {
+      "name": "CX",
+      "returnable": false,
+      "size": 1,
+      "unitOfMeasurement": "KG"
+    },
+    "sourceData": {
+      "vendorItemId": "VENDOR-SKU-BEESPR-14277-4"
+    }
+  },
+  {
+    "sku": "SKU-BEESPR-14277-5",
+    "name": "BISTECA SUINA CONGELADA SADIA",
+    "brandId": "01",
+    "package": {
+      "count": 3,
+      "id": "01",
+      "itemCount": 11,
+      "name": "CX"
+    },
+    "container": {
+      "name": "CX",
+      "returnable": false,
+      "size": 13,
+      "unitOfMeasurement": "KG"
+    },
+    "sourceData": {
+      "vendorItemId": "VENDOR-SKU-BEESPR-14277-5"
+    }
+  },
+  {
+    "sku": "SKU-BEESPR-14278-1",
+    "name": "SKU-BEESPR-14278-1",
+    "brandId": "01",
+    "package": {
+      "count": 5,
+      "id": "01",
+      "itemCount": 7,
+      "name": "CX"
+    },
+    "container": {
+      "name": "CX",
+      "returnable": false,
+      "size": 3,
+      "unitOfMeasurement": "KG"
+    },
+    "sourceData": {
+      "vendorItemId": "VENDOR-SKU-BEESPR-14278-1"
+    }
+  },
+  {
+    "sku": "SKU-BEESPR-14278-2",
+    "name": "SKU-BEESPR-14278-2",
+    "brandId": "01",
+    "package": {
+      "count": 18,
+      "id": "01",
+      "itemCount": 10,
+      "name": "CX"
+    },
+    "container": {
+      "name": "CX",
+      "returnable": false,
+      "size": 38,
+      "unitOfMeasurement": "KG"
+    },
+    "sourceData": {
+      "vendorItemId": "VENDOR-SKU-BEESPR-14278-2"
+    }
+  },
+  {
+    "sku": "SKU-BEESPR-14278-5",
+    "name": "SKU-BEESPR-14278-5",
+    "brandId": "01",
+    "package": {
+      "count": 4,
+      "id": "01",
+      "itemCount": 1,
+      "name": "CX"
+    },
+    "container": {
+      "name": "CX",
+      "returnable": false,
+      "size": 1,
+      "unitOfMeasurement": "KG"
+    },
+    "sourceData": {
+      "vendorItemId": "VENDOR-SKU-BEESPR-14278-5"
+    }
+  }
+]
