@@ -1,0 +1,21 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "prices": [
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-ITEM-17575",
+      "sku": "SKU-17575",
+      "basePrice": 90.66,
+      "measureUnit": "CX",
+      "minimumPrice": 50.00,
+      "promotionalPrice": {
+        "price": 80.99,
+        "externalId": "PROMO-1",
+        "validUntil": "2100-12-31"
+      }
+    }
+  ]
+}
