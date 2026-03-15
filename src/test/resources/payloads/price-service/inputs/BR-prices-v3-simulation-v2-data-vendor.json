@@ -1,0 +1,111 @@
+{
+  "type": "VENDOR",
+  "ids": [
+    "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##"
+  ],
+  "prices": [
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-BEESPR-16705-1",
+      "sku": "SKU-BEESPR-16705-1",
+      "basePrice": 60,
+      "measureUnit": "CS",
+      "minimumPrice": 0.00
+    },
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-16703-1",
+      "sku": "SKU-BEESPR-16703-1",
+      "basePrice": 60,
+      "measureUnit": "CX",
+      "minimumPrice": 50.00
+    },
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-16703-2",
+      "sku": "SKU-BEESPR-16703-2",
+      "basePrice": 61,
+      "measureUnit": "CX",
+      "minimumPrice": 50.00,
+      "taxes": [
+        {
+          "taxId": "PercepI2",
+          "type": "%",
+          "value": "2.47922",
+          "taxBaseInclusionIds": [
+            "IVA"
+          ],
+          "hidden": false,
+          "conditions": {
+            "orderSubTotal": {
+              "minimumValue": "2000.00000"
+            }
+          }
+        },
+        {
+          "taxId": "IVA",
+          "type": "%",
+          "value": "21.00000",
+          "hidden": false
+        },
+        {
+          "taxId": "Percep",
+          "type": "%",
+          "value": "2.49980",
+          "hidden": false
+        },
+        {
+          "taxId": "ImpInt",
+          "type": "%",
+          "value": "16.27880",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-16703-3",
+      "sku": "SKU-BEESPR-16703-3",
+      "basePrice": 62,
+      "measureUnit": "CX",
+      "minimumPrice": 50.00,
+      "promotionalPrice": {
+        "price": 29.00,
+        "externalId": "ZTPM",
+        "validUntil": "2100-12-31"
+      },
+      "charges": [
+        {
+          "chargeId": "LOGISTIC_COST",
+          "type": "%",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-ITEM-ID-BEESPR-17503-01",
+      "sku": "0002009",
+      "basePrice": 14.9,
+      "measureUnit": "CX",
+      "minimumPrice": 11.9
+    },
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-ITEM-ID-BEESPR-17503-02",
+      "sku": "0002010",
+      "basePrice": 19.9,
+      "measureUnit": "CX",
+      "minimumPrice": 13.9
+    },
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-ITEM-BEESPR-16704-1",
+      "sku": "SKU-BEESPR-16704-1",
+      "basePrice": 11.09,
+      "measureUnit": "CS",
+      "minimumPrice": 0.00,
+      "quantityPerPallet": 12
+    }
+  ]
+}
