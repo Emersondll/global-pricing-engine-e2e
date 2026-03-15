@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "brandId": "01",
+      "brandName": null,
+      "classification": null,
+      "container": {
+        "returnable": false,
+        "name": "CS",
+        "itemSize": 8,
+        "size": 8,
+        "unitOfMeasurement": "KG",
+        "material": null,
+        "fullContainerDescription": "8KG CS"
+      },
+      "deleted": false,
+      "description": null,
+      "enabled": true,
+      "hidden": null,
+      "isAlcoholic": null,
+      "isNarcotic": null,
+      "palletQuantity": null,
+      "itemName": "VI-BEESPR-17144-1",
+      "itemImage": null,
+      "minOrderQuantity": null,
+      "hasBeenUpdated": null,
+      "ozVolume": null,
+      "salesRanking": 99999999,
+      "uncategorized": null,
+      "local": null,
+      "newRelease": null,
+      "upcCase": null,
+      "upcUnit": null,
+      "upc": null,
+      "sku": "SKU-VI-BEESPR-17144-1",
+      "subBrandName": null,
+      "updatedAt": "## WILL BE REPLACED BY CURRENT DATE ##",
+      "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+      "manufacturerId": null,
+      "styleType": null,
+      "distributorProductType": null,
+      "itemType": null,
+      "vendorItemId": "VI-BEESPR-17144-1",
+      "abv": null,
+      "supplier": null,
+      "countryOfOrigin": null,
+      "ibu": null,
+      "itemPlatformId": "## WILL BE REPLACED BY ITEM_ID WITH VENDOR_ITEM_ID 'VI-BEESPR-17144-1' AND VENDOR KEY 'V-01' ##",
+      "dynamicAttributes": null,
+      "variableWeight": false,
+      "agingGroup": "REGULAR",
+      "casingDescription": "4x6 Unidades - 8KG CS",
+      "package": {
+        "packageId": "01",
+        "unitCount": 4,
+        "itemCount": 6,
+        "name": "CS",
+        "materialType": null,
+        "pack": null,
+        "fullPackageDescription": "4x6 Unidades"
+      }
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "hasNext": false
+  }
+}
