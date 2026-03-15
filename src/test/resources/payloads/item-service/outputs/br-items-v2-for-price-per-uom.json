@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "brandName": null,
+      "classification": null,
+      "container": {
+        "returnable": false,
+        "name": "CX",
+        "itemSize": 3,
+        "size": 3.2,
+        "unitOfMeasurement": "KG",
+        "material": null,
+        "fullContainerDescription": "CX"
+      },
+      "deleted": false,
+      "enabled": true,
+      "hidden": null,
+      "isAlcoholic": null,
+      "isNarcotic": null,
+      "palletQuantity": null,
+      "itemName": "SALSICHA SADIA",
+      "itemImage": null,
+      "minOrderQuantity": null,
+      "hasBeenUpdated": null,
+      "ozVolume": null,
+      "salesRanking": 99999999,
+      "uncategorized": null,
+      "local": null,
+      "newRelease": null,
+      "upcCase": null,
+      "upcUnit": null,
+      "upc": null,
+      "sku": "VENDOR-SKU-1-BEESPR-T20131",
+      "subBrandName": null,
+      "updatedAt": "## WILL BE REPLACED BY CURRENT DATE ##",
+      "vendorId": "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-01' ##",
+      "manufacturerId": null,
+      "styleType": null,
+      "distributorProductType": null,
+      "itemType": null,
+      "vendorItemId": "VENDOR-ITEM-1-BEESPR-T20131",
+      "abv": null,
+      "supplier": null,
+      "countryOfOrigin": null,
+      "ibu": null,
+      "itemPlatformId": "## WILL BE REPLACED BY ITEM_ID WITH VENDOR_ITEM_ID 'VENDOR-ITEM-1-BEESPR-T20131' AND VENDOR KEY 'V-01' ##",
+      "dynamicAttributes": null,
+      "variableWeight": false,
+      "agingGroup": "REGULAR",
+      "variant": false,
+      "casingDescription": "1x12 Unidades - 3.2KG CX",
+      "package": {
+        "packageId": "01",
+        "unitCount": 1,
+        "itemCount": 12,
+        "name": "CX",
+        "materialType": null,
+        "pack": null,
+        "fullPackageDescription": "1x3.2 Kg",
+        "size": 3.6
+      }
+    }
+  ],
+  "pagination": {
+    "page": 0,
+    "hasNext": false
+  }
+}
