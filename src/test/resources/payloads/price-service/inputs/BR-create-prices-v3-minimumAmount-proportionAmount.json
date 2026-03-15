@@ -1,0 +1,26 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "prices": [
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-BEESPR-21949",
+      "sku": "SKU-BEESPR-21949",
+      "basePrice": 200.0,
+      "measureUnit": "CX",
+      "minimumPrice": 1,
+      "validFrom": null
+    },
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-BEESPR-21949-FREEGOOD",
+      "sku": "SKU-VENDOR-BEESPR-21949-FREEGOOD",
+      "basePrice": 0.0,
+      "measureUnit": "CX",
+      "minimumPrice": 0,
+      "validFrom": null
+    }
+  ]
+}
