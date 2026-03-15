@@ -1,0 +1,44 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "prices": [
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-20051-1",
+      "sku": "SKU-BEESPR-20051-1",
+      "basePrice": 100,
+      "minimumPrice": 0,
+      "measureUnit": "CX",
+      "deposit": 0.0,
+      "quantityPerPallet": 0,
+      "taxes": [
+        {
+          "taxId": "ST",
+          "type": "%",
+          "value": 1,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-20051-2",
+      "sku": "SKU-BEESPR-20051-2",
+      "basePrice": 50,
+      "minimumPrice": 0,
+      "measureUnit": "CX",
+      "deposit": 0.0,
+      "quantityPerPallet": 0,
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "%",
+          "value": 10,
+          "hidden": false
+        }
+      ]
+    }
+  ]
+}
