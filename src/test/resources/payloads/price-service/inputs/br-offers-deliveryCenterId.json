@@ -1,0 +1,46 @@
+{
+  "type": "DELIVERY_CENTER",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC DELIVERY_CENTER_ID WITH KEY 1 ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "Basic price finding by contractId",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-15563-01",
+      "sku": "SKU-BEESPR-15563-01",
+      "basePrice": 31.92,
+      "measureUnit": "CS",
+      "minimumPrice": 0,
+      "promotionalPrice": {
+        "price": 29.00,
+        "externalId": "ZTPM",
+        "validUntil": "2100-12-31"
+      },
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "%",
+          "value": 12.99,
+          "hidden": false
+        }
+      ],
+      "charges": [
+        {
+          "chargeId": "LOGISTIC_COST",
+          "type": "%",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "scenarioDescription": "Basic price finding by contractId",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-15563-02",
+      "sku": "SKU-BEESPR-15563-02",
+      "basePrice": 99.90,
+      "measureUnit": "CX",
+      "minimumPrice": 80
+    }
+  ]
+}
