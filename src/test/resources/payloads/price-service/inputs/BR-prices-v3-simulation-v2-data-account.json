@@ -1,0 +1,25 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "prices": [
+    {
+      "type":"PER_UNIT",
+      "vendorItemId":"VENDOR-BEESPR-16705-2",
+      "sku":"SKU-BEESPR-16705-2",
+      "basePrice":61,
+      "measureUnit":"CS",
+      "minimumPrice":1.99
+    },
+    {
+      "type":"PER_UNIT",
+      "vendorItemId":"VENDOR-ITEM-BEESPR-16704-2",
+      "sku":"SKU-BEESPR-16704-2",
+      "basePrice":12.07,
+      "measureUnit":"CS",
+      "minimumPrice":1.00,
+      "quantityPerPallet":12
+    }
+  ]
+}
