@@ -1,0 +1,129 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "prices": [
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "12561916-TST",
+      "sku": "12561916-TST",
+      "basePrice": 0.2600,
+      "measureUnit": "UN",
+      "minimumPrice": 0.0,
+      "deposit": 0.0,
+      "consignment": 0.0,
+      "quantityPerPallet": 0,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "%",
+          "value": 12,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "12194346-TST",
+      "sku": "12194346-TST",
+      "basePrice": 0.5500,
+      "measureUnit": "UN",
+      "minimumPrice": 0.0,
+      "deposit": 0.0,
+      "consignment": 0.0,
+      "quantityPerPallet": 0,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "%",
+          "value": 12,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "12571135-TST",
+      "sku": "12571135-TST",
+      "basePrice": 8.0182,
+      "measureUnit": "UN",
+      "minimumPrice": 0.0,
+      "deposit": 0.0,
+      "consignment": 0.0,
+      "quantityPerPallet": 0,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "%",
+          "value": 12,
+          "hidden": false
+        }
+      ]
+    }
+  ,
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "12455631-TST",
+      "sku": "12455631-TST",
+      "basePrice": 40.8000,
+      "measureUnit": "UN",
+      "minimumPrice": 0.0,
+      "deposit": 0.0,
+      "consignment": 0.0,
+      "quantityPerPallet": 0,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "%",
+          "value": 12,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "12523009-TST",
+      "sku": "12523009-TST",
+      "basePrice": 0.3700,
+      "measureUnit": "UN",
+      "minimumPrice": 0.0,
+      "deposit": 0.0,
+      "consignment": 0.0,
+      "quantityPerPallet": 0,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "%",
+          "value": 12,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "12454679-TST",
+      "sku": "12454679-TST",
+      "basePrice": 1.1600,
+      "measureUnit": "UN",
+      "minimumPrice": 0.0,
+      "deposit": 0.0,
+      "consignment": 0.0,
+      "quantityPerPallet": 0,
+      "timezone": "## WILL BE REPLACED BY TIME ZONE BY COUNTRY ##",
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "%",
+          "value": 12,
+          "hidden": false
+        }
+      ]
+    }
+  ]
+}
