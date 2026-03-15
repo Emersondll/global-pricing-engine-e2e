@@ -1,0 +1,84 @@
+{
+  "type": "PRICE_LIST",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC PRICE_LIST_ID ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "Basic price used on deals",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-1",
+      "sku": "SKU-1",
+      "basePrice": 31.92,
+      "measureUnit": "CS",
+      "minimumPrice": 31.92,
+      "deposit": 0,
+      "quantityPerPallet": 50
+    },
+    {
+      "scenarioDescription": "Basic price used on deals",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-2",
+      "sku": "SKU-2",
+      "basePrice": 99.90,
+      "measureUnit": "CX",
+      "minimumPrice": 20,
+      "deposit": 0,
+      "quantityPerPallet": 0
+    },
+    {
+      "scenarioDescription": "Basic price used on deals",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-3",
+      "sku": "SKU-3",
+      "basePrice": 114.90,
+      "measureUnit": "CX",
+      "minimumPrice": 80,
+      "deposit": 0,
+      "quantityPerPallet": 0
+    },
+    {
+      "scenarioDescription": "Basic price used on deals",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-4",
+      "sku": "SKU-4",
+      "basePrice": 129.90,
+      "measureUnit": "CX",
+      "minimumPrice": 80,
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "$",
+          "value": 1.99
+        },
+        {
+          "taxId": "IVA_2",
+          "type": "%",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "scenarioDescription": "Price used on deals with taxes.proportional",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-16",
+      "sku": "SKU-16",
+      "basePrice": 129.9,
+      "measureUnit": "CX",
+      "minimumPrice": 80,
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "$",
+          "value": 1.99,
+          "proportional": true
+        },
+        {
+          "taxId": "IVA_2",
+          "type": "%",
+          "value": 5
+        }
+      ]
+    }
+  ]
+}
