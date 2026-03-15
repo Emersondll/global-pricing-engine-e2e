@@ -1,0 +1,62 @@
+[
+  {
+    "sku": "SKU-BEESPR-17987-1",
+    "name": "VENDOR-SKU-BEESPR-17987-1",
+    "brandId": "01",
+    "package": {
+      "count": 1,
+      "id": "01",
+      "itemCount": 12,
+      "name": "CS"
+    },
+    "container": {
+      "name": "CS",
+      "returnable": true,
+      "size": 12,
+      "unitOfMeasurement": "L"
+    },
+    "sourceData": {
+      "vendorItemId": "VENDOR-SKU-BEESPR-17987-1"
+    }
+  },
+  {
+    "sku": "SKU-BEESPR-17987-2",
+    "name": "VENDOR-SKU-BEESPR-17987-2",
+    "brandId": "01",
+    "package": {
+      "count": 1,
+      "id": "01",
+      "itemCount": 12,
+      "name": "CS"
+    },
+    "container": {
+      "name": "CS",
+      "returnable": true,
+      "size": 12,
+      "unitOfMeasurement": "L"
+    },
+    "sourceData": {
+      "vendorItemId": "VENDOR-SKU-BEESPR-17987-2"
+    }
+  },
+  {
+    "sku": "SKU-BEESPR-17987-4",
+    "name": "VENDOR-SKU-BEESPR-17987-4",
+    "brandId": "01",
+    "package": {
+      "count": 1,
+      "id": "01",
+      "itemCount": 12,
+      "name": "CS"
+    },
+    "container": {
+      "name": "CS",
+      "returnable": true,
+      "size": 12,
+      "unitOfMeasurement": "L"
+    },
+    "sourceData": {
+      "vendorItemId": "VENDOR-SKU-BEESPR-17987-4"
+    }
+  }
+]
