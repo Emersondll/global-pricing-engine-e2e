@@ -1,0 +1,52 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##"
+  ],
+  "prices": [
+    {
+      "vendorItemId": "VENDOR-BEESPR-17680-V1-1",
+      "sku": "SKU-BEESPR-17680-V1-1",
+      "basePrice": 11.00,
+      "measureUnit": "CS",
+      "minimumPrice": 1.00,
+      "promotionalPrice": {
+        "price": 10.96,
+        "externalId": "ZTPM",
+        "validUntil": null
+      }
+    },
+    {
+      "vendorItemId": "VENDOR-BEESPR-17680-V1-2",
+      "sku": "SKU-BEESPR-17680-V1-2",
+      "basePrice": 12.00,
+      "measureUnit": "CS",
+      "minimumPrice": 2.00
+    },
+    {
+      "vendorItemId": "VENDOR-BEESPR-17680-V1-3",
+      "sku": "SKU-BEESPR-17680-V1-3",
+      "basePrice": 13.00,
+      "measureUnit": "CS",
+      "minimumPrice": 3.00
+    },
+    {
+      "vendorItemId": "VENDOR-BEESPR-17680-V1-4",
+      "sku": "SKU-BEESPR-17680-V1-4",
+      "basePrice": 14.00,
+      "measureUnit": "CS",
+      "minimumPrice": 4.00
+    },
+    {
+      "vendorItemId": "VENDOR-BEESPR-17680-V1-5",
+      "sku": "SKU-BEESPR-17680-V1-5",
+      "basePrice": 15.00,
+      "measureUnit": "CS",
+      "minimumPrice": 5.00,
+      "promotionalPrice": {
+        "price": 5.00,
+        "externalId": "ZTPM",
+        "validUntil": null
+      }
+    }
+  ]
+}
