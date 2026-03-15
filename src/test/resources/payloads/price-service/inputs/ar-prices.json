@@ -1,0 +1,177 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "Simple Tax (Multiple Taxes)",
+      "vendorItemId": "VENDOR-SKU-1",
+      "sku": "SKU-1",
+      "basePrice": 703.980,
+      "measureUnit": "LITRO",
+      "minimumPrice": 0.0,
+      "quantityPerPallet": 60,
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "%",
+          "value": "21.00",
+          "hidden": false
+        },
+        {
+          "taxId": "INTERFIJ",
+          "type": "$",
+          "value": "23.184",
+          "hidden": false
+        }
+      ],
+      "validFrom": "## WILL BE REPLACED BY CURRENT DATE ##"
+    },
+    {
+      "scenarioDescription": "Simple Tax (Single Tax) + future ValidFrom",
+      "vendorItemId": "VENDOR-SKU-1",
+      "sku": "SKU-1",
+      "basePrice": 1178.175,
+      "measureUnit": "LITRO",
+      "minimumPrice": 0.0,
+      "quantityPerPallet": 50,
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "%",
+          "value": "21.00",
+          "hidden": false
+        }
+      ],
+      "validFrom": "2100-12-31"
+    },
+    {
+      "scenarioDescription": "Simple Tax (Single Tax)",
+      "vendorItemId": "VENDOR-SKU-2",
+      "sku": "SKU-2",
+      "basePrice": 1615.413,
+      "measureUnit": "LITRO",
+      "minimumPrice": 0.0,
+      "quantityPerPallet": 1,
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "%",
+          "value": "21.00",
+          "hidden": false
+        }
+      ],
+      "validFrom": "## WILL BE REPLACED BY CURRENT DATE ##"
+    },
+    {
+      "scenarioDescription": "Compound Tax + Conditional Tax (Perception)",
+      "vendorItemId": "VENDOR-SKU-3",
+      "sku": "SKU-3",
+      "basePrice": 1792.08000,
+      "measureUnit": "Pack",
+      "minimumPrice": 1.00000,
+      "quantityPerPallet": 0,
+      "taxes": [
+        {
+          "taxId": "PercepI2",
+          "type": "%",
+          "value": "2.47922",
+          "taxBaseInclusionIds": [
+            "IVA"
+          ],
+          "hidden": false,
+          "conditions": {
+            "orderSubTotal": {
+              "minimumValue": "2000.00000"
+            }
+          }
+        },
+        {
+          "taxId": "IVA",
+          "type": "%",
+          "value": "21.00000",
+          "hidden": false
+        },
+        {
+          "taxId": "Percep",
+          "type": "%",
+          "value": "2.49980",
+          "hidden": false
+        },
+        {
+          "taxId": "ImpInt",
+          "type": "%",
+          "value": "16.27880",
+          "hidden": false
+        }
+      ],
+      "validFrom": "## WILL BE REPLACED BY CURRENT DATE ##"
+    },
+    {
+      "scenarioDescription": "Simple Tax (Single Tax)",
+      "vendorItemId": "VENDOR-SKU-4",
+      "sku": "SKU-4",
+      "basePrice": 619.308,
+      "measureUnit": "LITRO",
+      "minimumPrice": 0.0,
+      "quantityPerPallet": 50,
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "%",
+          "value": "21.00",
+          "hidden": false
+        }
+      ],
+      "validFrom": "## WILL BE REPLACED BY CURRENT DATE ##"
+    },
+    {
+      "scenarioDescription": "Simple Tax (Multiple Tax)",
+      "vendorItemId": "VENDOR-SKU-5",
+      "sku": "SKU-5",
+      "basePrice": 578.396,
+      "measureUnit": "LITRO",
+      "minimumPrice": 0.0,
+      "quantityPerPallet": 110,
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "%",
+          "value": "21.00",
+          "hidden": false
+        },
+        {
+          "taxId": "INTERFIJ",
+          "type": "$",
+          "value": "17.742",
+          "hidden": false
+        }
+      ],
+      "validFrom": "## WILL BE REPLACED BY CURRENT DATE ##"
+    },
+    {
+      "scenarioDescription": "Item to accumation tests",
+      "vendorItemId": "VENDOR-SKU-6",
+      "sku": "SKU-6",
+      "basePrice": 578.396,
+      "measureUnit": "LITRO",
+      "minimumPrice": 0.0,
+      "quantityPerPallet": 110,
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "%",
+          "value": "21.00",
+          "hidden": false
+        },
+        {
+          "taxId": "INTERFIJ",
+          "type": "$",
+          "value": "17.742",
+          "hidden": false
+        }
+      ],
+      "validFrom": "## WILL BE REPLACED BY CURRENT DATE ##"
+    }
+  ]
+}
