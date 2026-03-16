@@ -1,0 +1,94 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "Basic price for rounding",
+      "type": "PER_UOM",
+      "vendorItemId": "VENDOR-SKU-BEESPR-16681",
+      "sku": "SKU-BEESPR-16681",
+      "basePrice": 90.66645546,
+      "measureUnit": "CX",
+      "minimumPrice": 50.00
+    },
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-20479",
+      "sku": "SKU-1-BEESPR-20479-2",
+      "basePrice": 83.74,
+      "measureUnit": "KG",
+      "minimumPrice": 0,
+      "quantityPerPallet": 0,
+      "timezone": "America/Sao_Paulo",
+      "taxes": [
+        {
+          "taxId": "ICEPORCENTUAL",
+          "type": "$",
+          "value": 0.837,
+          "hidden": false,
+          "proportional": true
+        },
+        {
+          "taxId": "IVA",
+          "type": "$",
+          "value": 12.51,
+          "hidden": false,
+          "proportional": true
+        },
+        {
+          "taxId": "ICE",
+          "type": "$",
+          "value": 29.90,
+          "hidden": false
+        },
+        {
+          "taxId": "T1",
+          "type": "%",
+          "value": 5.0,
+          "hidden": false,
+          "baseChanges": {
+            "increase": 18.00,
+            "reduction": 3.00
+          },
+          "deduction": {
+            "type": "%",
+            "value": 6.00,
+            "baseChanges": {
+              "reduction": 20.00
+            }
+          }
+        },
+        {
+          "taxId": "T2",
+          "type": "%",
+          "value": 5.0,
+          "hidden": false,
+          "baseChanges": {
+            "increase": 18.00,
+            "reduction": 3.00,
+            "compareWith": {
+              "base": 13.83,
+              "type": "AMOUNT_PER_UOM"
+            }
+          },
+          "deduction": {
+            "type": "%",
+            "value": 6.00,
+            "baseChanges": {
+              "reduction": 20.00
+            }
+          }
+        }
+      ],
+      "charges": [
+        {
+          "chargeId": "LOGISTIC_COST",
+          "type": "$",
+          "value": 9.91
+        }
+      ]
+    }
+  ]
+}
