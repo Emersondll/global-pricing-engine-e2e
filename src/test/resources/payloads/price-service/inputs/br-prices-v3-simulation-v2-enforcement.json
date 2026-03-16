@@ -1,0 +1,44 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "Basic price used on simulation v2 with enforcement",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-18537-1",
+      "sku": "SKU-BEESPR-18537-1",
+      "basePrice": 90.66,
+      "measureUnit": "CX",
+      "minimumPrice": 50.00
+    },
+    {
+      "scenarioDescription": "Basic price used on simulation v2 with enforcement",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-18537-2",
+      "sku": "SKU-BEESPR-18537-2",
+      "basePrice": 12.32,
+      "measureUnit": "CX",
+      "minimumPrice": 5.00
+    },
+    {
+      "scenarioDescription": "Basic price used on simulation v2 with enforcement",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-18537-3",
+      "sku": "SKU-BEESPR-18537-3",
+      "basePrice": 123.21,
+      "measureUnit": "CX",
+      "minimumPrice": 50.00
+    },
+    {
+      "scenarioDescription": "Basic price used on simulation v2 with enforcement",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-18537-4",
+      "sku": "SKU-BEESPR-18537-4",
+      "basePrice": 55.60,
+      "measureUnit": "CX",
+      "minimumPrice": 20.00
+    }
+  ]
+}
