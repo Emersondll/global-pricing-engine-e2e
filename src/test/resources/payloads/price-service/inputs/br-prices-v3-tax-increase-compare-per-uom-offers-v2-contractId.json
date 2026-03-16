@@ -1,0 +1,41 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "Price with base changes and compare per UOM finding by contractId",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-20086-01",
+      "sku": "SKU-BEESPR-20086-01",
+      "basePrice": 15.75,
+      "measureUnit": "KG",
+      "minimumPrice": 13.80,
+      "taxes": [
+        {
+          "taxId": "IPI",
+          "type": "%",
+          "value": 8.75,
+          "hidden": false
+        },
+        {
+          "taxId": "ICMS",
+          "type": "%",
+          "value": 12.50,
+          "hidden": false,
+          "taxBaseInclusionIds": [
+            "IPI"
+          ],
+          "baseChanges": {
+            "increase": 10.00,
+            "compareWith": {
+              "base": 2.93,
+              "type": "AMOUNT_PER_UOM"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
