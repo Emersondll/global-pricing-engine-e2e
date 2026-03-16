@@ -1,0 +1,97 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "Simple Tax",
+      "vendorItemId": "VENDOR-SKU-1",
+      "sku": "SKU-1",
+      "basePrice": 299.83,
+      "measureUnit": "CS",
+      "minimumPrice": 0.00,
+      "deposit": 0.00,
+      "quantityPerPallet": 165,
+      "taxes": [
+        {
+          "taxId": "VAT",
+          "type": "%",
+          "value": "15",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "scenarioDescription": "Simple Tax and deposit",
+      "vendorItemId": "VENDOR-SKU-2",
+      "sku": "SKU-2",
+      "basePrice": 149.60,
+      "measureUnit": "CS",
+      "minimumPrice": 0,
+      "deposit": 25.30,
+      "quantityPerPallet": 77,
+      "taxes": [
+        {
+          "taxId": "VAT",
+          "type": "%",
+          "value": 15,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "scenarioDescription": "Simple Tax",
+      "vendorItemId": "VENDOR-SKU-3",
+      "sku": "SKU-3",
+      "basePrice": 199.57,
+      "measureUnit": "CS",
+      "minimumPrice": 0.00,
+      "deposit": 0.00,
+      "quantityPerPallet": 84,
+      "taxes": [
+        {
+          "taxId": "VAT",
+          "type": "%",
+          "value": "15",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "scenarioDescription": "Simple Tax",
+      "vendorItemId": "VENDOR-SKU-4",
+      "sku": "SKU-4",
+      "basePrice": 1062.01,
+      "measureUnit": "KEG",
+      "minimumPrice": 0.00,
+      "deposit": 0.00,
+      "quantityPerPallet": 6,
+      "taxes": [
+        {
+          "taxId": "VAT",
+          "type": "%",
+          "value": "15",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "scenarioDescription": "Simple Tax and deposit",
+      "vendorItemId": "VENDOR-SKU-5",
+      "sku": "SKU-5",
+      "basePrice": 782.46,
+      "measureUnit": "KEG",
+      "minimumPrice": 0.00,
+      "deposit": 315.79,
+      "quantityPerPallet": 6,
+      "taxes": [
+        {
+          "taxId": "VAT",
+          "type": "%",
+          "value": "15",
+          "hidden": false
+        }
+      ]
+    }
+  ]
+}
