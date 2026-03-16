@@ -1,0 +1,17 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "Simple Price for item discount enforced tests",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-19416-01",
+      "sku": "SKU-BEESPR-19416-01",
+      "basePrice": 10.00,
+      "measureUnit": "CX",
+      "minimumPrice": 2.9
+    }
+  ]
+}
