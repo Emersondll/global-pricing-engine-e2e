@@ -1,0 +1,88 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "[price range] price used for deal lineItemDiscount with better discount than promotionalPrice and the reverse",
+      "vendorItemId": "VENDOR-SKU-BEESPR-15809",
+      "sku": "VENDOR-SKU-BEESPR-15809",
+      "basePrice": 30.99,
+      "measureUnit": "CS",
+      "minimumPrice": 5.99,
+      "quantityPerPallet": 88,
+      "promotionalPrice": {
+        "price": 28.99,
+        "externalId": "ZTPM",
+        "validUntil": "2050-12-31"
+      },
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "%",
+          "value": 13,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "scenarioDescription": "minimumPrice less than basePrice",
+      "vendorItemId": "VENDOR-SKU-BEESPR-14583-1",
+      "sku": "VENDOR-SKU-BEESPR-14583-1",
+      "basePrice": 19.90,
+      "measureUnit": "CS",
+      "minimumPrice": 15.99,
+      "deposit": 0,
+      "quantityPerPallet": 50
+    },
+    {
+      "scenarioDescription": "minimumPrice less than basePrice",
+      "vendorItemId": "VENDOR-SKU-BEESPR-14583-2",
+      "sku": "VENDOR-SKU-BEESPR-14583-2",
+      "basePrice": 15.90,
+      "measureUnit": "CS",
+      "minimumPrice": 10.99,
+      "deposit": 0,
+      "quantityPerPallet": 50
+    },
+    {
+      "scenarioDescription": "Simple Price without taxes",
+      "vendorItemId": "VENDOR-SKU-BEESPR-12744",
+      "sku": "VENDOR-SKU-BEESPR-12744",
+      "basePrice": 10.00,
+      "measureUnit": "CX",
+      "minimumPrice": 7.00,
+      "deposit": null,
+      "quantityPerPallet": 0,
+      "taxes": null
+    },
+    {
+      "scenarioDescription": "Simple Price",
+      "vendorItemId": "VENDOR-BEESPR-18770",
+      "sku": "SKU-BEESPR-18770",
+      "basePrice": 19.90,
+      "measureUnit": "CX",
+      "minimumPrice": 3.50,
+      "deposit": 0,
+      "quantityPerPallet": 99
+    },
+    {
+      "scenarioDescription": "Simple Price for enforced tests",
+      "vendorItemId": "VENDOR-SKU-BEESPR-18771",
+      "sku": "VENDOR-SKU-BEESPR-18771",
+      "basePrice": 10.00,
+      "measureUnit": "CX",
+      "minimumPrice": 1.00,
+      "deposit": null,
+      "quantityPerPallet": 0
+    },
+    {
+      "scenarioDescription": "Simple Price for another enforced tests",
+      "vendorItemId": "VENDOR-SKU-BEESPR-19419-01",
+      "sku": "SKU-BEESPR-19419-01",
+      "basePrice": 10.00,
+      "measureUnit": "CX",
+      "minimumPrice": 2.9
+    }
+  ]
+}
