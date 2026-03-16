@@ -1,0 +1,49 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "Price with Base Changes and Deduction finding by contractId",
+      "type": "PER_UOM",
+      "vendorItemId": "VENDOR-SKU-BEESPR-20222-01",
+      "sku": "SKU-BEESPR-20222-01",
+      "basePrice": 153.75,
+      "measureUnit": "KG",
+      "minimumPrice": 137.80,
+      "promotionalPrice": {
+        "price": 148.50,
+        "externalId": "ZTPM",
+        "validUntil": "2100-12-31"
+      },
+      "taxes": [
+        {
+          "taxId": "IPI",
+          "type": "%",
+          "value": 8.75,
+          "hidden": false
+        },
+        {
+          "taxId": "ICMS",
+          "type": "%",
+          "value": 12.50,
+          "hidden": false,
+          "taxBaseInclusionIds": [
+            "IPI"
+          ],
+          "baseChanges": {
+            "increase": 10.00
+          },
+          "deduction": {
+            "type": "%",
+            "value": 9.40,
+            "baseChanges": {
+              "reduction": 7.28
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
