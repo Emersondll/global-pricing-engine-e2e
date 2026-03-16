@@ -1,0 +1,15 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "Simple Price 1",
+      "vendorItemId": "VENDOR-SKU-BEESPR-19559-1-2",
+      "sku": "SKU-BEESPR-19559-1-2",
+      "basePrice": 100,
+      "measureUnit": "ML",
+      "minimumPrice": 0.0
+    }
+  ]
+}
