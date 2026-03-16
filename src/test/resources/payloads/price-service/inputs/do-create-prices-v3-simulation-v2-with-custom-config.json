@@ -1,0 +1,17 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "Simple Price 1",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-19559-1-2-2",
+      "sku": "SKU-BEESPR-19559-1-2",
+      "basePrice": 100,
+      "measureUnit": "CX",
+      "minimumPrice": 0.00
+    }
+  ]
+}
