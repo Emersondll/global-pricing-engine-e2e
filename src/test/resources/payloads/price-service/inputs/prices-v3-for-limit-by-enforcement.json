@@ -1,0 +1,71 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "Basic price used on simulation v2 with enforcement",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-20103-1",
+      "sku": "SKU-BEESPR-20103-1",
+      "basePrice": 61.61,
+      "measureUnit": "CX",
+      "minimumPrice": 50.00
+    },
+    {
+      "scenarioDescription": "Basic price used on simulation v2 with enforcement",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-20103-2",
+      "sku": "SKU-BEESPR-20103-2",
+      "basePrice": 62.62,
+      "measureUnit": "CX",
+      "minimumPrice": 50.00
+    },
+    {
+      "scenarioDescription": "Basic price used on simulation v2 with enforcement",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-20103-3",
+      "sku": "SKU-BEESPR-20103-3",
+      "basePrice": 63.63,
+      "measureUnit": "CX",
+      "minimumPrice": 50.00
+    },
+    {
+      "scenarioDescription": "Basic price used on simulation v2 with enforcement",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-20103-4",
+      "sku": "SKU-BEESPR-20103-4",
+      "basePrice": 64.64,
+      "measureUnit": "CX",
+      "minimumPrice": 50.00
+    },
+    {
+      "scenarioDescription": "Basic price used on simulation v2 with enforcement",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-20103-5",
+      "sku": "SKU-BEESPR-20103-5",
+      "basePrice": 65.65,
+      "measureUnit": "CX",
+      "minimumPrice": 50.00
+    },
+    {
+      "scenarioDescription": "Basic price used on simulation v2 with enforcement",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-20103-6",
+      "sku": "SKU-BEESPR-20103-6",
+      "basePrice": 66.66,
+      "measureUnit": "CX",
+      "minimumPrice": 50.00
+    },
+    {
+      "scenarioDescription": "Basic price used on simulation v2 with enforcement",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-20103-7",
+      "sku": "SKU-BEESPR-20103-7",
+      "basePrice": 67.67,
+      "measureUnit": "CX",
+      "minimumPrice": 50.00
+    }
+  ]
+}
