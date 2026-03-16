@@ -1,0 +1,32 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "Basic price finding by contractId",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-ITEM-1-BEESPR-T19723",
+      "sku": "VENDOR-SKU-1-BEESPR-T19723",
+      "basePrice": 90.66,
+      "measureUnit": "KG",
+      "minimumPrice": 50.00,
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "%",
+          "value": 10.00,
+          "hidden": false
+        }
+      ],
+      "charges": [
+        {
+          "chargeId": "LOGISTIC_COST",
+          "type": "%",
+          "value": 5
+        }
+      ]
+    }
+  ]
+}
