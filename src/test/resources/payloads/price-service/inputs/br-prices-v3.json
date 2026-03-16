@@ -1,0 +1,64 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "Basic price used on offers",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-14277-2",
+      "sku": "SKU-BEESPR-14277-2",
+      "basePrice": 90.66,
+      "measureUnit": "CX",
+      "minimumPrice": 50.00,
+      "promotionalPrice": {
+        "price": 80.99,
+        "externalId": "PROMO-2",
+        "validUntil": "2100-12-31"
+      }
+    },
+    {
+      "scenarioDescription": "Basic price used on offers",
+      "type": "PER_UOM",
+      "vendorItemId": "VENDOR-SKU-BEESPR-14277-3",
+      "sku": "SKU-BEESPR-14277-3",
+      "basePrice": 172.16,
+      "measureUnit": "CX",
+      "minimumPrice": 150.00,
+      "promotionalPrice": {
+        "price": 169.90,
+        "externalId": "PROMO-3",
+        "validUntil": "2100-12-31"
+      }
+    },
+    {
+      "scenarioDescription": "Basic price used on offers",
+      "type": "PER_UOM",
+      "vendorItemId": "VENDOR-SKU-BEESPR-14277-4",
+      "sku": "SKU-BEESPR-14277-4",
+      "basePrice": 150.70,
+      "measureUnit": "CX",
+      "minimumPrice": 100.00,
+      "promotionalPrice": {
+        "price": 139.99,
+        "externalId": "PROMO-4",
+        "validUntil": "2100-12-31"
+      }
+    },
+    {
+      "scenarioDescription": "Basic price used on offers",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-14277-5",
+      "sku": "SKU-BEESPR-14277-5",
+      "basePrice": 155.60,
+      "measureUnit": "CX",
+      "minimumPrice": 100.00,
+      "promotionalPrice": {
+        "price": 149.90,
+        "externalId": "PROMO-5",
+        "validUntil": "2100-12-31"
+      }
+    }
+  ]
+}
