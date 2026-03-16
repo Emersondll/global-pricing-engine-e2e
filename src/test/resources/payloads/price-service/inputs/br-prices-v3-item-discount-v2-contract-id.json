@@ -1,0 +1,193 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "Basic price used on item discounts v2",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-15566-01",
+      "sku": "SKU-BEESPR-15566-01",
+      "basePrice": 78.8,
+      "measureUnit": "CX",
+      "minimumPrice": 65.9,
+      "promotionalPrice": {
+        "price": 72.74,
+        "externalId": "PROMO-1",
+        "validUntil": "2999-07-01"
+      },
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "$",
+          "value": 3.99
+        }
+      ]
+    },
+    {
+      "scenarioDescription": "Basic price used on item discounts v2 - PER_UOM",
+      "type": "PER_UOM",
+      "vendorItemId": "VENDOR-SKU-BEESPR-16583-01",
+      "sku": "SKU-BEESPR-16583-01",
+      "basePrice": 483.0,
+      "measureUnit": "CX",
+      "minimumPrice": 423.0,
+      "promotionalPrice": {
+        "price": 453.74,
+        "externalId": "PROMO-1",
+        "validUntil": "2999-07-01"
+      },
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "$",
+          "value": 13.43
+        }
+      ]
+    },
+    {
+      "scenarioDescription": "Price with taxes.proportional = true used on item discounts v2",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-18965-01",
+      "sku": "SKU-BEESPR-18965-01",
+      "basePrice": 78.8,
+      "measureUnit": "CX",
+      "minimumPrice": 65.9,
+      "promotionalPrice": {
+        "price": 72.74,
+        "externalId": "PROMO-1",
+        "validUntil": "2999-07-01"
+      },
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "$",
+          "value": 3.99,
+          "proportional": true
+        }
+      ]
+    },
+    {
+      "scenarioDescription": "Price with taxes.proportional = true used on item discounts v2 - PER_UOM",
+      "type": "PER_UOM",
+      "vendorItemId": "VENDOR-SKU-BEESPR-18965-02",
+      "sku": "SKU-BEESPR-18965-02",
+      "basePrice": 483.0,
+      "measureUnit": "CX",
+      "minimumPrice": 423.0,
+      "promotionalPrice": {
+        "price": 453.74,
+        "externalId": "PROMO-1",
+        "validUntil": "2999-07-01"
+      },
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "$",
+          "value": 13.43,
+          "proportional": true
+        }
+      ]
+    },
+    {
+      "scenarioDescription": "Price with taxes.proportional = true with two taxes used on item discounts v2",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-18965-03",
+      "sku": "SKU-BEESPR-18965-03",
+      "basePrice": 123.8,
+      "measureUnit": "CX",
+      "minimumPrice": 5.9,
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "$",
+          "value": 3.99,
+          "proportional": true
+        },
+        {
+          "taxId": "IVA_2",
+          "type": "%",
+          "value": 5.00
+        }
+      ]
+    },
+    {
+      "scenarioDescription": "Price with taxes.proportional = true with two taxes used on item discounts v2 - PER_UOM",
+      "type": "PER_UOM",
+      "vendorItemId": "VENDOR-SKU-BEESPR-18965-04",
+      "sku": "SKU-BEESPR-18965-04",
+      "basePrice": 23.82,
+      "measureUnit": "CX",
+      "minimumPrice": 2.9,
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "$",
+          "value": 0.93,
+          "proportional": true
+        },
+        {
+          "taxId": "IVA_2",
+          "type": "%",
+          "value": 5.00,
+          "baseChanges": {
+            "increase": 30.00,
+            "compareWith": {
+              "base": 1.5,
+              "type": "AMOUNT_PER_UOM"
+            }
+          },
+          "deduction": {
+            "type": "%",
+            "value": 3.00,
+            "baseChanges": {
+              "reduction": 9.00
+            }
+          }
+        }
+      ]
+    },
+    {
+      "scenarioDescription": "Price with taxes.proportional = true and one tax without proportional of type amount",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-20479-05",
+      "sku": "SKU-BEESPR-20479-05",
+      "basePrice": 83.74,
+      "measureUnit": "KG",
+      "minimumPrice": 0,
+      "quantityPerPallet": 0,
+      "timezone": "America/Sao_Paulo",
+      "promotionalPrice": null,
+      "taxes": [
+        {
+          "taxId": "ICEPORCENTUAL",
+          "type": "$",
+          "value": 0.837,
+          "hidden": false,
+          "proportional": true
+        },
+        {
+          "taxId": "IVA",
+          "type": "$",
+          "value": 12.51,
+          "hidden": false,
+          "proportional": true
+        },
+        {
+          "taxId": "ICE",
+          "type": "$",
+          "value": 29.90,
+          "hidden": false
+        }
+      ],
+      "charges": [
+        {
+          "chargeId": "LOGISTIC_COST",
+          "type": "$",
+          "value": 9.91
+        }
+      ]
+    }
+  ]
+}
