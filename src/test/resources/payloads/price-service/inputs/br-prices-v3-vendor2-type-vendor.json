@@ -1,0 +1,35 @@
+{
+  "type": "VENDOR",
+  "ids": [
+    "## WILL BE REPLACED BY VENDOR_ID WITH KEY 'V-02' ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "Price will be ignored from simulation because the vendorItemId has a price with type ACCOUNT",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-15572-1",
+      "sku": "SKU-BEESPR-15572-1",
+      "basePrice": 60,
+      "measureUnit": "CX",
+      "minimumPrice": 50.00
+    },
+    {
+      "scenarioDescription": "Price will be ignored from simulation because the vendorItemId has a price with type DELIVERY_CENTER",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-15572-2",
+      "sku": "SKU-BEESPR-15572-2",
+      "basePrice": 61,
+      "measureUnit": "CX",
+      "minimumPrice": 50.00
+    },
+    {
+      "scenarioDescription": "Basic price used on simulation",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-15572-3",
+      "sku": "SKU-BEESPR-15572-3",
+      "basePrice": 100,
+      "measureUnit": "CX",
+      "minimumPrice": 50.00
+    }
+  ]
+}
