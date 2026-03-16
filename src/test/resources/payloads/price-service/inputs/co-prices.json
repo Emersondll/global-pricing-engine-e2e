@@ -1,0 +1,103 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "Simple Tax (Multiple Taxes) + Hidden Tax",
+      "vendorItemId": "VENDOR-SKU-1",
+      "sku": "SKU-1",
+      "basePrice": 16661.172,
+      "measureUnit": "DCP",
+      "minimumPrice": 0,
+      "quantityPerPallet": 0,
+      "taxes": [
+        {
+          "taxId": "ICO",
+          "type": "%",
+          "value": 48,
+          "hidden": true,
+          "base": 9840
+        },
+        {
+          "taxId": "IVA",
+          "type": "%",
+          "value": 19,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "scenarioDescription": "Simple Tax (Multiple Taxes) + Hidden Tax",
+      "vendorItemId": "VENDOR-SKU-2",
+      "sku": "SKU-2",
+      "basePrice": 3378.15,
+      "measureUnit": "SXP",
+      "minimumPrice": 0,
+      "quantityPerPallet": 0,
+      "taxes": [
+        {
+          "taxId": "ICO",
+          "type": "%",
+          "value": 0,
+          "hidden": true,
+          "base": 3378.15
+        },
+        {
+          "taxId": "IVA",
+          "type": "%",
+          "value": 19,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "scenarioDescription": "Simple Tax (Multiple Taxes) + Hidden Tax",
+      "vendorItemId": "VENDOR-SKU-3",
+      "sku": "SKU-3",
+      "basePrice": 36699.982,
+      "measureUnit": "CAJ",
+      "minimumPrice": 0,
+      "quantityPerPallet": 0,
+      "taxes": [
+        {
+          "taxId": "ICO",
+          "type": "%",
+          "value": 48,
+          "hidden": true,
+          "base": 21394
+        },
+        {
+          "taxId": "IVA",
+          "type": "%",
+          "value": 19,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "scenarioDescription": "Simple Tax (Multiple Taxes) + Hidden Tax",
+      "vendorItemId": "VENDOR-SKU-4",
+      "sku": "SKU-4",
+      "basePrice": 40000.008,
+      "measureUnit": "CAJ",
+      "minimumPrice": 0,
+      "quantityPerPallet": 0,
+      "taxes": [
+        {
+          "taxId": "ICO",
+          "type": "%",
+          "value": 48,
+          "hidden": true,
+          "base": 19680
+        },
+        {
+          "taxId": "IVA",
+          "type": "%",
+          "value": 19,
+          "hidden": false
+        }
+      ]
+    }
+  ]
+}
