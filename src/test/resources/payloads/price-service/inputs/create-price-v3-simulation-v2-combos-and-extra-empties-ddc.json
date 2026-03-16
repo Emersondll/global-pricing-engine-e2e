@@ -1,0 +1,53 @@
+{
+  "type": "DELIVERY_CENTER",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC DELIVERY_CENTER_ID WITH KEY 1 ##"
+  ],
+  "prices": [
+    {
+      "vendorItemId": "ORIGINAL_ITEM_3926_1",
+      "sku": "becks-sku",
+      "basePrice": 100,
+      "measureUnit": "CX",
+      "minimumPrice": 1.00,
+      "type": "PER_UNIT",
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "%",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "vendorItemId": "ORIGINAL_ITEM_3926_2",
+      "sku": "becks-sku",
+      "basePrice": 50,
+      "measureUnit": "CX",
+      "minimumPrice": 1.00,
+      "type": "PER_UNIT",
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "%",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "vendorItemId": "ORIGINAL_ITEM_3926_3",
+      "sku": "becks-sku",
+      "basePrice": 39.89,
+      "measureUnit": "CX",
+      "minimumPrice": 1.00,
+      "type": "PER_UNIT",
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "%",
+          "value": 10
+        }
+      ]
+    }
+  ]
+}
