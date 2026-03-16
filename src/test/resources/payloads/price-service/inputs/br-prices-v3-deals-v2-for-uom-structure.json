@@ -1,0 +1,103 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "prices": [
+    {
+      "type": "PER_UOM",
+      "vendorItemId": "VENDOR-1-BEESPR-T4598",
+      "sku": "SKU-1-BEESPR-T4598",
+      "basePrice": 172.16,
+      "measureUnit": "CX",
+      "minimumPrice": 10.00,
+      "promotionalPrice": {
+        "price": 150.00,
+        "externalId": "ZTPM",
+        "validUntil": "2100-12-31"
+      }
+    },
+    {
+      "type": "PER_UOM",
+      "vendorItemId": "VENDOR-1-BEESPR-T4598-2",
+      "sku": "SKU-1-BEESPR-T4598-2",
+      "basePrice": 100.01,
+      "measureUnit": "CX",
+      "minimumPrice": 5.00
+    },
+    {
+      "type": "PER_UOM",
+      "vendorItemId": "VENDOR-1-BEESPR-T4598-3",
+      "sku": "SKU-1-BEESPR-T4598-3",
+      "basePrice": 50.00,
+      "measureUnit": "CX",
+      "minimumPrice": 2.00
+    },
+    {
+      "type": "PER_UOM",
+      "vendorItemId": "VENDOR-1-BEESPR-18696-1",
+      "sku": "SKU-1-BEESPR-18696-1",
+      "basePrice": 99.99,
+      "measureUnit": "CX",
+      "minimumPrice": 5.00,
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "$",
+          "value": 10.97,
+          "proportional": true
+        }
+      ]
+    },
+    {
+      "type": "PER_UOM",
+      "vendorItemId": "VENDOR-1-BEESPR-18696-2",
+      "sku": "SKU-1-BEESPR-18696-2",
+      "basePrice": 43.21,
+      "measureUnit": "CX",
+      "minimumPrice": 2.00,
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "$",
+          "value": 3.13,
+          "proportional": true
+        },
+        {
+          "taxId": "IVA_2",
+          "type": "%",
+          "value": 5.00,
+          "baseChanges": {
+            "increase": 30.00,
+            "compareWith": {
+              "base": 1.5,
+              "type": "AMOUNT_PER_UOM"
+            }
+          },
+          "deduction": {
+            "type": "%",
+            "value": 3.00,
+            "baseChanges": {
+              "reduction": 9.00
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "PER_UOM",
+      "vendorItemId": "VENDOR-1-BEESPR-18696-3",
+      "sku": "SKU-1-BEESPR-18696-3",
+      "basePrice": 199.99,
+      "measureUnit": "CX",
+      "minimumPrice": 5.00,
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "$",
+          "value": 43.13
+        }
+      ]
+    }
+  ]
+}
