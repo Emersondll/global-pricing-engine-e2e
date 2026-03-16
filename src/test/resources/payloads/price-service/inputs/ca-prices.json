@@ -1,0 +1,91 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "Simple Tax (multiple Tax) and deposit",
+      "vendorItemId": "VENDOR-SKU-1",
+      "sku": "SKU-1",
+      "basePrice": 35.89,
+      "measureUnit": "CX",
+      "minimumPrice": 0,
+      "deposit": 1.24,
+      "quantityPerPallet": 0,
+      "taxes": [
+        {
+          "taxId": "QST",
+          "type": "%",
+          "value": 9.75,
+          "hidden": false
+        },
+        {
+          "taxId": "GST",
+          "type": "%",
+          "value": 5.00,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "scenarioDescription": "Simple Tax (multiple Tax)",
+      "vendorItemId": "VENDOR-SKU-2",
+      "sku": "SKU-2",
+      "basePrice": 22.34,
+      "measureUnit": "CX",
+      "minimumPrice": 0,
+      "deposit": 0,
+      "quantityPerPallet": 0,
+      "taxes": [
+        {
+          "taxId": "PST",
+          "type": "%",
+          "value": 7,
+          "hidden": false
+        },
+        {
+          "taxId": "GST",
+          "type": "%",
+          "value": 5,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "scenarioDescription": "Simple Tax for combo",
+      "vendorItemId": "VENDOR-SKU-3",
+      "sku": "SKU-3",
+      "basePrice": 16.66,
+      "measureUnit": "CX",
+      "minimumPrice": 0,
+      "deposit": 0,
+      "quantityPerPallet": 0,
+      "taxes": [
+        {
+          "taxId": "QST",
+          "type": "%",
+          "value": 10,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "scenarioDescription": "Another Simple Tax for combo",
+      "vendorItemId": "VENDOR-SKU-4",
+      "sku": "SKU-4",
+      "basePrice": 89.99,
+      "measureUnit": "CX",
+      "minimumPrice": 0,
+      "deposit": 0,
+      "quantityPerPallet": 0,
+      "taxes": [
+        {
+          "taxId": "QST",
+          "type": "%",
+          "value": 30,
+          "hidden": false
+        }
+      ]
+    }
+  ]
+}
