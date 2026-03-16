@@ -1,0 +1,17 @@
+{
+  "type": "DELIVERY_CENTER",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC DELIVERY_CENTER_ID WITH KEY 2 ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "Basic price used on simulation",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-15572-2",
+      "sku": "SKU-BEESPR-15572-2",
+      "basePrice": 55.00,
+      "measureUnit": "CX",
+      "minimumPrice": 50.00
+    }
+  ]
+}
