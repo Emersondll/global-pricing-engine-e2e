@@ -1,0 +1,92 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "prices": [
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-17987-1",
+      "sku": "SKU-BEESPR-17987-1",
+      "basePrice": 60,
+      "measureUnit": "CS",
+      "minimumPrice": 0.00
+    },
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-17987-2",
+      "sku": "SKU-BEESPR-17987-2",
+      "basePrice": 60,
+      "measureUnit": "CX",
+      "minimumPrice": 50.00
+    },
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-17987-3",
+      "sku": "SKU-BEESPR-17987-3",
+      "basePrice": 61,
+      "measureUnit": "CX",
+      "minimumPrice": 50.00,
+      "taxes": [
+        {
+          "taxId": "PercepI2",
+          "type": "%",
+          "value": "2.47922",
+          "taxBaseInclusionIds": [
+            "IVA"
+          ],
+          "hidden": false,
+          "conditions": {
+            "orderSubTotal": {
+              "minimumValue": "2000.00000"
+            }
+          }
+        },
+        {
+          "taxId": "IVA",
+          "type": "%",
+          "value": "21.00000",
+          "hidden": false
+        },
+        {
+          "taxId": "Percep",
+          "type": "%",
+          "value": "2.49980",
+          "hidden": false
+        },
+        {
+          "taxId": "ImpInt",
+          "type": "%",
+          "value": "16.27880",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "BEESPR-17987-VENDOR-EMPTY-1",
+      "sku": "BEESPR-17987-VENDOR-EMPTY-1",
+      "basePrice": 0.75,
+      "measureUnit": "CS",
+      "minimumPrice": 0.00,
+      "quantityPerPallet": 12
+    },
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-17987-4",
+      "sku": "SKU-BEESPR-17987-4",
+      "basePrice": 60,
+      "measureUnit": "CS",
+      "minimumPrice": 0.00
+    },
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "BEESPR-17987-VENDOR-EMPTY-4",
+      "sku": "BEESPR-17987-VENDOR-EMPTY-4",
+      "basePrice": 0.75,
+      "measureUnit": "CS",
+      "minimumPrice": 0.00,
+      "quantityPerPallet": 12
+    }
+  ]
+}
