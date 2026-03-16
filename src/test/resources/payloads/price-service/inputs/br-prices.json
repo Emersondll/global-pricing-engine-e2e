@@ -1,0 +1,171 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "minimumPrice equal basePrice",
+      "vendorItemId": "VENDOR-SKU-1",
+      "sku": "SKU-1",
+      "basePrice": 31.92,
+      "measureUnit": "CS",
+      "minimumPrice": 31.92,
+      "deposit": 0,
+      "quantityPerPallet": 50
+    },
+    {
+      "scenarioDescription": "minimumPrice less than basePrice",
+      "vendorItemId": "VENDOR-SKU-2",
+      "sku": "SKU-2",
+      "basePrice": 99.90,
+      "measureUnit": "CX",
+      "minimumPrice": 20,
+      "deposit": 0,
+      "quantityPerPallet": 0
+    },
+    {
+      "scenarioDescription": "minimumPrice less than basePrice",
+      "vendorItemId": "VENDOR-SKU-3",
+      "sku": "SKU-3",
+      "basePrice": 114.90,
+      "measureUnit": "CX",
+      "minimumPrice": 80,
+      "deposit": 0,
+      "quantityPerPallet": 0
+    },
+    {
+      "scenarioDescription": "[price range] price used for a scaled line item discount deal",
+      "vendorItemId": "VENDOR-SKU-5",
+      "sku": "VENDOR-SKU-5",
+      "basePrice": 9.99,
+      "measureUnit": "CS",
+      "minimumPrice": 5.99,
+      "deposit": 3.99,
+      "quantityPerPallet": 88
+    },
+    {
+      "scenarioDescription": "[price range] price used for a line item discount deal",
+      "vendorItemId": "VENDOR-SKU-6",
+      "sku": "VENDOR-SKU-6",
+      "basePrice": 14.99,
+      "measureUnit": "CS",
+      "minimumPrice": 10.99,
+      "deposit": 3.99,
+      "quantityPerPallet": 88
+    },
+    {
+      "scenarioDescription": "[price range] price used for a line item discount deal without conditions",
+      "vendorItemId": "VENDOR-SKU-7",
+      "sku": "VENDOR-SKU-7",
+      "basePrice": 19.99,
+      "measureUnit": "CS",
+      "minimumPrice": 15.99,
+      "deposit": 3.99,
+      "quantityPerPallet": 88
+    },
+    {
+      "scenarioDescription": "[price range] price used for a line item discount deal with simulation date time condition",
+      "vendorItemId": "VENDOR-SKU-8",
+      "sku": "VENDOR-SKU-8",
+      "basePrice": 11.99,
+      "measureUnit": "CS",
+      "minimumPrice": 7.99,
+      "deposit": 3.99,
+      "quantityPerPallet": 88
+    },
+    {
+      "scenarioDescription": "[price range] price used for a line item discount deal with an expired simulation date time condition",
+      "vendorItemId": "VENDOR-SKU-9",
+      "sku": "VENDOR-SKU-9",
+      "basePrice": 15.99,
+      "measureUnit": "CS",
+      "minimumPrice": 13.99,
+      "deposit": 3.99,
+      "quantityPerPallet": 88
+    },
+    {
+      "scenarioDescription": "[price range] price used for a line item discount (cross discount) deal with different vendorItemId in the condition and in the output",
+      "vendorItemId": "VENDOR-SKU-10",
+      "sku": "VENDOR-SKU-10",
+      "basePrice": 10.99,
+      "measureUnit": "CS",
+      "minimumPrice": 8.99,
+      "deposit": 3.99,
+      "quantityPerPallet": 88
+    },
+    {
+      "scenarioDescription": "[price range] price used for promotionalPrice with better discount than deal lineItemDiscount",
+      "vendorItemId": "VENDOR-SKU-11",
+      "sku": "VENDOR-SKU-11",
+      "basePrice": 10.99,
+      "measureUnit": "CS",
+      "minimumPrice": 8.99,
+      "deposit": 3.99,
+      "quantityPerPallet": 88,
+      "promotionalPrice": {
+        "price": 9.50,
+        "externalId": "ZTPM",
+        "validUntil": "2050-12-31"
+      }
+    },
+    {
+      "scenarioDescription": "SKU used to max quantity validation",
+      "vendorItemId": "VENDOR-SKU-12",
+      "sku": "SKU-12",
+      "basePrice": 184.98,
+      "measureUnit": "CX",
+      "minimumPrice": 20,
+      "deposit": 0,
+      "quantityPerPallet": 0
+    },
+    {
+      "scenarioDescription": "[price range] price used for deal lineItemDiscount with better discount than promotionalPrice",
+      "vendorItemId": "VENDOR-SKU-15",
+      "sku": "SKU-15",
+      "basePrice": 10.99,
+      "measureUnit": "CS",
+      "minimumPrice": 4.99,
+      "deposit": 3.99,
+      "quantityPerPallet": 88,
+      "promotionalPrice": {
+        "price": 9.50,
+        "externalId": "ZTPM",
+        "validUntil": "2050-12-31"
+      }
+    },
+    {
+      "vendorItemId": "VENDOR-ITEM-BEESPR-19022-1",
+      "sku": "SKU-BEESPR-19022-1",
+      "basePrice": 99.99,
+      "measureUnit": "CS",
+      "minimumPrice": 0.00,
+      "quantityPerPallet": 12
+    },
+    {
+      "vendorItemId": "VENDOR-ITEM-BEESPR-19022-2",
+      "sku": "SKU-BEESPR-19022-2",
+      "basePrice": 99.99,
+      "measureUnit": "CS",
+      "minimumPrice": 0.00
+    },
+    {
+      "scenarioDescription": "price with taxes proportional",
+      "vendorItemId": "VENDOR-SKU-BEESPR-18986",
+      "sku": "SKU-BEESPR-18986",
+      "basePrice": 99.90,
+      "measureUnit": "CX",
+      "minimumPrice": 20,
+      "deposit": 0,
+      "quantityPerPallet": 0,
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "$",
+          "value": "10.00",
+          "hidden": false,
+          "proportional": true
+        }
+      ]
+    }
+  ]
+}
