@@ -1,0 +1,59 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "Simple Tax",
+      "vendorItemId": "VENDOR-SKU-4",
+      "sku": "SKU-4",
+      "basePrice": 1211.73,
+      "measureUnit": "CS",
+      "minimumPrice": 0,
+      "deposit": 100.00,
+      "quantityPerPallet": 0,
+      "taxes": [
+        {
+          "taxId": "ITBIS",
+          "type": "%",
+          "value": "18.00",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "scenarioDescription": "Compound Tax",
+      "vendorItemId": "VENDOR-SKU-5",
+      "sku": "SKU-5",
+      "basePrice": 792.45,
+      "measureUnit": "CS",
+      "minimumPrice": 0,
+      "deposit": 112.00,
+      "quantityPerPallet": 0,
+      "taxes": [
+        {
+          "taxId": "TAX2",
+          "type": "$",
+          "value": "91.2600",
+          "hidden": false
+        },
+        {
+          "taxId": "TAX1",
+          "type": "$",
+          "value": "318.2100",
+          "hidden": false
+        },
+        {
+          "taxId": "ITBIS",
+          "type": "%",
+          "value": "18.0000",
+          "taxBaseInclusionIds": [
+            "TAX1",
+            "TAX2"
+          ],
+          "hidden": false
+        }
+      ]
+    }
+  ]
+}
