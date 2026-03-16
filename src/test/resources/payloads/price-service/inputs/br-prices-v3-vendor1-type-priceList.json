@@ -1,0 +1,26 @@
+{
+  "type": "PRICE_LIST",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC PRICE_LIST_ID WITH KEY 1 ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "Price will be ignored from simulation because the vendorItemId has a price with type ACCOUNT",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-15572-1",
+      "sku": "SKU-BEESPR-15572-1",
+      "basePrice": 80,
+      "measureUnit": "CX",
+      "minimumPrice": 50.00
+    },
+    {
+      "scenarioDescription": "Basic price used on simulation",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESPR-15572-2",
+      "sku": "SKU-BEESPR-15572-2",
+      "basePrice": 81,
+      "measureUnit": "CX",
+      "minimumPrice": 50.00
+    }
+  ]
+}
