@@ -1,0 +1,15 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "prices": [
+    {
+      "vendorItemId": "VENDOR-ITEM-BEESPR-21841-1",
+      "sku": "SKU-BEESPR-21841-1",
+      "basePrice": 35.00,
+      "minimumPrice": 0,
+      "measureUnit": "CX",
+      "type": "PER_UNIT"
+    }
+  ]
+}
