@@ -1,0 +1,40 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "prices": [
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-ITEM-1-BEESPR-T19865",
+      "sku": "VENDOR-SKU-1-BEESPR-T19865",
+      "basePrice": 90.66,
+      "measureUnit": "CX",
+      "minimumPrice": 50.00
+    },
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-ITEM-2-BEESPR-T19865",
+      "sku": "VENDOR-SKU-2-BEESPR-T19865",
+      "basePrice": 80.66,
+      "measureUnit": "CX",
+      "minimumPrice": 10.00
+    },
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-ITEM-3-BEESPR-T19865",
+      "sku": "VENDOR-SKU-3-BEESPR-T19865",
+      "basePrice": 90.66,
+      "measureUnit": "CX",
+      "minimumPrice": 50.00
+    },
+    {
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-ITEM-4-BEESPR-T19865",
+      "sku": "VENDOR-SKU-4-BEESPR-T19865",
+      "basePrice": 90.66,
+      "measureUnit": "CX",
+      "minimumPrice": 50.00
+    }
+  ]
+}
