@@ -1,0 +1,76 @@
+{
+  "vendorAccountIds": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "Promotional Price",
+      "vendorItemId": "VENDOR-SKU-1",
+      "sku": "SKU-1",
+      "basePrice": 11.27,
+      "measureUnit": "EA",
+      "minimumPrice": 0,
+      "quantityPerPallet": 0,
+      "promotionalPrice": {
+        "price": 9.8,
+        "externalId": "ZTPM"
+      },
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "%",
+          "value": 16,
+          "taxBaseInclusionIds": [
+            "IEPS"
+          ],
+          "hidden": false
+        },
+        {
+          "taxId": "IEPS",
+          "type": "%",
+          "value": 0,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "scenarioDescription": "Compound Tax + Charges",
+      "vendorItemId": "VENDOR-SKU-2",
+      "sku": "SKU-2",
+      "basePrice": 253.58,
+      "measureUnit": "PAK",
+      "minimumPrice": 0,
+      "quantityPerPallet": 0,
+      "taxes": [
+        {
+          "taxId": "IVA",
+          "type": "%",
+          "value": 16,
+          "taxBaseInclusionIds": [
+            "IEPS"
+          ],
+          "hidden": false
+        },
+        {
+          "taxId": "IEPS",
+          "type": "%",
+          "value": 53,
+          "hidden": false
+        },
+        {
+          "taxId": "AMOUNT",
+          "type": "$",
+          "value": 10,
+          "hidden": false
+        }
+      ],
+      "charges": [
+        {
+          "chargeId": "LOGISTIC_COST",
+          "type": "$",
+          "value": 16.9
+        }
+      ]
+    }
+  ]
+}
