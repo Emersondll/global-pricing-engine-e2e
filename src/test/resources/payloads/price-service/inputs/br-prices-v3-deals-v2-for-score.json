@@ -1,0 +1,22 @@
+{
+  "type": "ACCOUNT",
+  "ids": [
+    "## WILL BE REPLACED BY DYNAMIC ACCOUNT_ID WITH KEY 1 ##"
+  ],
+  "prices": [
+    {
+      "scenarioDescription": "Basic price used on offers",
+      "type": "PER_UNIT",
+      "vendorItemId": "VENDOR-SKU-BEESAS-22572",
+      "sku": "VENDOR-SKU-BEESAS-22572",
+      "basePrice": 90.66,
+      "measureUnit": "CX",
+      "minimumPrice": 50.00,
+      "promotionalPrice": {
+        "price": 80.99,
+        "externalId": "PROMO-1",
+        "validUntil": "2100-12-31"
+      }
+    }
+  ]
+}
